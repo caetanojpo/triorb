@@ -7,7 +7,11 @@ type MenuLinks = {
     icon?: string;
 }
 
-const Menu = () => {
+type MenuProps = {
+    bgColor?: string;
+    textColor?: string;
+}
+const Menu = ({bgColor, textColor} : MenuProps) => {
     const menuLinks: MenuLinks[] = [
         {title: 'Home', link: '/#home'},
         {title: 'Quem Somos', link: '/#quemSomos'},
@@ -16,7 +20,7 @@ const Menu = () => {
         {title: "Contato", link: '/#contacts'}
     ];
     return (
-        <ul className={`w-fit h-full flex items-center justify-center bg-white gap-4 p-2.5 rounded-3xl shadow-2xl`}>
+        <ul className={`w-fit h-full flex items-center justify-center ${bgColor} ${textColor} gap-4 p-2.5 rounded-3xl shadow-2xl transition-all duration-200`}>
             {menuLinks.map((item, index) => (
             <li key={index} className={`h-full`}>
                 <Link href={item.link} className={`h-full`}>
