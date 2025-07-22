@@ -55,7 +55,7 @@ const Testimonials = () => {
     const current = testimonials[currentTestimonial];
 
     return (
-        <AnimatedSection className="py-32 bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 text-white overflow-hidden">
+        <AnimatedSection id={"testimonials"} className="py-32 bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 text-white overflow-hidden">
             <div className="container mx-auto px-6">
                 <div className="text-center mb-20">
                     <motion.div
