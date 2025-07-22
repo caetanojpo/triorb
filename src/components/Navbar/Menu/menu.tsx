@@ -9,9 +9,10 @@ type MenuLinks = {
 
 type MenuProps = {
     bgColor?: string;
-    textColor?: string;
+    textColor?: string
+    textHover?: string;
 }
-const Menu = ({bgColor, textColor} : MenuProps) => {
+const Menu = ({bgColor, textColor, textHover} : MenuProps) => {
     const menuLinks: MenuLinks[] = [
         {title: 'Home', link: '/#home'},
         {title: 'Quem Somos', link: '/#quemSomos'},
@@ -24,7 +25,7 @@ const Menu = ({bgColor, textColor} : MenuProps) => {
             {menuLinks.map((item, index) => (
             <li key={index} className={`h-full`}>
                 <Link href={item.link} className={`h-full`}>
-                    <span className={`h-full hover:bg-gray-200 p-2 rounded-2xl font-semibold`}>{item.title}</span>
+                    <span className={`h-full ${textHover} p-2 rounded-2xl font-semibold`}>{item.title}</span>
                 </Link>
             </li>
             ))}
