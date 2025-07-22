@@ -1,12 +1,12 @@
-import Navbar from "@/components/Navbar";
-import Index from "@/components/Banner/HomeBanner";
+import Navbar from "@/components/Navbar/navbar";
+import HomeBanner from "@/components/Banner/HomeBanner/homeBanner";
 
 export default function Home() {
   return (
       <>
           <Navbar/>
-          <Index/>
-          <div className={'h-screen bg-white '}></div>
+          <HomeBanner/>
+          <div className={'h-screen bg-gray-300 '}></div>
       </>
   );
 }
