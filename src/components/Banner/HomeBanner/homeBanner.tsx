@@ -4,8 +4,8 @@ import BannerCard from "@/components/Cards/BannerCard/bannerCard";
 
 
 export interface HomeBannerProps {
-    titleLines: string[];
-    description: string;
+    titleLines?: string[];
+    description?: string;
     onDemoClick?: () => void;
 }
 
