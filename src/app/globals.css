@@ -1,105 +1,74 @@
 @import "tailwindcss";
-@import "tailwindcss";
+
+@tailwind utilities;
+
 @config "../../tailwind.config.ts";
+/* 1) Carrega o reset Preflight do Tailwind v4 */
+/* :contentReference[oaicite:0]{index=0} */
 
-/*
-  Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/
-*/
+/* 2) Seu reset e estilos globais dentro de um layer base */
+@layer base {
+  /* Josh’s Custom CSS Reset */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
 
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-}
-
-@media (prefers-reduced-motion: no-preference) {
   html {
-    interpolate-size: allow-keywords;
+    scroll-behavior: smooth;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      interpolate-size: allow-keywords;
+    }
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  p { text-wrap: pretty; }
+  h1, h2, h3, h4, h5, h6 { text-wrap: balance; }
+
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* Animações customizadas */
+  @keyframes float {
+    0%,100% { transform: translateY(0) }
+    50%     { transform: translateY(-10px) }
+  }
+  @keyframes pulse-green {
+    0%,100% { box-shadow: 0 0 0 0 rgba(34,197,94,0.7) }
+    70%     { box-shadow: 0 0 0 10px rgba(34,197,94,0) }
+  }
+  @keyframes breathing {
+    0%,100% { transform: scale(1) }
+    50%     { transform: scale(1.05) }
+  }
+
+  .animate-float         { animation: float 3s ease-in-out infinite; }
+  .animate-pulse-green  { animation: pulse-green 2s infinite; }
+  .animate-breathing    { animation: breathing 2s ease-in-out infinite; }
+
+  /* Gradiente de exemplo */
+  .gradient-green {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
   }
 }
 
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-}
-
-input, button, textarea, select {
-  font: inherit;
-}
-
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-}
-
-p {
-  text-wrap: pretty;
-}
-h1, h2, h3, h4, h5, h6 {
-  text-wrap: balance;
-}
-
-#root, #__next {
-  isolation: isolate;
-}
-
-:root {
-  overflow-x: hidden;
-}
-
-/* Custom animations */
-@keyframes float {
-  0%, 100% {
-    transform: translateY(0px);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
-@keyframes pulse-green {
-  0%, 100% {
-    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
-  }
-  70% {
-    box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
-  }
-}
-
-@keyframes breathing {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.05);
-  }
-}
-
-.animate-float {
-  animation: float 3s ease-in-out infinite;
-}
-
-.animate-pulse-green {
-  animation: pulse-green 2s infinite;
-}
-
-.animate-breathing {
-  animation: breathing 2s ease-in-out infinite;
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Custom gradient backgrounds */
-.gradient-green {
-  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
-}
+/* 3) Carrega todas as utilities (inclui margin, padding etc) */
+@tailwind utilities; /* :contentReference[oaicite:1]{index=1} */
