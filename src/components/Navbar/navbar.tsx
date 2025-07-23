@@ -111,7 +111,7 @@ const Navbar: React.FC = () => {
                                 <Menu variant="mobile" />
                                 <div className={"flex h-full items-end"}>
 
-                                    <WhatsAppButton size="lg" phoneNumber="5518997970919" animation="pulse" variant="full-contact" c/>
+                                    <WhatsAppButton size="lg" phoneNumber="5518997970919" animation="pulse" variant="full-contact"/>
                                 </div>
                             </div>
                         </motion.div>
