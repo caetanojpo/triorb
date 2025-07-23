@@ -2,6 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Phone, Mail, MapPin, Instagram, Linkedin, Facebook, ArrowRight, Building2, Clock, Globe } from 'lucide-react';
+import Image from "next/image";
 
 const Footer = () => {
     const services = [
@@ -23,13 +24,13 @@ const Footer = () => {
     ];
 
     const socialLinks = [
-        { icon: Instagram, href: '#', color: 'hover:text-pink-400' },
+        { icon: Instagram, href: '#', color: 'hover:text-secondary-200' },
         { icon: Linkedin, href: '#', color: 'hover:text-blue-400' },
         { icon: Facebook, href: '#', color: 'hover:text-blue-500' }
     ];
 
     return (
-        <footer className="bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 text-white relative overflow-hidden">
+        <footer id={"footer"} className="bg-gradient-to-br from-gray-900 via-primary-500 to-support-600 text-white relative overflow-hidden">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10">
                 <div className="absolute inset-0" style={{
@@ -51,8 +52,8 @@ const Footer = () => {
                                 whileHover={{ scale: 1.05 }}
                                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
                             >
-                                <div className="w-12 h-12 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl flex items-center justify-center shadow-lg">
-                                    <Building2 size={24} className="text-white" />
+                                <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-lg relative ">
+                                    <Image src={"/logo.png"} alt={""} width={45} height={45}/>
                                 </div>
                                 <span className="text-3xl font-bold">TRÍORB</span>
                             </motion.div>
@@ -78,7 +79,7 @@ const Footer = () => {
 
                             {/* Awards/Certifications */}
                             <div className="pt-4 border-t border-white/10">
-                                <div className="flex items-center space-x-2 text-sm text-blue-200">
+                                <div className="flex items-center space-x-2 text-sm text-secondary-200">
                                     <Globe size={16} />
                                     <span>Certificado ISO 9001:2015</span>
                                 </div>
@@ -88,7 +89,7 @@ const Footer = () => {
                         {/* Services */}
                         <div className="space-y-6">
                             <h3 className="text-xl font-bold text-white flex items-center space-x-2">
-                                <div className="w-1 h-6 bg-gradient-to-b from-blue-400 to-purple-400 rounded-full"></div>
+                                <div className="w-1 h-6 bg-gradient-to-b from-primary-400 to-support-350 rounded-full"></div>
                                 <span>Nossos Serviços</span>
                             </h3>
                             <ul className="space-y-3">
@@ -96,11 +97,11 @@ const Footer = () => {
                                     <li key={index}>
                                         <motion.a
                                             href="#services"
-                                            className="text-blue-200 hover:text-white transition-colors flex items-center space-x-3 group py-1"
+                                            className="text-secondary-200 hover:text-white transition-colors flex items-center space-x-3 group py-1"
                                             whileHover={{ x: 5 }}
                                         >
                                             <motion.div
-                                                className="w-2 h-2 bg-blue-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
+                                                className="w-2 h-2 from-primary-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
                                                 whileHover={{ scale: 1.5 }}
                                             />
                                             <ArrowRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -114,7 +115,7 @@ const Footer = () => {
                         {/* Quick Links */}
                         <div className="space-y-6">
                             <h3 className="text-xl font-bold text-white flex items-center space-x-2">
-                                <div className="w-1 h-6 bg-gradient-to-b from-purple-400 to-pink-400 rounded-full"></div>
+                                <div className="w-1 h-6 bg-gradient-to-b from-primary-400 to-support-350 rounded-full"></div>
                                 <span>Links Rápidos</span>
                             </h3>
                             <ul className="space-y-3">
@@ -122,14 +123,11 @@ const Footer = () => {
                                     <li key={index}>
                                         <motion.a
                                             href={link.href}
-                                            className="text-blue-200 hover:text-white transition-colors flex items-center space-x-3 group py-1"
+                                            className="text-secondary-200 hover:text-white transition-colors flex items-center space-x-3 group py-1"
                                             whileHover={{ x: 5 }}
                                         >
-                                            <motion.div
-                                                className="w-2 h-2 bg-purple-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
-                                                whileHover={{ scale: 1.5 }}
-                                            />
                                             <ArrowRight size={14} className="opacity-0 group-hover:opacity-100 transition-opacity" />
+
                                             <span>{link.name}</span>
                                         </motion.a>
                                     </li>
@@ -140,7 +138,7 @@ const Footer = () => {
                         {/* Contact Info */}
                         <div className="space-y-6">
                             <h3 className="text-xl font-bold text-white flex items-center space-x-2">
-                                <div className="w-1 h-6 bg-gradient-to-b from-green-400 to-blue-400 rounded-full"></div>
+                                <div className="w-1 h-6 bg-gradient-to-b from-primary-400 to-support-350 rounded-full"></div>
                                 <span>Contato</span>
                             </h3>
 
@@ -163,7 +161,7 @@ const Footer = () => {
                                     className="flex items-start space-x-3 p-3 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10"
                                     whileHover={{ backgroundColor: "rgba(255, 255, 255, 0.1)" }}
                                 >
-                                    <Mail size={20} className="text-blue-400 mt-1 flex-shrink-0" />
+                                    <Mail size={20} className="text-secondary-400 mt-1 flex-shrink-0" />
                                     <div className="text-blue-100">
                                         <p className="font-semibold text-white">contato@triorb.com.br</p>
                                         <p className="text-sm">Resposta em até 24h</p>
@@ -174,7 +172,7 @@ const Footer = () => {
                                     className="flex items-start space-x-3 p-3 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10"
                                     whileHover={{ backgroundColor: "rgba(255, 255, 255, 0.1)" }}
                                 >
-                                    <MapPin size={20} className="text-purple-400 mt-1 flex-shrink-0" />
+                                    <MapPin size={20} className="text-support-300 mt-1 flex-shrink-0" />
                                     <div className="text-blue-100">
                                         <p className="font-semibold text-white">Rua da Inovação, 123</p>
                                         <p>Vila Madalena, São Paulo - SP</p>
@@ -185,7 +183,7 @@ const Footer = () => {
 
                             {/* CTA Button */}
                             <motion.button
-                                className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-xl font-semibold flex items-center space-x-2 hover:shadow-lg transition-all duration-300 w-full justify-center group"
+                                className="cursor-pointer bg-gradient-to-r from-secondary-500 to-support-500 text-white px-6 py-3 rounded-xl font-semibold flex items-center space-x-2 hover:shadow-lg transition-all duration-300 w-full justify-center group"
                                 whileHover={{
                                     scale: 1.02,
                                     boxShadow: "0 10px 30px rgba(59, 130, 246, 0.3)"
@@ -202,7 +200,7 @@ const Footer = () => {
                 {/* Bottom Bar */}
                 <div className="border-t border-white/10 py-8">
                     <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-                        <div className="text-blue-200 text-sm flex items-center space-x-2">
+                        <div className="text-secondary-200 text-sm flex items-center space-x-2">
                             <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
                             <span>© 2025 TRÍORB - Tecnologia & Arquitetura. Todos os direitos reservados.</span>
                         </div>
@@ -212,7 +210,7 @@ const Footer = () => {
                                 <motion.a
                                     key={index}
                                     href="#"
-                                    className="text-blue-200 hover:text-white transition-colors"
+                                    className="text-secondary-200 hover:text-white transition-colors"
                                     whileHover={{ y: -2 }}
                                 >
                                     {link}

@@ -126,17 +126,6 @@ const Projects = () => {
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="text-center mb-16">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}
-                        className="inline-flex items-center space-x-3 bg-white/80 backdrop-blur-xl rounded-full px-6 py-3 mb-8 shadow-lg border border-white/20"
-                    >
-                        <div className="w-3 h-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full animate-pulse"></div>
-                        <Award size={16} className="text-purple-600" />
-                        <span className="text-purple-600 font-semibold text-sm uppercase tracking-wider">Nossos Projetos</span>
-                    </motion.div>
-
                     <motion.h2
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -174,7 +163,7 @@ const Projects = () => {
                         <motion.button
                             key={category}
                             onClick={() => setSelectedCategory(category)}
-                            className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
+                            className={`cursor-pointer px-6 py-3 rounded-full font-semibold transition-all duration-300 ${
                                 selectedCategory === category
                                     ? 'bg-gradient-to-r from-purple-600 to-blue-600 text-white shadow-lg'
                                     : 'bg-white/80 backdrop-blur-xl text-gray-700 hover:bg-white border border-white/20'
@@ -182,7 +171,7 @@ const Projects = () => {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                         >
-                            <div className="flex items-center space-x-2">
+                            <div className="flex items-center space-x-2 ">
                                 <Filter size={16} />
                                 <span>{category}</span>
                             </div>
@@ -243,14 +232,14 @@ const Projects = () => {
                                     >
                                         <div className="flex space-x-3">
                                             <motion.button
-                                                className="bg-white/20 backdrop-blur-sm rounded-full p-3 text-white hover:bg-white/30 transition-colors"
+                                                className="cursor-pointer bg-white/20 backdrop-blur-sm rounded-full p-3 text-white hover:bg-white/30 transition-colors"
                                                 whileHover={{ scale: 1.1 }}
                                                 whileTap={{ scale: 0.9 }}
                                             >
                                                 <Eye size={20} />
                                             </motion.button>
                                             <motion.button
-                                                className="bg-white/20 backdrop-blur-sm rounded-full p-3 text-white hover:bg-white/30 transition-colors"
+                                                className="cursor-pointer bg-white/20 backdrop-blur-sm rounded-full p-3 text-white hover:bg-white/30 transition-colors"
                                                 whileHover={{ scale: 1.1 }}
                                                 whileTap={{ scale: 0.9 }}
                                             >
@@ -301,7 +290,7 @@ const Projects = () => {
                                     </div>
 
                                     <motion.button
-                                        className="w-full text-blue-600 font-semibold flex items-center justify-center space-x-2 group-hover:space-x-3 transition-all py-2"
+                                        className="cursor-pointer w-full text-blue-600 font-semibold flex items-center justify-center space-x-2 group-hover:space-x-3 transition-all py-2"
                                         whileHover={{ x: 5 }}
                                     >
                                         <span>Ver projeto completo</span>
@@ -318,10 +307,10 @@ const Projects = () => {
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.3 }}
-                    className="text-center"
+                    className="text-center "
                 >
                     <motion.button
-                        className="bg-gradient-to-r from-purple-600 via-pink-500 to-blue-600 text-white px-12 py-4 rounded-2xl font-semibold shadow-xl relative overflow-hidden group"
+                        className="cursor-pointer bg-gradient-to-r from-purple-600 via-pink-500 to-blue-600 text-white px-12 py-4 rounded-2xl font-semibold shadow-xl relative overflow-hidden group"
                         whileHover={{
                             scale: 1.05,
                             boxShadow: "0 25px 50px rgba(147, 51, 234, 0.4)"

@@ -55,27 +55,17 @@ const Testimonials = () => {
     const current = testimonials[currentTestimonial];
 
     return (
-        <AnimatedSection id={"testimonials"} className="py-32 bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900 text-white overflow-hidden">
+        <AnimatedSection id={"testimonials"} className="py-32 bg-gradient-to-br from-white via-gray-50 to-secondary-100 overflow-hidden text-white" >
             <div className="container mx-auto px-6">
                 <div className="text-center mb-20">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}
-                        className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-6 py-2 mb-8"
-                    >
-                        <div className="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                        <span className="text-yellow-300 font-medium text-sm uppercase tracking-wider">Depoimentos</span>
-                    </motion.div>
-
                     <motion.h2
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.1 }}
-                        className="text-4xl lg:text-6xl font-bold mb-6"
+                        className="text-4xl lg:text-6xl font-bold mb-6 text-text"
                     >
                         Experiências
-                        <span className="block text-transparent bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text">
+                        <span className="block text-secondary-500 bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text">
               Transformadoras
             </span>
                     </motion.h2>
@@ -109,7 +99,7 @@ const Testimonials = () => {
 
                                     {/* Play Button */}
                                     <motion.button
-                                        className="absolute inset-0 flex items-center justify-center"
+                                        className="cursor-pointer absolute inset-0 flex items-center justify-center"
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >
@@ -127,7 +117,7 @@ const Testimonials = () => {
 
                             {/* Floating Stats */}
                             <motion.div
-                                className="absolute -bottom-6 -right-6 bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20"
+                                className="absolute -bottom-6 -right-6 bg-support-500/20 backdrop-blur-sm rounded-2xl p-6 border border-support-500/20"
                                 animate={{ y: [0, -10, 0] }}
                                 transition={{ duration: 3, repeat: Infinity }}
                             >
@@ -158,7 +148,7 @@ const Testimonials = () => {
                                     className="space-y-6"
                                 >
                                     {/* Quote Icon */}
-                                    <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl flex items-center justify-center">
+                                    <div className="w-16 h-16 bg-gradient-to-r from-primary-400 to-support-400 rounded-2xl flex items-center justify-center">
                                         <Quote size={28} />
                                     </div>
 
@@ -177,7 +167,7 @@ const Testimonials = () => {
                                     </div>
 
                                     {/* Testimonial Text */}
-                                    <blockquote className="text-lg lg:text-xl leading-relaxed font-medium text-gray-100">
+                                    <blockquote className="text-lg lg:text-xl leading-relaxed font-medium text-text">
                                         &#34;{current.text}&#34;
                                     </blockquote>
 
@@ -187,9 +177,9 @@ const Testimonials = () => {
                                             <span className="text-white font-bold text-lg">{current.avatar}</span>
                                         </div>
                                         <div>
-                                            <div className="text-xl font-bold">{current.name}</div>
-                                            <div className="text-blue-300 font-semibold">{current.company}</div>
-                                            <div className="text-gray-300 text-sm">{current.role}</div>
+                                            <div className="text-xl text-primary-500 font-bold">{current.name}</div>
+                                            <div className="text-primary-500 font-semibold">{current.company}</div>
+                                            <div className="text-support-250 text-sm">{current.role}</div>
                                         </div>
                                     </div>
                                 </motion.div>
@@ -202,10 +192,10 @@ const Testimonials = () => {
                                         <button
                                             key={index}
                                             onClick={() => setCurrentTestimonial(index)}
-                                            className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                                            className={`cursor-pointer w-3 h-3 rounded-full transition-all duration-300 ${
                                                 index === currentTestimonial
-                                                    ? 'bg-blue-400 w-8'
-                                                    : 'bg-white/30 hover:bg-white/50'
+                                                    ? 'bg-primary-500 w-8'
+                                                    : 'bg-text/30 hover:bg-text/50'
                                             }`}
                                         />
                                     ))}
@@ -214,7 +204,7 @@ const Testimonials = () => {
                                 <div className="flex space-x-3">
                                     <motion.button
                                         onClick={prevTestimonial}
-                                        className="bg-white/10 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/20 transition-all duration-300"
+                                        className="cursor-pointer bg-support-500/20 backdrop-blur-sm text-text p-3 rounded-full hover:bg-support-500/40 transition-all duration-300"
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >
@@ -222,7 +212,7 @@ const Testimonials = () => {
                                     </motion.button>
                                     <motion.button
                                         onClick={nextTestimonial}
-                                        className="bg-white/10 backdrop-blur-sm text-white p-3 rounded-full hover:bg-white/20 transition-all duration-300"
+                                        className="cursor-pointer  bg-support-500/20 backdrop-blur-sm text-text p-3 rounded-full hover:bg-support-500/40 transition-all duration-300"
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >
