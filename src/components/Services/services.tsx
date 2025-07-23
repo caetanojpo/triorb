@@ -83,7 +83,7 @@ const Services = () => {
     ];
 
     return (
-        <AnimatedSection id="services" className="py-32 bg-gradient-to-br from-white via-gray-50 to-blue-50 relative overflow-hidden">
+        <AnimatedSection id="services" className="py-32 bg-gradient-to-br from-white via-gray-50 to-secondary-100 relative overflow-hidden">
             {/* Background Elements */}
             <div className="absolute inset-0 overflow-hidden">
                 <motion.div
@@ -106,26 +106,12 @@ const Services = () => {
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="text-center mb-20">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}
-                        className="inline-flex items-center space-x-3 bg-white/80 backdrop-blur-xl rounded-full px-6 py-3 mb-8 shadow-lg border border-white/20"
-                    >
-                        <motion.div
-                            className="w-3 h-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"
-                            animate={{ scale: [1, 1.3, 1] }}
-                            transition={{ duration: 2, repeat: Infinity }}
-                        />
-                        <Sparkles size={16} className="text-blue-600" />
-                        <span className="text-blue-600 font-semibold text-sm uppercase tracking-wider">Nossos Serviços</span>
-                    </motion.div>
 
                     <motion.h2
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.1 }}
-                        className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6"
+                        className="text-4xl lg:text-6xl font-bold text-gray-900 mb-8"
                     >
                         Soluções
                         <motion.span
@@ -195,7 +181,7 @@ const Services = () => {
                                     </p>
 
                                     <motion.button
-                                        className="text-blue-600 font-semibold flex items-center space-x-2 group-hover:space-x-3 transition-all"
+                                        className="text-blue-600 font-semibold flex items-center space-x-2 group-hover:space-x-3 transition-all cursor-pointer"
                                         whileHover={{ x: 5 }}
                                     >
                                         <span>Saiba mais</span>
@@ -271,7 +257,7 @@ const Services = () => {
                                                     ))}
                                                 </div>
                                                 <motion.button
-                                                    className={`w-full bg-gradient-to-r ${services[selectedService].color} text-white py-3 rounded-xl font-semibold shadow-lg`}
+                                                    className={`cursor-pointer w-full bg-gradient-to-r ${services[selectedService].color} text-white py-3 rounded-xl font-semibold shadow-lg`}
                                                     whileHover={{
                                                         scale: 1.02,
                                                         boxShadow: "0 10px 30px rgba(59, 130, 246, 0.3)"
@@ -310,7 +296,7 @@ const Services = () => {
                             whileHover={{ x: '100%' }}
                             transition={{ duration: 0.6 }}
                         />
-                        <span className="relative z-10">Ver Todos os Serviços</span>
+                        <span className="relative z-10 cursor-pointer">Ver Todos os Serviços</span>
                     </motion.button>
                 </motion.div>
             </div>

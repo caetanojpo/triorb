@@ -1,9 +1,14 @@
+"use client"
 import React from 'react';
 import Image from "next/image";
+import {motion} from "framer-motion";
 
 const BannerCard = () => {
     return (
-        <div className={"flex h-full w-full flex-col justify-center items-center rounded-xl"}>
+        <motion.div className={"flex h-full w-full flex-col justify-center items-center rounded-xl"} whileHover={{
+            scale: 1.01,
+            boxShadow: "0 25px 50px rgba(59, 130, 246, 0.2)"
+        }}>
             <div className={"h-[80%] w-full relative"}><Image src={"/tecnologia.png"} alt={""} fill
                                                               className={'rounded-t-xl'}/></div>
             <div className={"flex flex-col  w-full h-full bg-white text-text p-4 rounded-b-xl"}>
@@ -26,7 +31,7 @@ const BannerCard = () => {
                     </ul>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 
