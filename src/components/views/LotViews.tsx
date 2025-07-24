@@ -30,30 +30,30 @@ export const LotsView: React.FC<LotsViewProps> = ({
         >
             <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1200')] bg-cover bg-center opacity-30"></div>
             <div className="relative w-full h-full">
-                {lots.map((lot, index) => (
-                    <motion.button
-                        key={lot.id}
-                        custom={index}
-                        variants={lotVariants}
-                        initial="initial"
-                        animate="animate"
-                        whileHover="hover"
-                        whileTap={{ scale: 0.9 }}
-                        onClick={() => onLotSelect(lot)}
-                        disabled={!lot.available}
-                        className={`absolute transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-xl border-2 font-semibold text-sm transition-all duration-300 shadow-md ${
-                            lot.available
-                                ? 'bg-emerald-500 hover:bg-emerald-600 text-white border-emerald-300 cursor-pointer hover:shadow-xl'
-                                : 'bg-red-400 text-red-100 border-red-300 cursor-not-allowed opacity-60'
-                        }`}
-                        style={{
-                            left: `${lot.position.x}%`,
-                            top: `${lot.position.y}%`,
-                        }}
-                    >
-                        {lot.number}
-                    </motion.button>
-                ))}
+                {/*{lots.map((lot, index) => (*/}
+                {/*    <motion.button*/}
+                {/*        key={lot.id}*/}
+                {/*        custom={index}*/}
+                {/*        variants={lotVariants}*/}
+                {/*        initial="initial"*/}
+                {/*        animate="animate"*/}
+                {/*        whileHover="hover"*/}
+                {/*        whileTap={{ scale: 0.9 }}*/}
+                {/*        onClick={() => onLotSelect(lot)}*/}
+                {/*        disabled={!lot.available}*/}
+                {/*        className={`absolute transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-xl border-2 font-semibold text-sm transition-all duration-300 shadow-md ${*/}
+                {/*            lot.available*/}
+                {/*                ? 'bg-emerald-500 hover:bg-emerald-600 text-white border-emerald-300 cursor-pointer hover:shadow-xl'*/}
+                {/*                : 'bg-red-400 text-red-100 border-red-300 cursor-not-allowed opacity-60'*/}
+                {/*        }`}*/}
+                {/*        style={{*/}
+                {/*            left: `${lot.position.x}%`,*/}
+                {/*            top: `${lot.position.y}%`,*/}
+                {/*        }}*/}
+                {/*    >*/}
+                {/*        {lot.number}*/}
+                {/*    </motion.button>*/}
+                {/*))}*/}
             </div>
             <motion.div
                 className="absolute top-6 left-6 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg"

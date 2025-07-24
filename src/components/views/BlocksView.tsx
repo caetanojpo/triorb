@@ -22,30 +22,30 @@ export const BlocksView: React.FC<BlocksViewProps> = ({ blocks, onBlockSelect })
         >
             <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1546166/pexels-photo-1546166.jpeg?auto=compress&cs=tinysrgb&w=1200')] bg-cover bg-center opacity-40"></div>
             <div className="relative w-full h-full">
-                {blocks.map((block, index) => (
-                    <motion.button
-                        key={block.id}
-                        custom={index}
-                        variants={blockVariants}
-                        initial="initial"
-                        animate="animate"
-                        whileHover="hover"
-                        whileTap={{ scale: 0.95 }}
-                        onClick={() => onBlockSelect(block)}
-                        disabled={!block.available}
-                        className={`absolute transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-2xl border-3 font-bold text-xl transition-all duration-300 shadow-lg ${
-                            block.available
-                                ? 'bg-emerald-500 hover:bg-emerald-600 text-white border-emerald-300 cursor-pointer hover:shadow-2xl'
-                                : 'bg-gray-400 text-gray-600 border-gray-300 cursor-not-allowed opacity-50'
-                        }`}
-                        style={{
-                            left: `${block.position.x}%`,
-                            top: `${block.position.y}%`,
-                        }}
-                    >
-                        {block.id}
-                    </motion.button>
-                ))}
+                {/*{blocks.map((block, index) => (*/}
+                {/*    <motion.button*/}
+                {/*        key={block.id}*/}
+                {/*        custom={index}*/}
+                {/*        variants={blockVariants}*/}
+                {/*        initial="initial"*/}
+                {/*        animate="animate"*/}
+                {/*        whileHover="hover"*/}
+                {/*        whileTap={{ scale: 0.95 }}*/}
+                {/*        onClick={() => onBlockSelect(block)}*/}
+                {/*        disabled={!block.available}*/}
+                {/*        className={`absolute transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-2xl border-3 font-bold text-xl transition-all duration-300 shadow-lg ${*/}
+                {/*            block.available*/}
+                {/*                ? 'bg-emerald-500 hover:bg-emerald-600 text-white border-emerald-300 cursor-pointer hover:shadow-2xl'*/}
+                {/*                : 'bg-gray-400 text-gray-600 border-gray-300 cursor-not-allowed opacity-50'*/}
+                {/*        }`}*/}
+                {/*        style={{*/}
+                {/*            left: `${block.position.x}%`,*/}
+                {/*            top: `${block.position.y}%`,*/}
+                {/*        }}*/}
+                {/*    >*/}
+                {/*        {block.id}*/}
+                {/*    </motion.button>*/}
+                {/*))}*/}
             </div>
             <motion.div
                 className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg"
