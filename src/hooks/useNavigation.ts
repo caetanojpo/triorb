@@ -4,7 +4,7 @@ import { Block, Lot, NavigationLayer, SiteData } from '@/types/types';
 import { siteData } from '@/data/siteData';
 
 export const useNavigation = () => {
-    const data: SiteData | unknown = siteData;
+    const data: SiteData = siteData;
     const [currentLayer, setCurrentLayer] = useState<NavigationLayer>('blocks');
     const [selectedBlock, setSelectedBlock] = useState<Block | null>(null);
     const [selectedLot, setSelectedLot] = useState<Lot | null>(null);
