@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MapPin, RotateCcw } from 'lucide-react';
-import {Block, Lot, LotImage} from "@/types/types";
+import {Block, ImageData, Lot} from "@/types/types";
 import {imageVariants, pageVariants} from "@/utils/animation";
 import {NavigationButton} from "@/components/Buttons/NavigationButton";
 import {ViewToggle} from "@/components/toggle/ViewToggle";
@@ -13,7 +13,7 @@ import {ImageIndicators} from "@/components/image/ImageIndicators";
 interface LotDetailsViewProps {
     selectedLot: Lot;
     selectedBlock: Block;
-    lotImages: LotImage[];
+    lotImages: ImageData[];
     currentImageIndex: number;
     is3DView: boolean;
     onImageChange: (direction: 'next' | 'prev') => void;
@@ -63,7 +63,6 @@ export const LotDetailsView: React.FC<LotDetailsViewProps> = ({
             </AnimatePresence>
             <div className="absolute inset-0 bg-black/20"></div>
 
-            {/* Navigation Controls */}
             <NavigationButton
                 direction="left"
                 onClick={() => onImageChange('prev')}
@@ -76,12 +75,10 @@ export const LotDetailsView: React.FC<LotDetailsViewProps> = ({
                 className="absolute right-4 top-1/2 transform -translate-y-1/2"
             />
 
-            {/* 3D Toggle Button */}
             <div className="absolute top-4 left-1/2 transform -translate-x-1/2">
                 <ViewToggle is3DView={is3DView} onToggle={onViewToggle} />
             </div>
 
-            {/* Image Info */}
             <motion.div
                 className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-xl"
                 initial={{ y: 50, opacity: 0 }}
@@ -120,13 +117,11 @@ export const LotDetailsView: React.FC<LotDetailsViewProps> = ({
                 </div>
             </motion.div>
 
-            {/* Back Button */}
             <BackButton
                 onClick={onBack}
                 className="absolute top-6 right-6"
             />
 
-            {/* Image Indicators */}
             <div className="absolute bottom-32 left-1/2 transform -translate-x-1/2">
                 <ImageIndicators
                     totalImages={lotImages.length}
