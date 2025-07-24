@@ -1,16 +1,18 @@
 "use client"
 
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, {useEffect} from 'react';
+import {motion} from 'framer-motion';
 import {Block} from "@/types/types";
-import {blockVariants, pageVariants} from "@/utils/animation";
+import {pageVariants} from "@/utils/animation";
 
 interface BlocksViewProps {
     blocks: Block[];
     onBlockSelect: (block: Block) => void;
+    blocksImage: string;
 }
 
-export const BlocksView: React.FC<BlocksViewProps> = ({ blocks, onBlockSelect }) => {
+export const BlocksView: React.FC<BlocksViewProps> = ({blocks, onBlockSelect, blocksImage = ''}) => {
+
     return (
         <motion.div
             className="relative w-full h-full bg-gradient-to-br from-green-50 to-emerald-100 rounded-2xl overflow-hidden"
@@ -20,7 +22,10 @@ export const BlocksView: React.FC<BlocksViewProps> = ({ blocks, onBlockSelect })
             exit="exit"
             transition={{ duration: 0.5 }}
         >
-            <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1546166/pexels-photo-1546166.jpeg?auto=compress&cs=tinysrgb&w=1200')] bg-cover bg-center opacity-40"></div>
+            <div
+                className="absolute inset-0 bg-contain bg-no-repeat bg-center"
+                style={{ backgroundImage: `url('${blocksImage}')` }}
+            />
             <div className="relative w-full h-full">
                 {/*{blocks.map((block, index) => (*/}
                 {/*    <motion.button*/}

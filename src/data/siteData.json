@@ -3,7 +3,7 @@
     "id": "site-360",
     "title": "Visão Geral 360°",
     "description": "Mapa completo do empreendimento em visão aérea 360°",
-    "url": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800"
+    "url": "/empreendimentos/teste/empreendimento-teste.jpeg"
   },
   "blocks": [
     {
@@ -13,7 +13,7 @@
       "position": { "x": 15, "y": 60 },
       "overviewImage": {
         "id": "A-topdown",
-        "url": "https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800"
+        "url": "/empreendimentos/teste/quadras/quadra-teste.jpeg"
       },
       "lots": [
         {
@@ -24,12 +24,22 @@
           "images": [
             {
               "id": "morning-empty",
-              "url": "https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800",
+              "url": "/empreendimentos/teste/quadras/lotes/lote-manha.jpg",
               "url3d": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800"
             },
             {
               "id": "morning-empty2",
-              "url": "https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800",
+              "url": "/empreendimentos/teste/quadras/lotes/lote-teste-manha.jpg",
+              "url3d": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800"
+            },
+            {
+              "id": "afternoon-empty",
+              "url": "/empreendimentos/teste/quadras/lotes/lote-tarde.jpg",
+              "url3d": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800"
+            },
+            {
+              "id": "afternoon-empty2",
+              "url": "/empreendimentos/teste/quadras/lotes/lote-teste-tarde.jpg",
               "url3d": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800"
             }
           ]
@@ -70,63 +80,6 @@
               "id": "afternoon-house",
               "url": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800",
               "url3d": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=800"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "B",
-      "name": "Quadra B",
-      "available": true,
-      "position": { "x": 25, "y": 60 },
-      "overviewImage": {
-        "id": "B-topdown",
-        "url": "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800"
-      },
-      "lots": [
-        {
-          "id": "B-01",
-          "number": "01",
-          "available": true,
-          "position": { "x": 20, "y": 20 },
-          "images": [
-            {
-              "id": "morning-empty",
-              "url": "https://images.pexels.com/photos/1105766/pexels-photo-1105766.jpeg?auto=compress&cs=tinysrgb&w=800"
-            }
-          ]
-        },
-        {
-          "id": "B-02",
-          "number": "02",
-          "available": false,
-          "position": { "x": 35, "y": 20 },
-          "images": []
-        },
-        {
-          "id": "B-03",
-          "number": "03",
-          "available": true,
-          "position": { "x": 50, "y": 20 },
-          "images": [
-            {
-              "id": "afternoon-empty",
-              "url": "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=800",
-              "url3d": "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=800"
-            }
-          ]
-        },
-        {
-          "id": "B-04",
-          "number": "04",
-          "available": true,
-          "position": { "x": 20, "y": 35 },
-          "images": [
-            {
-              "id": "morning-house",
-              "url": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800",
-              "url3d": "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=800"
             }
           ]
         }

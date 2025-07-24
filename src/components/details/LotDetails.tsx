@@ -34,7 +34,6 @@ export const LotDetailsView: React.FC<LotDetailsViewProps> = ({
                                                                   onBack
                                                               }) => {
     const getCurrentImageUrl = () => {
-        console.log("getCurrentImageUrl", selectedLot, selectedBlock, lotImages);
         const currentImage = lotImages[currentImageIndex];
         return is3DView && currentImage.url3d ? currentImage.url3d : currentImage.url;
     };

@@ -28,7 +28,8 @@ export const LotsView: React.FC<LotsViewProps> = ({
             exit="exit"
             transition={{ duration: 0.5 }}
         >
-            <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=1200')] bg-cover bg-center opacity-30"></div>
+            <div className="absolute inset-0 bg-contain bg-no-repeat bg-center"
+                 style={{ backgroundImage: `url('${selectedBlock.overviewImage?.url}')` }}></div>
             <div className="relative w-full h-full">
                 {/*{lots.map((lot, index) => (*/}
                 {/*    <motion.button*/}
