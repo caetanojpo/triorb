@@ -1,10 +1,12 @@
+import {Variants} from "motion-dom";
+
 export const pageVariants = {
     initial: { opacity: 0, scale: 0.95, y: 20 },
     animate: { opacity: 1, scale: 1, y: 0 },
     exit: { opacity: 0, scale: 0.95, y: -20 }
 };
 
-export const blockVariants = {
+export const blockVariants: Variants = {
     initial: { scale: 0, opacity: 0 },
     animate: (i: number) => ({
         scale: 1,
@@ -23,7 +25,7 @@ export const blockVariants = {
     }
 };
 
-export const lotVariants = {
+export const lotVariants: Variants = {
     initial: { scale: 0, opacity: 0 },
     animate: (i: number) => ({
         scale: 1,
