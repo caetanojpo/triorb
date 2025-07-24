@@ -13,7 +13,8 @@ export const ContactInfo: React.FC = () => {
         >
             <div className="text-center">
                 <p className="text-sm text-gray-600 mb-2">Contato</p>
-                <p className="font-semibold text-gray-800">(18) 3421-1000</p>
+                <p className="font-semibold text-gray-800">(18) 99797-0919</p>
+                <p className="font-semibold text-gray-800">caetanojpo@gmail.com</p>
             </div>
         </motion.div>
     );
