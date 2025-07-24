@@ -17,7 +17,6 @@ interface SidebarProps {
     selectedLot: Lot | null;
     blocks: Block[];
     lots: Lot[];
-    lotImages: ImageData[];
     currentImageIndex: number;
     onBlockSelect: (block: Block) => void;
     onLotSelect: (lot: Lot) => void;
