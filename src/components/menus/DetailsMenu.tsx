@@ -3,12 +3,12 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronLeft, Calendar, Clock, Home } from 'lucide-react';
-import {Block, Lot, LotImage} from "@/types/types";
+import {Block, ImageData, Lot} from "@/types/types";
 
 interface DetailsMenuProps {
     selectedBlock: Block;
     selectedLot: Lot;
-    lotImages: LotImage[];
+    lotImages: ImageData[];
     currentImageIndex: number;
     onImageSelect: (index: number) => void;
     onBack: () => void;

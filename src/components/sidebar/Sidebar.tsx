@@ -48,7 +48,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <SidebarHeader />
             <AmenitiesSection />
 
-            {/* Navigation Menu */}
             <AnimatePresence mode="wait">
                 {currentLayer === 'blocks' && (
                     <BlocksMenu

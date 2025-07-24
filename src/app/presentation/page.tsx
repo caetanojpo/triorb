@@ -20,7 +20,6 @@ export default function App() {
         handleBack,
     } = useNavigation();
 
-    // Usa a quantidade de imagens do lote selecionado
     const imageCount = (selectedLot?.images && selectedLot.images.length) ?? 0;
     const {
         currentImageIndex,
