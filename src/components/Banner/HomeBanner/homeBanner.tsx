@@ -3,6 +3,7 @@ import React from 'react';
 import BannerButton from "@/components/Buttons/BannerButton/bannerButton";
 import BannerCard from "@/components/Cards/BannerCard/bannerCard";
 import {motion} from 'framer-motion';
+import VideoBackground from "@/components/backgrounds/VideoBackground";
 
 
 export interface HomeBannerProps {
@@ -17,9 +18,10 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
                                                    onDemoClick,
                                                }) => {
     return (
-        <main className="relative h-full min-h-screen lg:h-screen w-screen bg-primary-850 bg-banner bg-cover bg-center">
+        <main className="relative h-full min-h-screen lg:h-screen w-screen bg-primary-850">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black opacity-80 z-10" />
+            <VideoBackground/>
 
             {/* Content */}
             <div className="relative z-20 flex h-full w-full">
