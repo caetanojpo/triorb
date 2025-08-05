@@ -10,11 +10,14 @@ export default {
     extend: {
       backgroundImage: {
         banner: 'url(/home-banner-bg.png)',
+        folha_white: 'url(/renascence/folha-white.png)',
       },
       colors: {
         text: '#141B2C',
         subText: '#C0C3C6',
         dark: '#131313',
+        renascence: '#2a5036',
+        renascence_support: '#e7e6e1',
         primary: {
           50: '#ffffff',
           100: '#e6e7f9',
