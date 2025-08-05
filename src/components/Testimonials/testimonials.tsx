@@ -1,7 +1,7 @@
 "use client"
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Star, Quote, User, ChevronLeft, ChevronRight, Play, Award } from 'lucide-react';
+import React, {useState} from 'react';
+import {AnimatePresence, motion} from 'framer-motion';
+import {Award, ChevronLeft, ChevronRight, Play, Quote, Star} from 'lucide-react';
 import AnimatedSection from "@/components/AnimatedSection/animetedSection";
 
 
@@ -55,14 +55,26 @@ const Testimonials = () => {
     const current = testimonials[currentTestimonial];
 
     return (
-        <AnimatedSection id={"testimonials"} className="py-32 bg-gradient-to-br from-white via-gray-50 to-secondary-100 overflow-hidden text-white" >
+        <AnimatedSection id={"testimonials"}
+                         className="py-32 bg-gradient-to-br from-support-600 via-gray-900 to-primary-500 overflow-hidden text-white relative">
+            <div className="absolute inset-0 overflow-hidden">
+
+                <motion.div
+                    className="absolute top-1/2 left-0 w-80 h-80 bg-blue-200/20 rounded-full blur-3xl"
+                    animate={{
+                        y: [0, 50, 0],
+                        scale: [1, 0.5, 1]
+                    }}
+                    transition={{ duration: 15, repeat: Infinity }}
+                />
+            </div>
             <div className="container mx-auto px-6">
                 <div className="text-center mb-20">
                     <motion.h2
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.1 }}
-                        className="text-4xl lg:text-6xl font-bold mb-6 text-text"
+                        className="text-4xl lg:text-6xl font-bold mb-6 text-white"
                     >
                         Experiências
                         <span className="block text-secondary-500 bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text">
@@ -117,7 +129,7 @@ const Testimonials = () => {
 
                             {/* Floating Stats */}
                             <motion.div
-                                className="absolute -bottom-6 -right-6 bg-support-500/20 backdrop-blur-sm rounded-2xl p-6 border border-support-500/20"
+                                className="absolute -bottom-6 -right-6 bg-secondary-500/50 backdrop-blur-sm rounded-2xl p-6 border border-secondary-500/20"
                                 animate={{ y: [0, -10, 0] }}
                                 transition={{ duration: 3, repeat: Infinity }}
                             >
@@ -167,7 +179,7 @@ const Testimonials = () => {
                                     </div>
 
                                     {/* Testimonial Text */}
-                                    <blockquote className="text-lg lg:text-xl leading-relaxed font-medium text-text">
+                                    <blockquote className="text-lg lg:text-xl leading-relaxed font-medium text-white">
                                         &#34;{current.text}&#34;
                                     </blockquote>
 
@@ -177,9 +189,9 @@ const Testimonials = () => {
                                             <span className="text-white font-bold text-lg">{current.avatar}</span>
                                         </div>
                                         <div>
-                                            <div className="text-xl text-primary-500 font-bold">{current.name}</div>
-                                            <div className="text-primary-500 font-semibold">{current.company}</div>
-                                            <div className="text-support-250 text-sm">{current.role}</div>
+                                            <div className="text-xl text-support-300 font-bold">{current.name}</div>
+                                            <div className=" text-white font-semibold">{current.company}</div>
+                                            <div className=" text-white text-sm">{current.role}</div>
                                         </div>
                                     </div>
                                 </motion.div>
@@ -187,15 +199,15 @@ const Testimonials = () => {
 
                             {/* Navigation */}
                             <div className="flex items-center justify-between pt-8">
-                                <div className="flex space-x-2">
+                                <div className="flex space-x-2 z-99">
                                     {testimonials.map((_, index) => (
                                         <button
                                             key={index}
                                             onClick={() => setCurrentTestimonial(index)}
                                             className={`cursor-pointer w-3 h-3 rounded-full transition-all duration-300 ${
                                                 index === currentTestimonial
-                                                    ? 'bg-primary-500 w-8'
-                                                    : 'bg-text/30 hover:bg-text/50'
+                                                    ? 'bg-support-300 w-8'
+                                                    : 'bg-white/80 hover:bg-support-300'
                                             }`}
                                         />
                                     ))}
@@ -204,7 +216,7 @@ const Testimonials = () => {
                                 <div className="flex space-x-3">
                                     <motion.button
                                         onClick={prevTestimonial}
-                                        className="cursor-pointer bg-support-500/20 backdrop-blur-sm text-text p-3 rounded-full hover:bg-support-500/40 transition-all duration-300"
+                                        className="cursor-pointer bg-support-300 backdrop-blur-sm text-text p-3 rounded-full hover:bg-support-500 transition-all duration-300"
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >
@@ -212,7 +224,7 @@ const Testimonials = () => {
                                     </motion.button>
                                     <motion.button
                                         onClick={nextTestimonial}
-                                        className="cursor-pointer  bg-support-500/20 backdrop-blur-sm text-text p-3 rounded-full hover:bg-support-500/40 transition-all duration-300"
+                                        className="cursor-pointer  bg-support-300 backdrop-blur-sm text-text p-3 rounded-full hover:bg-support-500 transition-all duration-300"
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >

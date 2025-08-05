@@ -25,7 +25,7 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
     const getInitialPosition = () => {
         switch (direction) {
             case 'up':
-                return {y: 60, opacity: 0};
+                return {y: 0, opacity: 1};
             case 'down':
                 return {y: -60, opacity: 0};
             case 'left':

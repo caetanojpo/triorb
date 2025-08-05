@@ -1,20 +1,25 @@
 "use client"
 
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import WhatsAppButton from "../Buttons/WhatsAppButton";
 import Image from 'next/image';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Menu as MenuIcon, X as CloseIcon } from 'lucide-react';
+import {AnimatePresence, motion} from 'framer-motion';
+import {Menu as MenuIcon, X as CloseIcon} from 'lucide-react';
 import Menu from '@/components/Navbar/Menu/menu';
 
 const navVariants = {
     initial: { backdropFilter: 'blur(0px)', backgroundColor: 'rgba(0,0,0,0.1)' },
-    scrolled: { backdropFilter: 'blur(10px)', backgroundColor: '#ffffff' }
+    scrolled: {backdropFilter: 'blur(30px)', backgroundColor: 'rgba(0,0,0,0.1)'}
 };
 
 const menuOverlayVariants = {
     hidden: { x: '100%' },
     visible: { x: 0 }
+};
+
+const buttonVariants = {
+    hidden: {y: 50, opacity: 0},
+    visible: {y: 0, opacity: 1}
 };
 
 const Navbar: React.FC = () => {
@@ -61,8 +66,15 @@ const Navbar: React.FC = () => {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.5 }}
-                    >
-                        <WhatsAppButton size="md" phoneNumber="5518997970919" animation="pulse" variant="full-contact" />
+                    ><WhatsAppButton
+                        variant="icon-only"
+                        animation="pulse"
+                        size="md"
+                        phoneNumber="5518997970919"
+                        showIcon={true}
+                        style="filled"
+                        scrolled={scrolled}
+                    />
                     </motion.div>
 
                     {/* Mobile Hamburger */}
@@ -98,20 +110,27 @@ const Navbar: React.FC = () => {
                             transition={{ type: 'spring', stiffness: 300, damping: 30 }}
                         >
                             <div className="flex h-screen flex-col items-center py-8 bg-white space-y-2">
-                               <div className={"flex w-full justify-end mr-8 "}>
-                                   <motion.button
-                                       onClick={() => setMobileOpen(prev => !prev)}
-                                       aria-label="Toggle menu"
-                                       whileTap={{ scale: 0.9 }}
-                                       animate={{ rotate: !mobileOpen ? 90 : 0 }}
-                                   >
-                                       {mobileOpen ? <CloseIcon size={24} /> : ''}
-                                   </motion.button>
-                               </div>
+                                <div className="flex w-full justify-end mr-8">
+                                    <motion.button
+                                        onClick={() => setMobileOpen(prev => !prev)}
+                                        aria-label="Toggle menu"
+                                        whileTap={{scale: 0.9}}
+                                        animate={{rotate: !mobileOpen ? 90 : 0}}
+                                    >
+                                        {mobileOpen ? <CloseIcon size={24}/> : ''}
+                                    </motion.button>
+                                </div>
                                 <Menu variant="mobile" />
-                                <div className={"flex h-full items-end"}>
-
-                                    <WhatsAppButton size="lg" phoneNumber="5518997970919" animation="pulse" variant="full-contact"/>
+                                <div className="flex h-full items-end">
+                                    <motion.div
+                                        variants={buttonVariants}
+                                        initial="hidden"
+                                        animate="visible"
+                                        transition={{delay: 0.4, duration: 0.6, ease: 'easeOut'}}
+                                    >
+                                        <WhatsAppButton size="lg" phoneNumber="5518997970919" animation="pulse"
+                                                        variant="full-contact" mobile={true}/>
+                                    </motion.div>
                                 </div>
                             </div>
                         </motion.div>

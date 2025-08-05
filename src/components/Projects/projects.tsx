@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Eye, MapPin, Calendar, Users, Award, Filter, Search } from 'lucide-react';
+import { ArrowRight, Eye, MapPin,  Users,  Filter, Search } from 'lucide-react';
 import AnimatedSection from "@/components/AnimatedSection/animetedSection";
 
 
@@ -103,24 +103,24 @@ const Projects = () => {
         : projects.filter(project => project.category === selectedCategory);
 
     return (
-        <AnimatedSection id="projects" className="py-32 bg-gradient-to-br from-gray-50 via-white to-purple-50 relative overflow-hidden">
+        <AnimatedSection id="projects" className="py-32 bg-dark  bg-gradient-to-br from-primary-700 via-support-600 to-gray-900 relative overflow-hidden">
             {/* Animated Background */}
             <div className="absolute inset-0 overflow-hidden">
                 <motion.div
-                    className="absolute top-0 left-1/4 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"
+                    className="absolute top-[15dvh] left-[10dvw] w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"
                     animate={{
                         y: [0, -50, 0],
-                        scale: [1, 1.1, 1]
+                        scale: [1, 0.5, 1]
                     }}
                     transition={{ duration: 15, repeat: Infinity }}
                 />
                 <motion.div
-                    className="absolute bottom-0 right-1/4 w-80 h-80 bg-blue-200/20 rounded-full blur-3xl"
+                    className="absolute top-1/2 right-0 w-80 h-80 bg-blue-200/20 rounded-full blur-3xl"
                     animate={{
                         y: [0, 50, 0],
-                        scale: [1.1, 1, 1.1]
+                        scale: [1, 0.5, 1]
                     }}
-                    transition={{ duration: 18, repeat: Infinity }}
+                    transition={{ duration: 15, repeat: Infinity }}
                 />
             </div>
 
@@ -130,7 +130,7 @@ const Projects = () => {
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.1 }}
-                        className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6"
+                        className="text-4xl lg:text-6xl font-bold text-white mb-6"
                     >
                         Projetos que
                         <motion.span
@@ -189,10 +189,10 @@ const Projects = () => {
                             <motion.div
                                 key={project.id}
                                 layout
+                                whileInView={{ opacity: 1, scale: 1 }}
                                 initial={{ opacity: 0, scale: 0.9 }}
-                                animate={{ opacity: 1, scale: 1 }}
                                 exit={{ opacity: 0, scale: 0.9 }}
-                                transition={{ duration: 0.5, delay: index * 0.1 }}
+                                transition={{ duration: 0.5, delay: index * 0.15 }}
                                 onHoverStart={() => setHoveredProject(project.id)}
                                 onHoverEnd={() => setHoveredProject(null)}
                                 className="group bg-white/80 backdrop-blur-xl rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 border border-white/20"

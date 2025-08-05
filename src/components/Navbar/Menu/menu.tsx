@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 
 interface MenuLinks {
     title: string;
@@ -12,7 +12,25 @@ interface MenuProps {
     variant?: 'solid' | 'ghost' | 'mobile';
 }
 
-const underlineVariants = {
+const containerVariants: Variants = {
+    ghost: {
+        backgroundColor: 'rgba(0,0,0,0)',     // transparent
+        color: '#ffffff',
+        transition: { duration: 0.4, ease: 'easeInOut' }
+    },
+    solid: {
+        backgroundColor: '#8822c7', // your bg-support-500
+        color: '#ffffff',
+        transition: { duration: 0.4, ease: 'easeInOut' }
+    },
+    mobile: {
+        backgroundColor: '#ffffff',
+        color: '#000000',
+        transition: { duration: 0.4, ease: 'easeInOut' }
+    }
+};
+
+const underlineVariants: Variants = {
     hidden: { width: 0 },
     visible: { width: '100%' }
 };
@@ -26,21 +44,17 @@ const Menu: React.FC<MenuProps> = ({ variant = 'ghost' }) => {
         { title: 'Contato', link: '/#footer' },
     ];
 
-    const getStyles = () => {
-        switch (variant) {
-            case 'solid':
-                return 'bg-secondary-500 text-white';
-            case 'ghost':
-                return 'bg-transparent text-white';
-            case 'mobile':
-                return 'bg-white text-black text-lg';
-            default:
-                return '';
-        }
-    };
-
     return (
-        <ul className={`flex ${variant === 'mobile' ? 'flex-col space-y-4' : 'flex-row items-center gap-6 rounded-4xl'} p-2 ${getStyles()} z-99`}>
+        <motion.ul
+            className={`p-2 z-50 ${
+                variant === 'mobile'
+                    ? 'flex flex-col space-y-4 text-lg'
+                    : 'flex flex-row items-center gap-6 rounded-4xl'
+            }`}
+            variants={containerVariants}
+            initial={variant}
+            animate={variant}
+        >
             {menuLinks.map((item, idx) => (
                 <li key={idx} className="relative">
                     <Link href={item.link} passHref>
@@ -48,11 +62,8 @@ const Menu: React.FC<MenuProps> = ({ variant = 'ghost' }) => {
                             className="font-semibold py-2 px-3"
                             whileHover={{ scale: 1.1 }}
                             transition={{ type: 'spring', stiffness: 200 }}
-                            onHoverStart={() => {}}
-                            onHoverEnd={() => {}}
                         >
                             {item.title}
-                            {/* Animated underline */}
                             <motion.span
                                 className="block h-[2px] bg-secondary-500 mt-1"
                                 variants={underlineVariants}
@@ -64,7 +75,7 @@ const Menu: React.FC<MenuProps> = ({ variant = 'ghost' }) => {
                     </Link>
                 </li>
             ))}
-        </ul>
+        </motion.ul>
     );
 };
 

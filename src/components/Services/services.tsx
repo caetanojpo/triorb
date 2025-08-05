@@ -9,8 +9,7 @@ import {
     Play,
     Scan,
     ArrowRight,
-    Sparkles,
-    Zap,
+        Zap,
     MousePointer2
 } from 'lucide-react';
 import AnimatedSection from "@/components/AnimatedSection/animetedSection";
@@ -83,24 +82,24 @@ const Services = () => {
     ];
 
     return (
-        <AnimatedSection id="services" className="py-32 bg-gradient-to-br from-white via-gray-50 to-secondary-100 relative overflow-hidden">
+        <AnimatedSection id="services" className="py-32  bg-dark bg-gradient-to-br from-gray-900 via-primary-700 to-support-600 relative overflow-hidden">
             {/* Background Elements */}
             <div className="absolute inset-0 overflow-hidden">
                 <motion.div
-                    className="absolute top-20 right-20 w-72 h-72 bg-blue-200/20 rounded-full blur-3xl"
+                    className="absolute top-[15dvh] right-[10dvw] w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"
                     animate={{
-                        scale: [1, 1.2, 1],
-                        rotate: [0, 180, 360]
+                        y: [0, -50, 0],
+                        scale: [1, 0.5, 1]
                     }}
-                    transition={{ duration: 20, repeat: Infinity }}
+                    transition={{ duration: 15, repeat: Infinity }}
                 />
                 <motion.div
-                    className="absolute bottom-20 left-20 w-96 h-96 bg-purple-200/20 rounded-full blur-3xl"
+                    className="absolute top-1/2 left-0 w-80 h-80 bg-blue-200/20 rounded-full blur-3xl"
                     animate={{
-                        scale: [1.2, 1, 1.2],
-                        rotate: [360, 180, 0]
+                        y: [0, 50, 0],
+                        scale: [1, 0.5, 1]
                     }}
-                    transition={{ duration: 25, repeat: Infinity }}
+                    transition={{ duration: 15, repeat: Infinity }}
                 />
             </div>
 
@@ -111,7 +110,7 @@ const Services = () => {
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.1 }}
-                        className="text-4xl lg:text-6xl font-bold text-gray-900 mb-8"
+                        className="text-4xl lg:text-6xl font-bold text-white mb-8"
                     >
                         Soluções
                         <motion.span
@@ -127,7 +126,7 @@ const Services = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
+                        className="text-xl text-white max-w-3xl mx-auto leading-relaxed"
                     >
                         A TRÍORB conecta tecnologia, experiência e inovação para que você visualize antes de construir.
                     </motion.p>
