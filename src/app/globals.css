@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @tailwind utilities;
 
@@ -9,7 +9,9 @@
 /* 2) Seu reset e estilos globais dentro de um layer base */
 @layer base {
   /* Josh’s Custom CSS Reset */
-  *, *::before, *::after {
+  *,
+  *::before,
+  *::after {
     box-sizing: border-box;
   }
   * {
@@ -29,20 +31,43 @@
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
-  img, picture, video, canvas, svg {
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
     display: block;
     max-width: 100%;
   }
-  input, button, textarea, select {
+  input,
+  button,
+  textarea,
+  select {
     font: inherit;
   }
-  p, h1, h2, h3, h4, h5, h6 {
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     overflow-wrap: break-word;
   }
-  p { text-wrap: pretty; }
-  h1, h2, h3, h4, h5, h6 { text-wrap: balance; }
+  p {
+    text-wrap: pretty;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-wrap: balance;
+  }
 
-  #root, #__next {
+  #root,
+  #__next {
     isolation: isolate;
   }
 
