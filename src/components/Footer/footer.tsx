@@ -70,7 +70,7 @@ const Footer = () => {
                 <div className="w-12 h-12 bg-white rounded-2xl flex items-center justify-center shadow-lg relative ">
                   <Image src={'/logo.png'} alt={''} width={45} height={45} />
                 </div>
-                <span className="text-3xl font-bold">TRÍORB</span>
+                <span className="text-3xl font-bold">TRIORB</span>
               </motion.div>
 
               <p className="text-blue-100 leading-relaxed">
@@ -224,7 +224,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-secondary-200 text-sm flex items-center space-x-2">
               <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-              <span>© 2025 TRÍORB - Tecnologia & Arquitetura. Todos os direitos reservados.</span>
+              <span>© 2025 TRIORB - Tecnologia & Arquitetura. Todos os direitos reservados.</span>
             </div>
 
             <div className="flex flex-wrap justify-center md:justify-end space-x-6 text-sm">

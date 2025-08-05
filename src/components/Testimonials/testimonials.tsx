@@ -26,7 +26,7 @@ const Testimonials = () => {
       company: 'CONSTRUTORA MODERNA',
       role: 'Diretora de Projetos',
       rating: 5,
-      text: 'A TRÍORB revolucionou nossa forma de apresentar projetos aos clientes. O tour virtual 360° permitiu que nossos compradores visualizassem completamente o imóvel antes mesmo da construção começar. Isso aumentou nossas vendas em 40% no último trimestre.',
+      text: 'A TRIORB revolucionou nossa forma de apresentar projetos aos clientes. O tour virtual 360° permitiu que nossos compradores visualizassem completamente o imóvel antes mesmo da construção começar. Isso aumentou nossas vendas em 40% no último trimestre.',
       projectType: 'Complexo Comercial',
       videoThumbnail:
         'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
@@ -38,7 +38,7 @@ const Testimonials = () => {
       company: 'ARQUITETURA INOVADORA',
       role: 'Arquiteto Principal',
       rating: 5,
-      text: 'Como arquiteto, sempre busquei formas de mostrar minhas ideias de maneira mais clara aos clientes. A tecnologia de realidade virtual da TRÍORB me permitiu criar experiências únicas, onde os clientes literalmente caminham dentro dos projetos que criei.',
+      text: 'Como arquiteto, sempre busquei formas de mostrar minhas ideias de maneira mais clara aos clientes. A tecnologia de realidade virtual da TRIORB me permitiu criar experiências únicas, onde os clientes literalmente caminham dentro dos projetos que criei.',
       projectType: 'Residência de Luxo',
       videoThumbnail:
         'https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',

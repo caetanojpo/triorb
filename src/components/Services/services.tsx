@@ -161,7 +161,7 @@ const Services = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl text-white max-w-3xl mx-auto leading-relaxed"
           >
-            A TRÍORB conecta tecnologia, experiência e inovação para que você visualize antes de
+            A TRIORB conecta tecnologia, experiência e inovação para que você visualize antes de
             construir.
           </motion.p>
         </div>
