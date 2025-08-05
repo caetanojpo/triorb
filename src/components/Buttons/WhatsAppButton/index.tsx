@@ -38,8 +38,8 @@ const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
     };
 
     const positionVariants: Variants = {
-        defaultPos: {top: '92dvh', left: '95dvw', transition: {type: 'tween', duration: 0.5}},
-        scrolledPos: {top: '92dvh', left: '95dvw', transition: {type: 'tween', duration: 0.5}},
+        defaultPos: {top: '1.5dvh', left: '93dvw', transition: {type: 'tween', duration: 0.5}},
+        scrolledPos: {top: '90dvh', left: '93dvw', transition: {type: 'tween', duration: 0.5}},
         mobile: {top: '88dvh', left: '37dvw', transition: {type: 'tween', duration: 0.5}}
     };
 
@@ -90,7 +90,6 @@ const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
     };
 
     const getButtonText = (): string => {
-        if(mobile) return ''
         switch (variant) {
             case 'full-contact':
                 return 'Entre em Contato';
@@ -133,10 +132,11 @@ const WhatsAppButton: React.FC<WhatsAppButtonProps> = ({
             className={`
         ${sizeClasses[size]}
         ${styleClasses[style]}
-        ${isIconOnly ? 'rounded-full aspect-square flex items-center justify-center scale-[1.3]' : 'rounded-full'}
+        ${isIconOnly ? 'rounded-full aspect-square flex items-center justify-center' : 'rounded-full'}
         inline-flex items-center justify-center gap-2
         font-semibold
         ${disabled ? 'cursor-not-allowed opacity-50' : 'cursor-pointer'}
+        ${scrolled ? 'scale-[1.3]' : 'scale-[1]'}
         relative
         overflow-hidden
         focus:outline-none focus:ring-4 focus:ring-green-300

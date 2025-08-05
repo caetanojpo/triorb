@@ -28,13 +28,13 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
                 {/* Left Section */}
                 <div className="flex w-full flex-col justify-center px-14 lg:w-1/2 pt-32 lg:pt-48 pb-20 lg:pb-0">
                     <header className="font-black text-white">
-                        <h5 className="text-[1.5rem] lg:text-[4.5rem] leading-7">{titleLines[0]}</h5>
-                        <h4 className="text-[1.5rem] lg:text-[6rem]">{titleLines[1]}</h4>
+                        <h5 className="text-[1.5rem] lg:text-[3rem] 2xl:text-[4.5rem] leading-10">{titleLines[0]}</h5>
+                        <h4 className="text-[1.5rem] lg:text-[4rem] 2xl:lg:text-[6rem]">{titleLines[1]}</h4>
                     </header>
 
                     <div className={"flex"}>
                         <section className="mt-8 max-w-lg flex flex-col gap-6">
-                            <p className="text-white lg:text-[1.5rem] lg:leading-7">{description}</p>
+                            <p className="text-white lg:text-[1.2rem] 2xl:text-[1.5rem] lg:leading-7">{description}</p>
                             <BannerButton />
                         </section>
                     </div>
@@ -71,7 +71,7 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
                 </div>
 
                 {/* Sidebar BannerCard */}
-                <div className="hidden lg:flex lg:absolute lg:right-20 lg:bottom-[-200px] lg:z-30 lg:h-[100%] lg:w-[35%] lg:flex-col lg:justify-around lg:items-center">
+                <div className="hidden lg:flex lg:absolute lg:right-20 lg:bottom-[-200px] lg:z-30 lg:h-[100%] lg:w-[30%] 2xl:w-[35%] lg:flex-col lg:justify-around lg:items-center">
                     <BannerCard />
                 </div>
             </div>

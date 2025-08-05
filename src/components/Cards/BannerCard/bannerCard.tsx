@@ -9,12 +9,13 @@ const BannerCard = () => {
             scale: 1.01,
             boxShadow: "0 25px 50px rgba(59, 130, 246, 0.2)"
         }}>
-            <div className={"h-[80%] w-full relative"}><Image src={"/tecnologia.png"} alt={""} fill
+            <div className={"hidden 2xl:block h-[80%] w-full relative"}><Image src={"/tecnologia.png"} alt={""} fill
                                                               className={'rounded-t-xl'}/></div>
-            <div className={"flex flex-col  w-full h-full bg-white text-text p-4 rounded-b-xl"}>
+            <div className={"flex flex-col  w-full h-full bg-white text-text p-4 rounded-t-xl 2xl:rounded-t-[0px] rounded-b-xl"}>
                 <div className={"flex w-full flex-col justify-center items-center gap-2 font-bold p-6"}>
-                    <h5 className={"text-[1.7rem] leading-0"}>TECNOLOGIA 3D PARA TRANSFORMAR</h5>
-                    <h4 className={"text-[2.8rem] text-secondary-500"}>O MERCADO IMOBILIÁRIO</h4>
+                    <h5 className={"text-[1.5rem] 2xl:text-[1.7rem] leading-8 2xl:leading-0"}>TECNOLOGIA 3D PARA
+                        TRANSFORMAR</h5>
+                    <h4 className={"text-[2.5rem] 2xl:text-[2.8rem] text-secondary-500"}>O MERCADO IMOBILIÁRIO</h4>
                     <div className={"w-full h-[1px] bg-gray-300"}/>
                 </div>
                 <div className={"flex w-full flex-col justify-center gap-4 px-6 "}>
