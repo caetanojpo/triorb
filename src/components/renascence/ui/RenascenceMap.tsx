@@ -7,14 +7,14 @@ const RenascenceMap = () => {
   return (
     <section className="relative min-h-screen w-full flex flex-col gap-8 py-4 xl:py-16 overflow-hidden">
       <motion.div
-        className="w-full h-auto flex flex-col items-center justify-center px-4 xl:px-24 text-center text-renascence gap-2 my-2 xl:my-6"
+        className="w-full h-auto flex flex-col items-center justify-center px-4 xl:px-24 text-center text-renascence gap-2 my-6"
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
         <motion.h1
-          className="text-4xl lg:text-5xl xl:text-6xl font-medium"
+          className="text-3xl lg:text-5xl xl:text-6xl font-medium"
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
@@ -23,7 +23,7 @@ const RenascenceMap = () => {
           Renascence II
         </motion.h1>
         <motion.p
-          className="text-base xl:text-xl max-w-4xl leading-relaxed"
+          className="text-sm xl:text-xl max-w-4xl leading-relaxed"
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.4 }}

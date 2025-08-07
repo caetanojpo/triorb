@@ -1,8 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useIsMobile } from '@/hooks/useIsMobile';
 
 export const RenascenceHeader = () => {
+  const isMobile = useIsMobile();
   return (
     <motion.header
       className="relative h-[30vh] xl:h-[60vh] w-full bg-renascence flex justify-end items-center flex-col overflow-hidden"
@@ -25,9 +27,9 @@ export const RenascenceHeader = () => {
         />
       </motion.div>
       <motion.div
-        className="absolute w-full h-full xl:h-1/2 left-2 xl:-top-8"
-        initial={{ scale: 0.8, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
+        className="absolute w-full h-full xl:h-1/2 left-2 -top-5 xl:-top-8"
+        initial={{ scale: isMobile ? 0.5 : 0.8, opacity: 0 }}
+        animate={{ scale: isMobile ? 0.8 : 1.0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.4 }}
       >
         <Image
@@ -39,7 +41,7 @@ export const RenascenceHeader = () => {
         />
       </motion.div>
       <motion.div
-        className="hidden xl:block absolute w-full h-4/5"
+        className="block absolute w-full h-4/5"
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1.2, delay: 0.6 }}
@@ -53,7 +55,7 @@ export const RenascenceHeader = () => {
         />
       </motion.div>
       <motion.div
-        className="hidden xl:block absolute w-24 h-24 -bottom-10 z-10"
+        className="block absolute w-10 h-10 xl:w-24 xl:h-24 -bottom-4 xl:-bottom-10 z-10"
         initial={{ rotate: -45, opacity: 0 }}
         animate={{ rotate: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 1 }}

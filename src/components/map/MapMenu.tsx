@@ -40,7 +40,7 @@ export default function MapMenu() {
 
   return (
     <div className="min-h-3/4 h-full w-full">
-      <div className="mx-auto flex h-[180dvh] xl:h-screen max-w-[100dvw] flex-col gap-6 xl:flex-row xl:max-w-[95dvw]">
+      <div className="mx-auto flex h-[140dvh] xl:h-screen max-w-[100dvw] flex-col gap-6 xl:flex-row xl:max-w-[95dvw]">
         <main className="xl:flex-1 min-h-[70dvh] xl:min-h-screen">
           <AnimatePresence mode="wait">
             {currentLayer === 'blocks' && (

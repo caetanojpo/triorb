@@ -2,10 +2,9 @@
 
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Block, ImageData, Lot, NavigationLayer } from '@/types/types';
+import { Block, Lot, NavigationLayer } from '@/types/types';
 import { sidebarVariants } from '@/utils/animation';
 import { SidebarHeader } from '@/components/sidebar/SidebarHeader';
-import { AmenitiesSection } from '@/components/sections/AmenitiesSection';
 import { BlocksMenu } from '@/components/menus/BlocksMenu';
 import { LotsMenu } from '@/components/menus/LotsMenu';
 import { DetailsMenu } from '@/components/menus/DetailsMenu';
@@ -46,7 +45,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       transition={{ duration: 0.5, delay: 0.2 }}
     >
       <SidebarHeader />
-      <AmenitiesSection />
+      {/*<AmenitiesSection />*/}
 
       <AnimatePresence mode="wait">
         {currentLayer === 'blocks' && (
