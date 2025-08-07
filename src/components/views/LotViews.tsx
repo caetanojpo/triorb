@@ -16,7 +16,7 @@ interface LotsViewProps {
 export const LotsView: React.FC<LotsViewProps> = ({ lots, selectedBlock, onLotSelect, onBack }) => {
   return (
     <motion.div
-      className="relative w-full h-full bg-gradient-to-br from-blue-50 to-sky-100 rounded-2xl overflow-hidden"
+      className="relative w-full h-full bg-renascence xl:rounded-2xl overflow-hidden"
       variants={pageVariants}
       initial="initial"
       animate="animate"

@@ -18,7 +18,7 @@ export const BlocksView: React.FC<BlocksViewProps> = ({
 }) => {
   return (
     <motion.div
-      className="relative w-full h-full bg-gradient-to-br from-green-50 to-emerald-100 rounded-2xl overflow-hidden"
+      className="relative w-full h-full bg-renascence xl:rounded-2xl overflow-hidden"
       variants={pageVariants}
       initial="initial"
       animate="animate"
