@@ -27,19 +27,20 @@ export const ViewToggle: React.FC<ViewToggleProps> = ({ is3DView, onToggle }) =>
           whileTap={{ scale: 0.95 }}
         >
           <ImageIcon className="w-4 h-4 inline mr-1" />
-          2D
+          {/*2D*/}
+          360º
         </motion.button>
-        <motion.button
-          onClick={() => onToggle(true)}
-          className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-            is3DView ? 'bg-blue-500 text-white shadow-md' : 'text-gray-600 hover:text-gray-800'
-          }`}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          <Cube className="w-4 h-4 inline mr-1" />
-          3D
-        </motion.button>
+        {/*<motion.button*/}
+        {/*  onClick={() => onToggle(true)}*/}
+        {/*  className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${*/}
+        {/*    is3DView ? 'bg-blue-500 text-white shadow-md' : 'text-gray-600 hover:text-gray-800'*/}
+        {/*  }`}*/}
+        {/*  whileHover={{ scale: 1.05 }}*/}
+        {/*  whileTap={{ scale: 0.95 }}*/}
+        {/*>*/}
+        {/*  <Cube className="w-4 h-4 inline mr-1" />*/}
+        {/*  3D*/}
+        {/*</motion.button>*/}
       </div>
     </motion.div>
   );
