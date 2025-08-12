@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
               variant="icon-only"
               animation="pulse"
               size="md"
-              phoneNumber="5518997970919"
+              phoneNumber="5518996138186"
               showIcon={true}
               style="filled"
               scrolled={scrolled}
@@ -132,7 +132,7 @@ const Navbar: React.FC = () => {
                   >
                     <WhatsAppButton
                       size="lg"
-                      phoneNumber="5518997970919"
+                      phoneNumber="5518996138186"
                       animation="pulse"
                       variant="full-contact"
                       mobile={true}
