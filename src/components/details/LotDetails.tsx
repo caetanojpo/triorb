@@ -9,6 +9,7 @@ import { NavigationButton } from '@/components/Buttons/NavigationButton';
 import { ViewToggle } from '@/components/toggle/ViewToggle';
 import { BackButton } from '@/components/Buttons/BackButton';
 import { ImageIndicators } from '@/components/image/ImageIndicators';
+import PanoramaViewer from '@/components/image/PanoramaViewer';
 
 interface LotDetailsViewProps {
   selectedLot: Lot;
@@ -38,6 +39,8 @@ export const LotDetailsView: React.FC<LotDetailsViewProps> = ({
     return is3DView && currentImage.url3d ? currentImage.url3d : currentImage.url;
   };
 
+  let count = 0;
+
   return (
     <motion.div
       className="relative w-full h-full bg-renascence xl:rounded-2xl overflow-hidden"
@@ -48,19 +51,12 @@ export const LotDetailsView: React.FC<LotDetailsViewProps> = ({
       transition={{ duration: 0.5 }}
     >
       <AnimatePresence mode="wait">
-        <motion.img
-          key={`${currentImageIndex}-${is3DView}`}
-          src={getCurrentImageUrl()}
-          alt={lotImages[currentImageIndex].title}
-          className="w-full h-full object-cover"
-          variants={imageVariants}
-          initial="initial"
-          animate="animate"
-          exit="exit"
-          transition={{ duration: 0.4 }}
+        <PanoramaViewer
+          key={`${currentImageIndex}-${is3DView}-${count++}`}
+          className="w-full h-full object-cover "
+          imageSrc={getCurrentImageUrl()}
         />
       </AnimatePresence>
-      <div className="absolute inset-0 bg-black/20"></div>
 
       <NavigationButton
         direction="left"
@@ -94,7 +90,8 @@ export const LotDetailsView: React.FC<LotDetailsViewProps> = ({
               animate={{ scale: [1, 1.05, 1] }}
               transition={{ duration: 0.3 }}
             >
-              {is3DView ? '3D View' : '2D View'}
+              {/*{is3DView ? '3D View' : '2D View'}*/}
+              {'Visualização 360º'}
             </motion.div>
             <div className="flex items-center space-x-2 text-sm text-gray-600">
               <span>{currentImageIndex + 1}</span>

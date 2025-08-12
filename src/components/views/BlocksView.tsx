@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Block } from '@/types/types';
 import { pageVariants } from '@/utils/animation';
+import Image from 'next/image';
 
 interface BlocksViewProps {
   blocks: Block[];
@@ -25,9 +26,11 @@ export const BlocksView: React.FC<BlocksViewProps> = ({
       exit="exit"
       transition={{ duration: 0.5 }}
     >
-      <div
+      <Image
         className="absolute inset-0 bg-contain bg-no-repeat bg-center"
-        style={{ backgroundImage: `url('${blocksImage}')` }}
+        fill
+        src={blocksImage}
+        alt={''}
       />
       <div className="relative w-full h-full">
         {/*{blocks.map((block, index) => (*/}
