@@ -19,12 +19,13 @@ export const LotsMenu: React.FC<LotsMenuProps> = ({ selectedBlock, lots, onLotSe
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
       transition={{ duration: 0.3 }}
+      className={'h-full overflow-y-auto'}
     >
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg font-semibold text-gray-800">Quadra {selectedBlock.id}</h2>
+        <h2 className="text-lg font-semibold text-renascence">Quadra {selectedBlock.id}</h2>
         <motion.button
           onClick={onBack}
-          className="text-sm text-gray-500 hover:text-gray-700 flex items-center space-x-1"
+          className="cursor-pointer text-sm text-gray-500 hover:text-gray-700 flex items-center space-x-1"
           whileHover={{ x: -3 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -38,7 +39,7 @@ export const LotsMenu: React.FC<LotsMenuProps> = ({ selectedBlock, lots, onLotSe
             key={lot.id}
             onClick={() => onLotSelect(lot)}
             disabled={!lot.available}
-            className={`aspect-square rounded-lg p-2 text-center text-sm font-semibold transition-all duration-200 ${
+            className={`cursor-pointer aspect-square rounded-lg p-2 text-center text-sm font-semibold transition-all duration-200 ${
               lot.available
                 ? 'bg-emerald-50 hover:bg-emerald-100 border-2 border-emerald-200 text-emerald-700 cursor-pointer'
                 : 'bg-red-50 border-2 border-red-200 text-red-400 cursor-not-allowed opacity-60'

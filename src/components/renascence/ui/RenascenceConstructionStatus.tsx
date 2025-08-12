@@ -7,7 +7,7 @@ export const RenascenceConstructionStatus = () => {
   const progress = 5;
 
   return (
-    <section className="relative flex flex-col xl:flex-row gap-8 bg-white w-full min-h-screen xl:pl-10 py-4 xl:py-20 justify-between overflow-hidden">
+    <section className="relative flex flex-col xl:flex-row gap-8 bg-renascence_support w-full min-h-screen xl:pl-10 py-4 xl:py-20 justify-between overflow-hidden font-poppins">
       <motion.div
         className="w-full xl:w-[65%] h-full flex"
         initial={{ x: -50, opacity: 0 }}
@@ -20,7 +20,7 @@ export const RenascenceConstructionStatus = () => {
         </div>
       </motion.div>
       <motion.div
-        className="w-full xl:w-[30%] h-fit bg-renascence xl:rounded-3xl p-6 xl:p-10 text-renascence_support"
+        className="w-full xl:w-[30%] h-full min-h-[65vh] bg-renascence xl:rounded-3xl p-6 xl:p-10 text-renascence_support"
         initial={{ x: 50, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.8, delay: 0.2 }}

@@ -22,7 +22,7 @@ export const RenascenceAreaTab: React.FC<AreaTabProps> = ({ area, isActive, onCl
       transition={{ duration: 0.3 }}
     >
       <motion.h2
-        className="text-2xl 2xl:text-3xl py-2"
+        className="text-lg 2xl:text-xl py-2"
         animate={{ color: isActive ? 'var(--renascence-support)' : 'inherit' }}
         transition={{ duration: 0.2 }}
       >

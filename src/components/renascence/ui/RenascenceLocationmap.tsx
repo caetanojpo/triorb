@@ -2,7 +2,7 @@ import React from 'react';
 
 export const RenascenceLocationmap = () => {
   return (
-    <section className="h-screen w-full py-8 xl:px-14 text-renascence_support overflow-hidden">
+    <section className="h-screen w-full py-8 xl:px-14 text-renascence_support overflow-hidden font-poppins bg-renascence_support">
       <div className="h-full w-full bg-renascence xl:rounded-[50px] flex flex-col items-center xl:p-8 xl:px-40">
         <h2 className="text-3xl xl:text-4xl font-bold mb-6">Localização</h2>
 

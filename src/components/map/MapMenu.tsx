@@ -76,7 +76,7 @@ export default function MapMenu() {
             )}
           </AnimatePresence>
         </main>
-        <aside className="min-w-80 xl:w-30">
+        <aside className="min-w-80 lg:min-w-90 xl:w-30 h-full">
           <Sidebar
             currentLayer={currentLayer}
             selectedBlock={selectedBlock}

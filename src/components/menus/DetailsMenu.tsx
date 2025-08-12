@@ -28,12 +28,13 @@ export const DetailsMenu: React.FC<DetailsMenuProps> = ({
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
       transition={{ duration: 0.3 }}
+      className={'h-full overflow-y-auto'}
     >
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg font-semibold text-gray-800">Lote {selectedLot.number}</h2>
+        <h2 className="text-lg font-semibold text-renascence">Lote {selectedLot.number}</h2>
         <motion.button
           onClick={onBack}
-          className="text-sm text-gray-500 hover:text-gray-700 flex items-center space-x-1"
+          className="cursor-pointer text-sm text-gray-500 hover:text-gray-700 flex items-center space-x-1"
           whileHover={{ x: -3 }}
           whileTap={{ scale: 0.95 }}
         >
@@ -47,7 +48,7 @@ export const DetailsMenu: React.FC<DetailsMenuProps> = ({
           <motion.button
             key={image.id}
             onClick={() => onImageSelect(index)}
-            className={`w-full p-4 rounded-xl text-left transition-all duration-200 ${
+            className={`cursor-pointer w-full p-4 rounded-xl text-left transition-all duration-200 ${
               index === currentImageIndex
                 ? 'bg-blue-50 border-2 border-blue-200'
                 : 'bg-gray-50 hover:bg-gray-100 border-2 border-gray-200'
@@ -94,7 +95,7 @@ export const DetailsMenu: React.FC<DetailsMenuProps> = ({
           <div>Quadra: {selectedBlock.id}</div>
           <div>Lote: {selectedLot.number}</div>
           <div>Status: Disponível</div>
-          <div>Área: 300m²</div>
+          {/*<div>Área: 300m²</div>*/}
         </div>
       </motion.div>
     </motion.div>

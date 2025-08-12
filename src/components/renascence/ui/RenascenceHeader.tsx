@@ -7,7 +7,7 @@ export const RenascenceHeader = () => {
   const isMobile = useIsMobile();
   return (
     <motion.header
-      className="relative h-[30vh] xl:h-[60vh] w-full bg-renascence flex justify-end items-center flex-col overflow-hidden"
+      className="relative h-[30vh] xl:h-[60vh] w-full bg-renascence flex justify-end items-center flex-col overflow-hidden font-poppins"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}

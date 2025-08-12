@@ -18,13 +18,13 @@ const itemVariants = {
 export const RenascenceFooter = () => {
   return (
     <motion.footer
-      className="flex flex-col h-full xl:h-screen w-full text-renascence overflow-hidden"
+      className="flex flex-col h-full xl:h-screen w-full text-renascence overflow-hidden font-poppins bg-renascence_support font-poppins"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
     >
       <motion.div
-        className="flex flex-col w-full h-[75vh] xl:h-full items-center justify-between p-2 xl:p-0"
+        className="flex flex-col w-full h-[75vh] xl:h-full items-center  p-2 xl:p-0"
         variants={itemVariants}
       >
         <motion.div
@@ -60,20 +60,20 @@ export const RenascenceFooter = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            ADQUIRA SEU LOTE DO RESIDENCIAL RENASCENCE II E CONSTRUA SUA CASA DOS SONHOS COM A
-            DUAÇO!
+            Adquira seu lote do Residencial Renascence II e construa sua casa dos sonhos com a
+            Duaço!
           </motion.p>
         </motion.div>
-        <motion.div variants={itemVariants}>
+        <motion.div variants={itemVariants} className={'my-10'}>
           <RenascenceContactInfo />
         </motion.div>
       </motion.div>
       <motion.div
-        className="flex flex-row h-[50vh] xl:h-[30%] w-full bg-renascence mt-10 justify-between px-2 xl:px-16"
+        className="flex flex-row h-[50vh] xl:h-[30%] w-full bg-renascence  justify-between px-2 xl:px-16"
         variants={itemVariants}
       >
         <motion.div
-          className="h-full w-full justify-start items-center hidden xl:flex"
+          className="h-full w-full justify-start items-center hidden xl:flex "
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.3 }}
         >
@@ -88,7 +88,7 @@ export const RenascenceFooter = () => {
           </Link>
         </motion.div>
         <motion.div
-          className="h-full w-full xl:w-1/2 text-renascence_support flex items-center justify-center xl:justify-end"
+          className="h-full w-full xl:w-3/4 text-renascence_support flex items-center justify-center xl:justify-end"
           whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.3 }}
         >
@@ -97,7 +97,7 @@ export const RenascenceFooter = () => {
             className="w-full h-full flex flex-col xl:flex-row text-renascence_support items-center justify-center xl:justify-end"
           >
             <motion.h6
-              className="font-bold 2xl:text-xl text-center xl:text-right mr-4"
+              className="font-bold text-[1rem] 2xl:text-[1.2rem] text-center xl:text-right mr-4"
               initial={{ x: -10, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.7, duration: 0.6 }}
@@ -105,13 +105,13 @@ export const RenascenceFooter = () => {
               Este site foi produzido com a tecnologia
             </motion.h6>
             <motion.div
-              className="relative w-full xl:w-[20%] mt-10 xl:mt-0 h-1/5 xl:h-2/5"
+              className="relative w-full xl:w-[30%] mt-10 xl:mt-0 h-1/5 xl:h-2/5"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.9, duration: 0.6 }}
             >
               <Image
-                src="/logo.png"
+                src="/logo-white.png"
                 alt="Logo da tecnologia"
                 fill
                 className="object-contain"

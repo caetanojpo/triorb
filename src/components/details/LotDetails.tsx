@@ -51,11 +51,7 @@ export const LotDetailsView: React.FC<LotDetailsViewProps> = ({
       transition={{ duration: 0.5 }}
     >
       <AnimatePresence mode="wait">
-        <PanoramaViewer
-          key={`${currentImageIndex}-${is3DView}-${count++}`}
-          className="w-full h-full object-cover "
-          imageSrc={getCurrentImageUrl()}
-        />
+        <PanoramaViewer className="w-full h-full object-cover " imageSrc={getCurrentImageUrl()} />
       </AnimatePresence>
 
       <NavigationButton
@@ -115,7 +111,7 @@ export const LotDetailsView: React.FC<LotDetailsViewProps> = ({
         </div>
       </motion.div>
 
-      <BackButton onClick={onBack} className="absolute top-6 right-6" />
+      <BackButton onClick={onBack} className="cursor-pointer absolute top-6 right-6" />
 
       <div className="absolute bottom-32 left-1/2 transform -translate-x-1/2">
         <ImageIndicators

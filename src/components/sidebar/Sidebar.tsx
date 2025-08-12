@@ -37,7 +37,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 }) => {
   return (
     <motion.div
-      className="bg-white rounded-2xl shadow-xl p-8 h-full overflow-y-auto"
+      className="bg-white rounded-2xl shadow-xl p-4 h-full overflow-y-auto"
       variants={sidebarVariants}
       initial="initial"
       animate="animate"
