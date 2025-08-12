@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Menu as MenuIcon, X as CloseIcon } from 'lucide-react';
 import Menu from '@/components/Navbar/Menu/menu';
+import Link from 'next/link';
 
 const navVariants = {
   initial: { backdropFilter: 'blur(0px)', backgroundColor: 'rgba(0,0,0,0.1)' },
@@ -49,7 +50,9 @@ const Navbar: React.FC = () => {
           transition={{ type: 'spring', stiffness: 200, damping: 20 }}
           whileHover={{ scale: 1.1 }}
         >
-          <Image src="/logo.png" alt="Logo" width={50} height={50} />
+          <Link href={'/#home'}>
+            <Image src="/logo-white.png" alt="Logo" width={180} height={180} />
+          </Link>
         </motion.div>
 
         {/* Desktop Menu */}

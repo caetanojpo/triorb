@@ -1,8 +1,9 @@
 'use client';
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Eye, MapPin, Users, Filter, Search } from 'lucide-react';
+import { AnimatePresence, motion } from 'framer-motion';
+import { ArrowRight, Eye, Filter, MapPin, Users } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection/animetedSection';
+import Link from 'next/link';
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState('Todos');
@@ -13,94 +14,96 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Residencial Modern Plaza',
-      location: 'São Paulo, SP',
-      image:
-        'https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      title: 'Residencial Renascence',
+      location: 'Assis, SP',
+      image: '/renascence/fachada2.png?fit=cover',
       category: 'Residencial',
-      description: 'Complexo residencial moderno com 200 unidades',
-      year: '2024',
-      area: '15.000m²',
-      units: '200',
+      description: 'Condomínio residencial moderno de alto padrão',
+      year: '2025',
+      area: '???m²',
+      units: '???',
       status: 'Concluído',
-      technologies: ['Tour 360°', 'VR', 'Planta 3D'],
+      technologies: ['Tour 360°', 'Video Tour', 'Imagem 3D', 'VR', 'Planta 3D'],
       color: 'from-blue-500 to-blue-600',
+      link: '/renascence',
+      target: '_self',
     },
     {
       id: 2,
-      title: 'Centro Comercial Future',
-      location: 'Rio de Janeiro, RJ',
-      image:
-        'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-      category: 'Comercial',
-      description: 'Centro comercial com conceito sustentável',
-      year: '2024',
-      area: '25.000m²',
-      units: '150',
-      status: 'Em andamento',
-      technologies: ['Scanner 3D', 'Vídeo Tour', 'Imagem 3D'],
-      color: 'from-green-500 to-green-600',
-    },
-    {
-      id: 3,
-      title: 'Torre Corporativa Tech',
-      location: 'Brasília, DF',
-      image:
-        'https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-      category: 'Corporativo',
-      description: 'Edifício corporativo inteligente',
-      year: '2023',
-      area: '30.000m²',
-      units: '40',
-      status: 'Concluído',
-      technologies: ['VR', 'Tour 360°', 'Scanner 3D'],
-      color: 'from-purple-500 to-purple-600',
-    },
-    {
-      id: 4,
-      title: 'Condomínio Green Valley',
-      location: 'Curitiba, PR',
-      image:
-        'https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+      title: 'Terras de Santo Antônio',
+      location: 'Assis, SP',
+      image: '/terras.png',
       category: 'Residencial',
-      description: 'Condomínio ecológico premium',
-      year: '2024',
-      area: '50.000m²',
-      units: '300',
+      description: 'Complexo residencial moderno de alto padrão',
+      year: '2025',
+      area: '???m²',
+      units: '5',
       status: 'Em andamento',
-      technologies: ['Planta 3D', 'Imagem 3D', 'Vídeo Tour'],
-      color: 'from-emerald-500 to-emerald-600',
+      technologies: ['Planta 3D', 'Vídeo Tour', 'Imagem 3D'],
+      color: 'from-green-500 to-green-600',
+      link: 'https://youtu.be/kwD-hLECxVY?si=YJy5UrTAIDvuxFrg',
+      target: '_blank',
     },
-    {
-      id: 5,
-      title: 'Shopping Experience',
-      location: 'Belo Horizonte, MG',
-      image:
-        'https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-      category: 'Comercial',
-      description: 'Shopping center de nova geração',
-      year: '2023',
-      area: '80.000m²',
-      units: '250',
-      status: 'Concluído',
-      technologies: ['Tour 360°', 'VR', 'Scanner 3D'],
-      color: 'from-orange-500 to-orange-600',
-    },
-    {
-      id: 6,
-      title: 'Corporate Hub',
-      location: 'Porto Alegre, RS',
-      image:
-        'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
-      category: 'Corporativo',
-      description: 'Hub corporativo sustentável',
-      year: '2024',
-      area: '20.000m²',
-      units: '60',
-      status: 'Em andamento',
-      technologies: ['VR', 'Planta 3D', 'Imagem 3D'],
-      color: 'from-cyan-500 to-cyan-600',
-    },
+    // {
+    //   id: 3,
+    //   title: 'Torre Corporativa Tech',
+    //   location: 'Brasília, DF',
+    //   image:
+    //     'https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+    //   category: 'Corporativo',
+    //   description: 'Edifício corporativo inteligente',
+    //   year: '2023',
+    //   area: '30.000m²',
+    //   units: '40',
+    //   status: 'Concluído',
+    //   technologies: ['VR', 'Tour 360°', 'Scanner 3D'],
+    //   color: 'from-purple-500 to-purple-600',
+    // },
+    // {
+    //   id: 4,
+    //   title: 'Condomínio Green Valley',
+    //   location: 'Curitiba, PR',
+    //   image:
+    //     'https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+    //   category: 'Residencial',
+    //   description: 'Condomínio ecológico premium',
+    //   year: '2024',
+    //   area: '50.000m²',
+    //   units: '300',
+    //   status: 'Em andamento',
+    //   technologies: ['Planta 3D', 'Imagem 3D', 'Vídeo Tour'],
+    //   color: 'from-emerald-500 to-emerald-600',
+    // },
+    // {
+    //   id: 5,
+    //   title: 'Shopping Experience',
+    //   location: 'Belo Horizonte, MG',
+    //   image:
+    //     'https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+    //   category: 'Comercial',
+    //   description: 'Shopping center de nova geração',
+    //   year: '2023',
+    //   area: '80.000m²',
+    //   units: '250',
+    //   status: 'Concluído',
+    //   technologies: ['Tour 360°', 'VR', 'Scanner 3D'],
+    //   color: 'from-orange-500 to-orange-600',
+    // },
+    // {
+    //   id: 6,
+    //   title: 'Corporate Hub',
+    //   location: 'Porto Alegre, RS',
+    //   image:
+    //     'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+    //   category: 'Corporativo',
+    //   description: 'Hub corporativo sustentável',
+    //   year: '2024',
+    //   area: '20.000m²',
+    //   units: '60',
+    //   status: 'Em andamento',
+    //   technologies: ['VR', 'Planta 3D', 'Imagem 3D'],
+    //   color: 'from-cyan-500 to-cyan-600',
+    // },
   ];
 
   const filteredProjects =
@@ -111,7 +114,7 @@ const Projects = () => {
   return (
     <AnimatedSection
       id="projects"
-      className="py-32 bg-dark  bg-gradient-to-br from-primary-700 via-support-600 to-gray-900 relative overflow-hidden"
+      className="py-32 bg-dark  bg-gradient-to-br from-primary-700 via-support-600 to-gray-900 relative overflow-hidden font-poppins"
     >
       {/* Animated Background */}
       <div className="absolute inset-0 overflow-hidden">
@@ -240,20 +243,22 @@ const Projects = () => {
                     animate={{ scale: hoveredProject === project.id ? 1 : 0.8 }}
                   >
                     <div className="flex space-x-3">
-                      <motion.button
-                        className="cursor-pointer bg-white/20 backdrop-blur-sm rounded-full p-3 text-white hover:bg-white/30 transition-colors"
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                      >
-                        <Eye size={20} />
-                      </motion.button>
-                      <motion.button
-                        className="cursor-pointer bg-white/20 backdrop-blur-sm rounded-full p-3 text-white hover:bg-white/30 transition-colors"
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                      >
-                        <Search size={20} />
-                      </motion.button>
+                      <Link href={project.link} target={project.target}>
+                        <motion.button
+                          className="cursor-pointer bg-white/20 backdrop-blur-sm rounded-full p-3 text-white hover:bg-white/30 transition-colors"
+                          whileHover={{ scale: 1.1 }}
+                          whileTap={{ scale: 0.9 }}
+                        >
+                          <Eye size={20} />
+                        </motion.button>
+                      </Link>
+                      {/*<motion.button*/}
+                      {/*  className="cursor-pointer bg-white/20 backdrop-blur-sm rounded-full p-3 text-white hover:bg-white/30 transition-colors"*/}
+                      {/*  whileHover={{ scale: 1.1 }}*/}
+                      {/*  whileTap={{ scale: 0.9 }}*/}
+                      {/*>*/}
+                      {/*  <Search size={20} />*/}
+                      {/*</motion.button>*/}
                     </div>
                   </motion.div>
                 </div>
@@ -298,13 +303,15 @@ const Projects = () => {
                     ))}
                   </div>
 
-                  <motion.button
-                    className="cursor-pointer w-full text-blue-600 font-semibold flex items-center justify-center space-x-2 group-hover:space-x-3 transition-all py-2"
-                    whileHover={{ x: 5 }}
-                  >
-                    <span>Ver projeto completo</span>
-                    <ArrowRight size={16} className="transition-transform" />
-                  </motion.button>
+                  <Link href={project.link} target={project.target}>
+                    <motion.button
+                      className="cursor-pointer w-full text-blue-600 font-semibold flex items-center justify-center space-x-2 group-hover:space-x-3 transition-all py-2"
+                      whileHover={{ x: 5 }}
+                    >
+                      <span>Ver projeto completo</span>
+                      <ArrowRight size={16} className="transition-transform" />
+                    </motion.button>
+                  </Link>
                 </div>
               </motion.div>
             ))}
@@ -318,25 +325,27 @@ const Projects = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-center "
         >
-          <motion.button
-            className="cursor-pointer bg-gradient-to-r from-purple-600 via-pink-500 to-blue-600 text-white px-12 py-4 rounded-2xl font-semibold shadow-xl relative overflow-hidden group"
-            whileHover={{
-              scale: 1.05,
-              boxShadow: '0 25px 50px rgba(147, 51, 234, 0.4)',
-            }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <motion.div
-              className="absolute inset-0 bg-white/20"
-              initial={{ x: '-100%' }}
-              whileHover={{ x: '100%' }}
-              transition={{ duration: 0.6 }}
-            />
-            <span className="relative z-10 flex items-center space-x-2">
-              <span>Ver Todos os Projetos</span>
-              <Users size={20} />
-            </span>
-          </motion.button>
+          <Link href={'/renascence'} target={'_self'}>
+            <motion.button
+              className="cursor-pointer bg-gradient-to-r from-purple-600 via-pink-500 to-blue-600 text-white px-12 py-4 rounded-2xl font-semibold shadow-xl relative overflow-hidden group"
+              whileHover={{
+                scale: 1.05,
+                boxShadow: '0 25px 50px rgba(147, 51, 234, 0.4)',
+              }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <motion.div
+                className="absolute inset-0 bg-white/20"
+                initial={{ x: '-100%' }}
+                whileHover={{ x: '100%' }}
+                transition={{ duration: 0.6 }}
+              />
+              <span className="relative z-10 flex items-center space-x-2">
+                <span>Ver Projeto mais Recente</span>
+                <Users size={20} />
+              </span>
+            </motion.button>
+          </Link>
         </motion.div>
       </div>
     </AnimatedSection>

@@ -115,7 +115,7 @@ const Services = () => {
   return (
     <AnimatedSection
       id="services"
-      className="py-32  bg-dark bg-gradient-to-br from-gray-900 via-primary-700 to-support-600 relative overflow-hidden"
+      className="py-32  bg-dark bg-gradient-to-br from-gray-900 via-primary-700 to-support-600 relative overflow-hidden font-poppins"
     >
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
@@ -147,7 +147,7 @@ const Services = () => {
           >
             Soluções
             <motion.span
-              className="block text-transparent bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 bg-clip-text"
+              className="block  text-support-500"
               animate={{ backgroundPosition: ['0%', '100%', '0%'] }}
               transition={{ duration: 5, repeat: Infinity }}
             >
@@ -159,7 +159,7 @@ const Services = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl text-white max-w-3xl mx-auto leading-relaxed"
+            className="text-lg text-white max-w-3xl mx-auto leading-relaxed"
           >
             A TRIORB conecta tecnologia, experiência e inovação para que você visualize antes de
             construir.

@@ -79,3 +79,9 @@
 
 /* 3) Carrega todas as utilities (inclui margin, padding etc) */
 @tailwind utilities; /* :contentReference[oaicite:1]{index=1} */
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+}

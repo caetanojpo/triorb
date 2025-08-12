@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['var(--font-poppins)', 'sans-serif'],
+      },
       backgroundImage: {
         banner: 'url(/home-banner-bg.png)',
         folha_white: 'url(/renascence/folha-white.png)',

@@ -17,7 +17,7 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
   onDemoClick,
 }) => {
   return (
-    <main className="relative h-full min-h-screen lg:h-screen w-screen bg-primary-850">
+    <main className="relative h-full min-h-screen lg:h-screen w-screen bg-primary-850 font-poppins">
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-80 z-10" />
       <VideoBackground />
@@ -27,15 +27,17 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
         {/* Left Section */}
         <div className="flex w-full flex-col justify-center px-14 lg:w-1/2 pt-32 lg:pt-48 pb-20 lg:pb-0">
           <header className="font-black text-white">
-            <h5 className="text-[1.5rem] lg:text-[3rem] 2xl:text-[4.5rem] leading-10">
+            <h5 className="text-[1.5rem] lg:text-[2rem] 2xl:text-[3rem] leading-10 font-bold">
               {titleLines[0]}
             </h5>
-            <h4 className="text-[1.5rem] lg:text-[4rem] 2xl:lg:text-[6rem]">{titleLines[1]}</h4>
+            <h4 className="text-[1.5rem] lg:text-[2.5rem] 2xl:lg:text-[4rem] font-bold">
+              {titleLines[1]}
+            </h4>
           </header>
 
           <div className={'flex'}>
-            <section className="mt-8 max-w-lg flex flex-col gap-6">
-              <p className="text-white lg:text-[1.2rem] 2xl:text-[1.5rem] lg:leading-7">
+            <section className="mt-8 max-w-full flex flex-col gap-6">
+              <p className="text-white lg:text-[0.9rem] 2xl:text-[1.1rem] lg:leading-7 font-normal">
                 {description}
               </p>
               <BannerButton />

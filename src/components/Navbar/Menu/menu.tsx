@@ -59,7 +59,7 @@ const Menu: React.FC<MenuProps> = ({ variant = 'ghost' }) => {
         <li key={idx} className="relative">
           <Link href={item.link} passHref>
             <motion.div
-              className="font-semibold py-2 px-3"
+              className=" py-2 px-3 font-poppins font-bold"
               whileHover={{ scale: 1.1 }}
               transition={{ type: 'spring', stiffness: 200 }}
             >

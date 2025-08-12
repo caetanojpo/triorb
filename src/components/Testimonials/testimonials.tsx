@@ -3,47 +3,49 @@ import React, { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Award, ChevronLeft, ChevronRight, Play, Quote, Star } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection/animetedSection';
+import Image from 'next/image';
 
 const Testimonials = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
   const testimonials = [
-    {
-      id: 1,
-      name: 'CRISTIANO',
-      company: 'EMPRESA ROCKSTAR',
-      role: 'CEO & Fundador',
-      rating: 5,
-      text: 'O projeto 3D ficou simplesmente incrível. Dá para ver o cuidado, o realismo e o nível de detalhamento em cada parte, superou minhas expectativas — é claro que eu já esperava algo bom. Obrigado por transformar minha casa em algo visual e impactante. Com certeza esse material vai fazer toda a diferença na apresentação do projeto.',
-      projectType: 'Residencial Premium',
-      videoThumbnail:
-        'https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-      avatar: 'CR',
-    },
+    // {
+    //   id: 1,
+    //   name: 'CRISTIANO',
+    //   company: 'EMPRESA ROCKSTAR',
+    //   role: 'CEO & Fundador',
+    //   rating: 5,
+    //   text: 'O projeto 3D ficou simplesmente incrível. Dá para ver o cuidado, o realismo e o nível de detalhamento em cada parte, superou minhas expectativas — é claro que eu já esperava algo bom. Obrigado por transformar minha casa em algo visual e impactante. Com certeza esse material vai fazer toda a diferença na apresentação do projeto.',
+    //   projectType: 'Residencial Premium',
+    //   videoThumbnail:
+    //     'https://images.pexels.com/photos/1486222/pexels-photo-1486222.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+    //   avatar: 'CR',
+    // },
     {
       id: 2,
-      name: 'MARINA SILVA',
-      company: 'CONSTRUTORA MODERNA',
-      role: 'Diretora de Projetos',
+      name: 'VINICIUS DE OLIVEIRA',
+      company: 'DUAÇO',
+      role: 'Diretor Comercial',
       rating: 5,
       text: 'A TRIORB revolucionou nossa forma de apresentar projetos aos clientes. O tour virtual 360° permitiu que nossos compradores visualizassem completamente o imóvel antes mesmo da construção começar. Isso aumentou nossas vendas em 40% no último trimestre.',
-      projectType: 'Complexo Comercial',
+      projectType: 'Residencial',
       videoThumbnail:
         'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-      avatar: 'MS',
+      avatar: 'VO',
+      avatarImage: '/testimonials/vinicius_duaco.png',
     },
-    {
-      id: 3,
-      name: 'RICARDO SANTOS',
-      company: 'ARQUITETURA INOVADORA',
-      role: 'Arquiteto Principal',
-      rating: 5,
-      text: 'Como arquiteto, sempre busquei formas de mostrar minhas ideias de maneira mais clara aos clientes. A tecnologia de realidade virtual da TRIORB me permitiu criar experiências únicas, onde os clientes literalmente caminham dentro dos projetos que criei.',
-      projectType: 'Residência de Luxo',
-      videoThumbnail:
-        'https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
-      avatar: 'RS',
-    },
+    // {
+    //   id: 3,
+    //   name: 'RICARDO SANTOS',
+    //   company: 'ARQUITETURA INOVADORA',
+    //   role: 'Arquiteto Principal',
+    //   rating: 5,
+    //   text: 'Como arquiteto, sempre busquei formas de mostrar minhas ideias de maneira mais clara aos clientes. A tecnologia de realidade virtual da TRIORB me permitiu criar experiências únicas, onde os clientes literalmente caminham dentro dos projetos que criei.',
+    //   projectType: 'Residência de Luxo',
+    //   videoThumbnail:
+    //     'https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
+    //   avatar: 'RS',
+    // },
   ];
 
   const nextTestimonial = () => {
@@ -59,7 +61,7 @@ const Testimonials = () => {
   return (
     <AnimatedSection
       id={'testimonials'}
-      className="py-32 bg-gradient-to-br from-support-600 via-gray-900 to-primary-500 overflow-hidden text-white relative"
+      className="py-32 bg-gradient-to-br from-support-600 via-gray-900 to-primary-500 overflow-hidden text-white relative font-poppins"
     >
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -181,13 +183,19 @@ const Testimonials = () => {
                   </div>
 
                   {/* Testimonial Text */}
-                  <blockquote className="text-lg lg:text-xl leading-relaxed font-medium text-white">
+                  <blockquote className="text-lg lg:text-xl leading-relaxed font-thin text-white">
                     &#34;{current.text}&#34;
                   </blockquote>
 
                   {/* Author Info */}
                   <div className="flex items-center space-x-4">
-                    <div className="w-16 h-16 bg-gradient-to-r from-gray-400 to-gray-500 rounded-full flex items-center justify-center">
+                    <div className="w-16 h-16 bg-gradient-to-r from-gray-400 to-gray-500 rounded-full flex items-center justify-center relative">
+                      <Image
+                        src={current.avatarImage}
+                        alt={''}
+                        fill
+                        className={'rounded-full object-cover'}
+                      />
                       <span className="text-white font-bold text-lg">{current.avatar}</span>
                     </div>
                     <div>

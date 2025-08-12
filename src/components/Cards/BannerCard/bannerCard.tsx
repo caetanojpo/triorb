@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const BannerCard = () => {
   return (
     <motion.div
-      className={'flex h-[70%] w-full flex-col justify-center items-center rounded-xl'}
+      className={'flex h-[70%] w-full flex-col justify-center items-center rounded-xl font-poppins'}
       whileHover={{
         scale: 1.01,
         boxShadow: '0 25px 50px rgba(59, 130, 246, 0.2)',
@@ -17,22 +17,26 @@ const BannerCard = () => {
       {/*</div>*/}
       <div className={'flex flex-col  w-full h-full bg-white text-text p-4 rounded'}>
         <div className={'flex w-full flex-col justify-center items-center gap-2 font-bold p-6'}>
-          <h5 className={'text-[1.3rem] 2xl:text-[1.4rem] leading-8 2xl:leading-4'}>
+          <h5 className={'text-[1rem] 2xl:text-[1.4rem] leading-6 2xl:leading-4 font-bold'}>
             TECNOLOGIA 3D PARA TRANSFORMAR
           </h5>
-          <h4 className={'text-[2rem] 2xl:text-[2.3rem] text-secondary-500'}>
+          <h4 className={'text-[1.5rem] 2xl:text-[2.3rem] text-secondary-500 font-bold'}>
             O MERCADO IMOBILIÁRIO
           </h4>
           <div className={'w-full h-[1px] bg-gray-300'} />
         </div>
         <div className={'flex w-full flex-col justify-center gap-4 px-6 '}>
-          <p className={'text-[1.2rem]'}>
+          <p className={'text-[0.9rem] 2xl:text-[1.2rem]'}>
             A <span className={'text-secondary-500 font-bold'}>TRIORB</span> é especializada em
             soluções visuais de alta performance para construção civil e incorporação imobiliária.
             Com modelagem 3D, realidade aumentada e visualizações interativas, transformamos
             projetos arquitetônicos em experiências imersivas, mais claras, atraentes e comerciais.
           </p>
-          <ul className={'flex flex-col w-full h-full list-disc px-6 marker:text-secondary-500'}>
+          <ul
+            className={
+              'flex text-[0.9rem] 2xl:text-[1.2rem] flex-col w-full h-full list-disc px-6 marker:text-secondary-500'
+            }
+          >
             <li className={''}>
               Valorizamos empreendimentos com imagens realistas e apresentações impactantes
             </li>
