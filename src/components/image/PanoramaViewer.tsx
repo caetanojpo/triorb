@@ -15,6 +15,9 @@ type PanoramaProps = {
 
 function PanoramaMesh({ imageSrc }: { imageSrc: string }) {
   const texture = useLoader(TextureLoader, imageSrc);
+  texture.wrapS = THREE.RepeatWrapping;
+  texture.repeat.x = -1;
+  texture.needsUpdate = true;
   return (
     <mesh>
       <sphereGeometry args={[500, 60, 40]} />

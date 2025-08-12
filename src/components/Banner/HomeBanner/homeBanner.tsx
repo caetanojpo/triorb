@@ -43,36 +43,36 @@ const HomeBanner: React.FC<HomeBannerProps> = ({
               <BannerButton />
             </section>
           </div>
-          <section>
-            {/* Animated Stats */}
-            <motion.div
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.8 }}
-              className="flex flex-auto lg:flex-wrap gap-8 pt-8"
-            >
-              {[
-                { number: '500+', label: 'Projetos Realizados' },
-                { number: '50+', label: 'Clientes Satisfeitos' },
-                { number: '5+', label: 'Anos de Experiência' },
-              ].map((stat, index) => (
-                <motion.div
-                  key={index}
-                  className="text-center"
-                  whileHover={{ scale: 1.1 }}
-                  transition={{ type: 'spring', stiffness: 400, damping: 10 }}
-                >
-                  <motion.div
-                    className="text-2xl lg:text-3xl font-bold text-white mb-1"
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.6, delay: 1 + index * 0.1 }}
-                  >
-                    {stat.number}
-                  </motion.div>
-                  <div className="text-secondary-500 text-sm font-medium">{stat.label}</div>
-                </motion.div>
-              ))}
-            </motion.div>
-          </section>
+          {/*<section>*/}
+          {/*  /!* Animated Stats *!/*/}
+          {/*  <motion.div*/}
+          {/*    animate={{ opacity: 1, y: 0 }}*/}
+          {/*    transition={{ duration: 0.8, delay: 0.8 }}*/}
+          {/*    className="flex flex-auto lg:flex-wrap gap-8 pt-8"*/}
+          {/*  >*/}
+          {/*    {[*/}
+          {/*      { number: '500+', label: 'Projetos Realizados' },*/}
+          {/*      { number: '50+', label: 'Clientes Satisfeitos' },*/}
+          {/*      { number: '5+', label: 'Anos de Experiência' },*/}
+          {/*    ].map((stat, index) => (*/}
+          {/*      <motion.div*/}
+          {/*        key={index}*/}
+          {/*        className="text-center"*/}
+          {/*        whileHover={{ scale: 1.1 }}*/}
+          {/*        transition={{ type: 'spring', stiffness: 400, damping: 10 }}*/}
+          {/*      >*/}
+          {/*        <motion.div*/}
+          {/*          className="text-2xl lg:text-3xl font-bold text-white mb-1"*/}
+          {/*          animate={{ opacity: 1, scale: 1 }}*/}
+          {/*          transition={{ duration: 0.6, delay: 1 + index * 0.1 }}*/}
+          {/*        >*/}
+          {/*          {stat.number}*/}
+          {/*        </motion.div>*/}
+          {/*        <div className="text-secondary-500 text-sm font-medium">{stat.label}</div>*/}
+          {/*      </motion.div>*/}
+          {/*    ))}*/}
+          {/*  </motion.div>*/}
+          {/*</section>*/}
         </div>
 
         {/* Sidebar BannerCard */}
