@@ -61,7 +61,7 @@ export const DetailsMenu: React.FC<DetailsMenuProps> = ({
             <div className="font-semibold text-gray-800 mb-1">{image.title}</div>
             <div className="text-sm text-gray-600">{image.description}</div>
             <div className="flex items-center space-x-2 mt-2 text-xs text-gray-500">
-              {image.id.includes('morning') ? (
+              {image.id.includes('manha') ? (
                 <>
                   <Calendar className="w-3 h-3" />
                   <span>Manhã</span>
@@ -72,7 +72,7 @@ export const DetailsMenu: React.FC<DetailsMenuProps> = ({
                   <span>Tarde</span>
                 </>
               )}
-              {image.id.includes('house') && (
+              {image.id.includes('padrao') && (
                 <>
                   <Home className="w-3 h-3" />
                   <span>Com Casa</span>
