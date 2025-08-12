@@ -8,7 +8,6 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'Missing id parameter' }, { status: 400 });
   }
 
-  // Link direto do Google Drive
   const driveUrl = `https://drive.google.com/uc?id=${id}`;
 
   try {

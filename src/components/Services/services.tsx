@@ -13,6 +13,7 @@ import {
   MousePointer2,
 } from 'lucide-react';
 import AnimatedSection from '@/components/AnimatedSection/animetedSection';
+import Link from 'next/link';
 
 const Services = () => {
   const [hoveredService, setHoveredService] = useState<number | null>(null);
@@ -290,14 +291,20 @@ const Services = () => {
                           ))}
                         </div>
                         <motion.button
-                          className={`cursor-pointer w-full bg-gradient-to-r ${services[selectedService].color} text-white py-3 rounded-xl font-semibold shadow-lg`}
+                          className={`cursor-pointer py-3 w-full bg-gradient-to-r ${services[selectedService].color} text-white  rounded-xl font-semibold shadow-lg`}
                           whileHover={{
                             scale: 1.02,
                             boxShadow: '0 10px 30px rgba(59, 130, 246, 0.3)',
                           }}
                           whileTap={{ scale: 0.98 }}
                         >
-                          Solicitar Orçamento
+                          <Link
+                            href={'https://wa.me/5518996138186'}
+                            target={'_blank'}
+                            className={'w-full'}
+                          >
+                            Solicitar Orçamento
+                          </Link>
                         </motion.button>
                       </>
                     );
