@@ -79,8 +79,8 @@ export const RenascenceConstructionStatus = () => {
             viewport={{ once: true }}
           >
             <h4 className="text-lg">ESTIMATIVA DE ENTREGA</h4>
-            <h5 className="text-xl">Novembro de 2026 primeira parte!</h5>
-            <h5 className="text-xl">Segunda data (final do projeto) novembro de 2027!</h5>
+            <h5 className="text-xl">1ª Parte 11/2026</h5>
+            <h5 className="text-xl">2ª Parte 11/2027 (Final)</h5>
           </motion.div>
           <motion.div
             className="text-center text-sm opacity-80"
