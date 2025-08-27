@@ -27,7 +27,7 @@ const Testimonials = () => {
       company: 'DUAÇO',
       role: 'Diretor Comercial',
       rating: 5,
-      text: 'A TRIORB revolucionou nossa forma de apresentar projetos aos clientes. O tour virtual 360° permitiu que nossos compradores visualizassem completamente o imóvel antes mesmo da construção começar. Isso aumentou nossas vendas em 40% no último trimestre.',
+      text: 'A TRIORB revolucionou nossa forma de apresentar projetos aos clientes. O tour virtual 360° permitiu que nossos compradores visualizassem completamente o imóvel antes mesmo da construção começar.',
       projectType: 'Residencial',
       videoThumbnail:
         'https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop',
