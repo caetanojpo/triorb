@@ -49,7 +49,6 @@ export const metadata: Metadata = {
     creator: '@tyoutecnologia',
     images: ['https://www.triorb.com/twitter-card.jpg'],
   },
-  viewport: 'width=device-width, initial-scale=1',
 };
 
 export default function RootLayout({

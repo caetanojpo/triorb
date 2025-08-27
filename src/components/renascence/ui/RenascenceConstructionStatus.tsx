@@ -16,7 +16,7 @@ export const RenascenceConstructionStatus = () => {
         viewport={{ once: true }}
       >
         <div className="w-full h-full min-h-[65vh] relative">
-          <Image src="/renascence/obras.JPEG" alt="Status da obra" fill className="object-cover" />
+          <Image src="/home-banner-bg.png" alt="Status da obra" fill className="object-cover" />
         </div>
       </motion.div>
       <motion.div
