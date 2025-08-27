@@ -16,7 +16,7 @@ export const RenascenceConstructionStatus = () => {
         viewport={{ once: true }}
       >
         <div className="w-full h-full min-h-[65vh] relative">
-          <Image src="/home-banner-bg.png" alt="Status da obra" fill className="object-cover" />
+          <Image src="/renascence/obras.JPEG" alt="Status da obra" fill className="object-cover" />
         </div>
       </motion.div>
       <motion.div
@@ -72,15 +72,19 @@ export const RenascenceConstructionStatus = () => {
             </ul>
           </motion.div>
           <motion.div
-            className="text-center font-black space-y-2"
+            className="space-y-2 text-center"
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 1.8 }}
             viewport={{ once: true }}
           >
             <h4 className="text-lg">ESTIMATIVA DE ENTREGA</h4>
-            <h5 className="text-xl">1ª Parte 11/2026</h5>
-            <h5 className="text-xl">2ª Parte 11/2027 (Final)</h5>
+            <h5 className="text-xl">
+              <span className={'font-black'}>1ª Parte:</span> 11/2026
+            </h5>
+            <h5 className="text-xl">
+              <span className={'font-black'}>2ª Parte::</span> 11/2027 (Final)
+            </h5>
           </motion.div>
           <motion.div
             className="text-center text-sm opacity-80"
@@ -89,7 +93,7 @@ export const RenascenceConstructionStatus = () => {
             transition={{ duration: 0.5, delay: 2 }}
             viewport={{ once: true }}
           >
-            <span>Atualizado em 06/08/2025</span>
+            <span>Atualizado em 26/08/2025</span>
           </motion.div>
         </motion.div>
       </motion.div>
