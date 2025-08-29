@@ -22,7 +22,9 @@ export const LotsMenu: React.FC<LotsMenuProps> = ({ selectedBlock, lots, onLotSe
       className={'h-full overflow-y-auto'}
     >
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg font-semibold text-renascence">Quadra {selectedBlock.id}</h2>
+        <h2 className="text-lg font-semibold text-renascence" translate="no">
+          Quadra {selectedBlock.id}
+        </h2>
         <motion.button
           onClick={onBack}
           className="cursor-pointer text-sm text-gray-500 hover:text-gray-700 flex items-center space-x-1"

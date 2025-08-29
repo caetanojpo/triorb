@@ -38,7 +38,7 @@ const Projects = () => {
       year: '2025',
       area: '???m²',
       units: '5',
-      status: 'Em andamento',
+      status: 'Concluído',
       technologies: ['Planta 3D', 'Vídeo Tour', 'Imagem 3D'],
       color: 'from-green-500 to-green-600',
       link: 'https://youtu.be/kwD-hLECxVY?si=YJy5UrTAIDvuxFrg',

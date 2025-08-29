@@ -35,7 +35,9 @@ export const BlocksMenu: React.FC<BlocksMenuProps> = ({ blocks, onBlockSelect })
             whileHover={{ scale: 1.05, y: -3 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="font-bold text-emerald-700 text-lg">{block.id}</div>
+            <div className="font-bold text-emerald-700 text-lg" translate="no">
+              {block.id}
+            </div>
             <div className="text-xs text-emerald-600 mt-1">Disponível</div>
           </motion.button>
         ))}

@@ -177,10 +177,10 @@ const Footer = () => {
                     <Phone size={20} className="text-green-400 mt-1 flex-shrink-0" />
                     <div className="text-blue-100">
                       <p className="font-semibold text-white">+55 (18) 99613-8186</p>
-                      <div className="flex items-center space-x-1 text-sm">
-                        <Clock size={12} />
-                        <span>Segunda à Sexta, 8h às 18h</span>
-                      </div>
+                      {/*<div className="flex items-center space-x-1 text-sm">*/}
+                      {/*  <Clock size={12} />*/}
+                      {/*  <span>Resposta em até 24h</span>*/}
+                      {/*</div>*/}
                     </div>
                   </Link>
                 </motion.div>
@@ -214,7 +214,7 @@ const Footer = () => {
                     <MapPin size={20} className="text-support-300 mt-1 flex-shrink-0" />
                     <div className="text-blue-100">
                       <p className="font-semibold text-white">Rua João Hipólito</p>
-                      <p>Vila São Jorge, São Paulo - SP</p>
+                      <p>Assis - SP</p>
                       <p className="text-sm">CEP: 19801-190</p>
                     </div>
                   </Link>
