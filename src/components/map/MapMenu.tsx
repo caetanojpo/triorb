@@ -7,7 +7,7 @@ import { BlocksView } from '@/components/views/BlocksView';
 import { Sidebar } from '@/components/sidebar/Sidebar';
 import { LotsView } from '@/components/views/LotViews';
 import { LotDetailsView } from '@/components/details/LotDetails';
-import { siteData } from '@/data/siteData';
+import { siteDataNew as siteData } from '@/data/siteData';
 
 export default function MapMenu() {
   const {
@@ -41,7 +41,7 @@ export default function MapMenu() {
   return (
     <div className="min-h-3/4 h-full w-full">
       <div className="mx-auto flex h-[140dvh] xl:h-screen max-w-[100dvw] flex-col gap-6 xl:flex-row xl:max-w-[95dvw]">
-        <main className="xl:flex-1 min-h-[70dvh] xl:min-h-screen">
+        <main className="xl:flex-1 min-h-[35dvh] xl:min-h-screen">
           <AnimatePresence mode="wait">
             {currentLayer === 'blocks' && (
               <BlocksView

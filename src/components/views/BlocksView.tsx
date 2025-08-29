@@ -1,12 +1,12 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Block } from '@/types/types';
 import { pageVariants } from '@/utils/animation';
-import Image from 'next/image';
-import Spinner from '@/components/spinner/Spinner';
+import ImageMapper, { MapArea } from 'react-img-mapper';
 import LoadingFallback from '@/components/spinner/LoadingFallback';
+import { siteDataNew } from '@/data/siteData';
 
 interface BlocksViewProps {
   blocks: Block[];
@@ -22,26 +22,70 @@ export const BlocksView: React.FC<BlocksViewProps> = ({
   const [isLoaded, setIsLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
   const [attempt, setAttempt] = useState(0);
+  const [imageDimensions, setImageDimensions] = useState<{ width: number; height: number } | null>(
+    null,
+  );
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [parentWidth, setParentWidth] = useState(0);
+  const [hoveredId, setHoveredId] = useState<string | null>(null);
 
-  const handleLoad = () => {
-    setIsLoaded(true);
-    setHasError(false);
-  };
+  useEffect(() => {
+    const updateWidth = () => {
+      if (containerRef.current) {
+        setParentWidth(containerRef.current.clientWidth);
+      }
+    };
 
-  const handleError = () => {
-    setHasError(true);
-    setIsLoaded(false);
-  };
+    updateWidth();
+    window.addEventListener('resize', updateWidth);
+    return () => window.removeEventListener('resize', updateWidth);
+  }, []);
+
+  useEffect(() => {
+    if (blocksImage) {
+      const img = new Image();
+      img.src = `${blocksImage}?attempt=${attempt}`;
+      img.onload = () => {
+        setImageDimensions({ width: img.naturalWidth, height: img.naturalHeight });
+        setIsLoaded(true);
+        setHasError(false);
+      };
+      img.onerror = () => {
+        setHasError(true);
+        setIsLoaded(false);
+      };
+    } else {
+      setIsLoaded(true);
+      setHasError(false);
+    }
+  }, [blocksImage, attempt]);
 
   const handleRetry = () => {
     setHasError(false);
     setIsLoaded(false);
-    setAttempt((s) => s + 1);
+    setAttempt((prev) => prev + 1);
   };
+
+  const areas: MapArea[] = siteDataNew.overview.clickableAreas.map((area) => {
+    const block = blocks.find((b) => b.id === area.blockId);
+    const available = !!block?.available;
+    const isHovered = hoveredId === area.blockId;
+    return {
+      id: area.blockId,
+      shape: area.shape,
+      coords: area.coords.split(',').map(Number),
+      active: available,
+      disabled: !available,
+      fillColor: 'rgba(0,0,0,0)',
+      preFillColor: available ? (isHovered ? 'rgba(0, 148, 0, 0.2)' : 'rgba(0,0,0,0)') : undefined,
+      strokeColor: available ? (isHovered ? 'green' : 'green') : 'transparent',
+      lineWidth: available ? (isHovered ? 6 : 4) : 1,
+    };
+  });
 
   return (
     <motion.div
-      className="relative w-full h-full bg-renascence xl:rounded-2xl overflow-hidden"
+      className="relative w-full h-[35dvh] lg:h-[45dvh] xl:h-[92dvh] 2xl:h-full bg-renascence xl:rounded-2xl overflow-hidden"
       variants={pageVariants}
       initial="initial"
       animate="animate"
@@ -50,9 +94,7 @@ export const BlocksView: React.FC<BlocksViewProps> = ({
       role="region"
       aria-label="Visualização das quadras"
     >
-      {/* Wrapper do background image - precisa ser relative para 'fill' do next/image */}
-      <div className="absolute inset-0">
-        {/* Spinner enquanto carrega */}
+      <div ref={containerRef} className="absolute inset-0">
         {!isLoaded && !hasError && (
           <div
             aria-hidden={false}
@@ -62,7 +104,6 @@ export const BlocksView: React.FC<BlocksViewProps> = ({
           </div>
         )}
 
-        {/* Fallback de erro */}
         {hasError && (
           <div className="absolute inset-0 z-20 flex flex-col items-center justify-center gap-3 bg-black/40 text-white p-4">
             <p className="text-sm">Erro ao carregar a imagem de fundo.</p>
@@ -75,67 +116,57 @@ export const BlocksView: React.FC<BlocksViewProps> = ({
           </div>
         )}
 
-        {/* Image com transição de opacidade */}
-        {/* NOTE: key depende de `attempt` para forçar remount quando retry */}
         {blocksImage ? (
-          <Image
-            key={`${blocksImage}-${attempt}`}
-            src={blocksImage}
-            alt=""
-            fill
-            priority={false}
-            // className aplicado ao <img> interno — usamos object-* pra controlar display
-            className={`object-contain object-center transition-opacity duration-500 ease-out ${
-              isLoaded ? 'opacity-100' : 'opacity-0'
-            }`}
-            onLoadingComplete={() => handleLoad()}
-            onError={() => handleError()}
-            // se imagem for externa, certifique-se de configurar next.config.js remotePatterns/domains
-            // ou use unoptimized (dev/prototipagem) -> unoptimized={true}
-          />
+          isLoaded && (
+            <ImageMapper
+              src={blocksImage}
+              name="blocks-map"
+              areas={areas}
+              fillColor="rgba(0,0,0,0)"
+              strokeColor="transparent"
+              lineWidth={2}
+              active={true}
+              disabled={false}
+              responsive={true}
+              parentWidth={parentWidth}
+              natural={false}
+              onClick={(area) => {
+                const block = blocks.find((b) => b.id === area.id);
+                if (block && block.available) {
+                  onBlockSelect(block);
+                }
+              }}
+              onMouseEnter={(area) => {
+                if (!area.disabled) {
+                  setHoveredId(area.id);
+                }
+              }}
+              onMouseLeave={() => setHoveredId(null)}
+              imgProps={{
+                alt: 'Mapa das quadras do empreendimento',
+                className:
+                  'object-cover object-center w-full h-full transition-opacity duration-500 ease-out',
+              }}
+              containerProps={{
+                className: 'w-full h-full relative',
+              }}
+            />
+          )
         ) : (
-          // caso blocksImage esteja vazio, exiba um placeholder simples
           <div className="absolute inset-0 flex items-center justify-center bg-gray-100/40">
             <span className="text-sm text-gray-600">Sem imagem</span>
           </div>
         )}
       </div>
-      <div className="relative w-full h-full">
-        {/*{blocks.map((block, index) => (*/}
-        {/*    <motion.button*/}
-        {/*        key={block.id}*/}
-        {/*        custom={index}*/}
-        {/*        variants={blockVariants}*/}
-        {/*        initial="initial"*/}
-        {/*        animate="animate"*/}
-        {/*        whileHover="hover"*/}
-        {/*        whileTap={{ scale: 0.95 }}*/}
-        {/*        onClick={() => onBlockSelect(block)}*/}
-        {/*        disabled={!block.available}*/}
-        {/*        className={`absolute transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 rounded-2xl border-3 font-bold text-xl transition-all duration-300 shadow-lg ${*/}
-        {/*            block.available*/}
-        {/*                ? 'bg-emerald-500 hover:bg-emerald-600 text-white border-emerald-300 cursor-pointer hover:shadow-2xl'*/}
-        {/*                : 'bg-gray-400 text-gray-600 border-gray-300 cursor-not-allowed opacity-50'*/}
-        {/*        }`}*/}
-        {/*        style={{*/}
-        {/*            left: `${block.position.x}%`,*/}
-        {/*            top: `${block.position.y}%`,*/}
-        {/*        }}*/}
-        {/*    >*/}
-        {/*        {block.id}*/}
-        {/*    </motion.button>*/}
-        {/*))}*/}
-      </div>
+
       <motion.div
-        className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg"
+        className="hidden xl:block absolute bottom-6 left-6 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg"
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.5 }}
       >
         <h3 className="font-semibold text-renascence mb-2">Selecione uma Quadra</h3>
-        <p className="text-sm text-gray-600">
-          Clique em uma quadra disponível (verde) para ver os lotes
-        </p>
+        <p className="text-sm text-gray-600">Clique em uma quadra disponível para ver os lotes</p>
       </motion.div>
     </motion.div>
   );

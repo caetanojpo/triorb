@@ -1,12 +1,11 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { lotVariants, pageVariants } from '@/utils/animation';
+import { pageVariants } from '@/utils/animation';
 import { Block, Lot } from '@/types/types';
 import { BackButton } from '@/components/Buttons/BackButton';
-import Image from 'next/image';
-import Spinner from '@/components/spinner/Spinner';
+import ImageMapper, { MapArea } from 'react-img-mapper';
 import LoadingFallback from '@/components/spinner/LoadingFallback';
 
 interface LotsViewProps {
@@ -20,28 +19,72 @@ export const LotsView: React.FC<LotsViewProps> = ({ lots, selectedBlock, onLotSe
   const [isLoaded, setIsLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
   const [attempt, setAttempt] = useState(0);
+  const [imageDimensions, setImageDimensions] = useState<{ width: number; height: number } | null>(
+    null,
+  );
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [parentWidth, setParentWidth] = useState(0);
+  const [hoveredId, setHoveredId] = useState<string | null>(null);
 
   const imageUrl = selectedBlock?.overviewImage?.url || '';
 
-  const handleLoad = () => {
-    setIsLoaded(true);
-    setHasError(false);
-  };
+  useEffect(() => {
+    const updateWidth = () => {
+      if (containerRef.current) {
+        setParentWidth(containerRef.current.clientWidth);
+      }
+    };
 
-  const handleError = () => {
-    setHasError(true);
-    setIsLoaded(false);
-  };
+    updateWidth();
+    window.addEventListener('resize', updateWidth);
+    return () => window.removeEventListener('resize', updateWidth);
+  }, []);
+
+  useEffect(() => {
+    if (imageUrl) {
+      const img = new Image();
+      img.src = `${imageUrl}?attempt=${attempt}`;
+      img.onload = () => {
+        setImageDimensions({ width: img.naturalWidth, height: img.naturalHeight });
+        setIsLoaded(true);
+        setHasError(false);
+      };
+      img.onerror = () => {
+        setHasError(true);
+        setIsLoaded(false);
+      };
+    } else {
+      setIsLoaded(true);
+      setHasError(false);
+    }
+  }, [imageUrl, attempt]);
 
   const handleRetry = () => {
     setHasError(false);
     setIsLoaded(false);
-    setAttempt((s) => s + 1);
+    setAttempt((prev) => prev + 1);
   };
+
+  const areas: MapArea[] = (selectedBlock.clickableAreas || []).map((area) => {
+    const lot = selectedBlock.lots.find((l) => l.id === area.lotId);
+    const available = !!lot?.available;
+    const isHovered = hoveredId === area.lotId;
+    return {
+      id: area.lotId,
+      shape: area.shape,
+      coords: area.coords.split(',').map(Number),
+      active: available,
+      disabled: !available,
+      fillColor: 'rgba(0,0,0,0)',
+      preFillColor: available ? (isHovered ? 'rgba(0, 148, 0, 0.2)' : 'rgba(0,0,0,0)') : undefined,
+      strokeColor: available ? (isHovered ? 'green' : 'green') : 'transparent',
+      lineWidth: available ? (isHovered ? 6 : 4) : 1,
+    };
+  });
 
   return (
     <motion.div
-      className="relative w-full h-full bg-renascence xl:rounded-2xl overflow-hidden"
+      className="relative w-full  h-[35dvh] lg:h-[45dvh]  xl:h-[92dvh] 2xl:h-full bg-renascence xl:rounded-2xl overflow-hidden"
       variants={pageVariants}
       initial="initial"
       animate="animate"
@@ -50,16 +93,13 @@ export const LotsView: React.FC<LotsViewProps> = ({ lots, selectedBlock, onLotSe
       role="region"
       aria-label={`Visualização da quadra ${selectedBlock?.id ?? ''}`}
     >
-      {/* Background image wrapper (absolute inset-0) */}
-      <div className="absolute inset-0">
-        {/* Spinner enquanto carrega */}
+      <div ref={containerRef} className="absolute inset-0">
         {!isLoaded && !hasError && (
           <div className="absolute inset-0 z-20 flex items-center justify-center bg-transparent pointer-events-none">
             <LoadingFallback />
           </div>
         )}
 
-        {/* Fallback de erro */}
         {hasError && (
           <div className="absolute inset-0 z-20 flex flex-col items-center justify-center gap-3 bg-black/40 text-white p-4">
             <p className="text-sm">Erro ao carregar a imagem de visualização.</p>
@@ -72,23 +112,42 @@ export const LotsView: React.FC<LotsViewProps> = ({ lots, selectedBlock, onLotSe
           </div>
         )}
 
-        {/* Image: usamos next/image para controlar loading/erro e ter otimização */}
         {imageUrl ? (
-          <Image
-            key={`${imageUrl}-${attempt}-${selectedBlock?.id}`}
-            src={imageUrl}
-            alt={`Quadra ${selectedBlock?.id} - visão geral`}
-            fill
-            priority={false}
-            className={`object-contain object-center transition-opacity duration-500 ease-out ${
-              isLoaded ? 'opacity-100' : 'opacity-0'
-            }`}
-            onLoadingComplete={() => handleLoad()}
-            onError={() => handleError()}
-            // Se for fonte externa, configure next.config.js (images.domains / remotePatterns)
-            // Para protótipo, pode usar unoptimized={true}
-            // unoptimized={true}
-          />
+          isLoaded && (
+            <ImageMapper
+              src={imageUrl}
+              name={`lots-map-${selectedBlock?.id}`}
+              areas={areas}
+              fillColor="rgba(0,0,0,0)"
+              strokeColor="transparent"
+              lineWidth={2}
+              active={true}
+              disabled={false}
+              responsive={true}
+              parentWidth={parentWidth}
+              natural={false}
+              onClick={(area) => {
+                const lot = selectedBlock.lots.find((l) => l.id === area.id);
+                if (lot && lot.available) {
+                  onLotSelect(lot);
+                }
+              }}
+              onMouseEnter={(area) => {
+                if (!area.disabled) {
+                  setHoveredId(area.id);
+                }
+              }}
+              onMouseLeave={() => setHoveredId(null)}
+              imgProps={{
+                alt: `Quadra ${selectedBlock?.id} - visão geral`,
+                className:
+                  'object-contain object-center w-full h-full transition-opacity duration-500 ease-out',
+              }}
+              containerProps={{
+                className: 'w-full h-full relative',
+              }}
+            />
+          )
         ) : (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-100/40">
             <span className="text-sm text-gray-600">Imagem não disponível</span>
@@ -96,37 +155,8 @@ export const LotsView: React.FC<LotsViewProps> = ({ lots, selectedBlock, onLotSe
         )}
       </div>
 
-      <div className="relative w-full h-full">
-        {/* Aqui vão seus botões/lotes (estavam comentados no original) */}
-        {/* Exemplo (descomente/adapte): */}
-        {/* {lots.map((lot, index) => (
-            <motion.button
-              key={lot.id}
-              custom={index}
-              variants={lotVariants}
-              initial="initial"
-              animate="animate"
-              whileHover="hover"
-              whileTap={{ scale: 0.9 }}
-              onClick={() => onLotSelect(lot)}
-              disabled={!lot.available}
-              className={`absolute transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 rounded-xl border-2 font-semibold text-sm transition-all duration-300 shadow-md ${
-                lot.available
-                  ? 'bg-emerald-500 hover:bg-emerald-600 text-white border-emerald-300 cursor-pointer hover:shadow-xl'
-                  : 'bg-red-400 text-red-100 border-red-300 cursor-not-allowed opacity-60'
-              }`}
-              style={{
-                left: `${lot.position.x}%`,
-                top: `${lot.position.y}%`,
-              }}
-            >
-              {lot.number}
-            </motion.button>
-          ))} */}
-      </div>
-
       <motion.div
-        className="absolute top-6 left-6 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg"
+        className="hidden xl:block absolute top-6 left-6 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg z-20"
         initial={{ x: -50, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.5 }}
@@ -135,7 +165,10 @@ export const LotsView: React.FC<LotsViewProps> = ({ lots, selectedBlock, onLotSe
         <p className="text-sm text-gray-600">Lotes disponíveis em verde</p>
       </motion.div>
 
-      <BackButton onClick={onBack} className="cursor-pointer absolute top-6 right-6" />
+      <BackButton
+        onClick={onBack}
+        className="cursor-pointer absolute top-48 xl:top-6 right-6 z-20"
+      />
     </motion.div>
   );
 };

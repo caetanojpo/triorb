@@ -1,0 +1,3993 @@
+{
+  "overview": {
+    "id": "site-360",
+    "title": "Visão Geral 360°",
+    "description": "Mapa completo do empreendimento em visão aérea 360°",
+    "url": "/api/proxy?id=1c7GoJ5j4qhTQT3d6YruZoxWbFBCo2_UY&sz=w1440",
+    "clickableAreas": [
+      {
+        "blockId": "A",
+        "title": "Quadra A",
+        "shape": "rect",
+        "coords": "350,626,469,792"
+      },
+      {
+        "blockId": "B",
+        "title": "Quadra B",
+        "shape": "rect",
+        "coords": "498,850,626,999"
+      },
+      {
+        "blockId": "C",
+        "title": "Quadra C",
+        "shape": "rect",
+        "coords": "500,625,624,797"
+      },
+      {
+        "blockId": "D",
+        "title": "Quadra D",
+        "shape": "rect",
+        "coords": "649,844,776,999"
+      },
+      {
+        "blockId": "E",
+        "title": "Quadra E",
+        "shape": "rect",
+        "coords": "645,619,778,795"
+      },
+      {
+        "blockId": "F",
+        "title": "Quadra F",
+        "shape": "rect",
+        "coords": "801,844,930,1000"
+      },
+      {
+        "blockId": "G",
+        "title": "Quadra G",
+        "shape": "rect",
+        "coords": "800,622,929,800"
+      },
+      {
+        "blockId": "H",
+        "title": "Quadra H",
+        "shape": "rect",
+        "coords": "949,870,1200,1000"
+      },
+      {
+        "blockId": "I",
+        "title": "Quadra I",
+        "shape": "poly",
+        "coords": "956,648,1186,344,1280,502,974,675"
+      },
+      {
+        "blockId": "J",
+        "title": "Quadra J",
+        "shape": "poly",
+        "coords": "1222,880,1303,856,1342,842,1393,819,1444,792,1507,895,1463,927,1427,949,1387,966,1348,982,1314,985,1273,995,1220,1002"
+      },
+      {
+        "blockId": "K",
+        "title": "Quadra K",
+        "shape": "poly",
+        "coords": "1463,782,1531,890,1806,727,1746,621"
+      },
+      {
+        "blockId": "L",
+        "title": "Quadra L",
+        "shape": "poly",
+        "coords": "1444,621,1475,597,1521,571,1568,549,1605,522,1661,493,1731,593,1677,627,1639,651,1593,670,1571,683,1536,705,1504,727,1473,744,1453,739,1443,722"
+      },
+      {
+        "blockId": "M",
+        "title": "Quadra M",
+        "shape": "poly",
+        "coords": "1331,507,1365,485,1407,466,1451,443,1492,417,1532,395,1563,380,1595,353,1656,461,1622,482,1590,504,1546,526,1517,543,1487,558,1456,573,1439,585,1422,595,1405,583,1365,551,1337,534"
+      },
+      {
+        "blockId": "N",
+        "title": "Quadra N",
+        "shape": "poly",
+        "coords": "1249,387,1305,490,1585,332,1515,229,1244,381"
+      },
+      {
+        "blockId": "O",
+        "title": "Quadra O",
+        "shape": "poly",
+        "coords": "1232,354,1507,202,1412,34,1205,317,1220,339"
+      }
+    ]
+  },
+  "blocks": [
+    {
+      "id": "1",
+      "name": "Quadra 1",
+      "available": true,
+      "overviewImage": {
+        "id": "1-topdown",
+        "url": "/api/proxy?id=1xnzM-70lRfkwWNT-VjFlSeytCGREpqnL&sz=w1440"
+      },
+      "lots": [],
+      "clickableAreas": []
+    },
+    {
+      "id": "2",
+      "name": "Quadra 2",
+      "available": true,
+      "overviewImage": {
+        "id": "2-topdown",
+        "url": "/api/proxy?id=1wk8wsBb9tmiOthZCj_tJ8y9P5VHHEQS4&sz=w1440"
+      },
+      "lots": [],
+      "clickableAreas": []
+    },
+    {
+      "id": "3",
+      "name": "Quadra 3",
+      "available": true,
+      "overviewImage": {
+        "id": "3-topdown",
+        "url": "/api/proxy?id=1uVmF3S92eYeU4L4h8Ld-jwQSFZGIizSX&sz=w1440"
+      },
+      "lots": [],
+      "clickableAreas": []
+    },
+    {
+      "id": "A",
+      "name": "Quadra A",
+      "available": true,
+      "overviewImage": {
+        "id": "A-topdown",
+        "url": "/api/proxy?id=1Lzc5OSB2C09K7KWxzvNj9A4g9BMdrA2B&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "A-08",
+          "number": "08",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1Gah01AaLYkwTtXrN2YNjYJaZvYqMGrn3&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=13YJrl8Y8Rqq7t0XlTwXGi8gMrrxMETG2&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1womdR8z-QUjGC1lwWq73E6iC6R_FaGci&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1FE7XJvETfNL9xlwXWOlg6Q4qOiIw0Jea&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "A-08",
+            "title": "A - 08",
+            "shape": "rect",
+            "coords": "890,380,1262,546"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "A-08",
+          "title": "A - 08",
+          "shape": "rect",
+          "coords": "890,380,1262,546"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Quadra B",
+      "available": true,
+      "overviewImage": {
+        "id": "B-topdown",
+        "url": "/api/proxy?id=115-fBJFoPaa_aBlGOhq9FHkYqN0OX7-z&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "B-02",
+          "number": "02",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1QIstZeKg6LFVOLrxScUof1YK7nEJ0Ub-&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=14yoryC_oGmdV-l3QpnKYZFwUQpvorevl&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1QMignhDQcgAdEEWeXPLH0TELQwVoUqoK&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1RJ2g5oPY9OCkOxolSAuoVyLC1eetmolW&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "B-02",
+            "title": "B - 02",
+            "shape": "rect",
+            "coords": "479,714,881,870"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "B-02",
+          "title": "B - 02",
+          "shape": "rect",
+          "coords": "479,714,881,870"
+        },
+        {
+          "lotId": "B-03",
+          "title": "B - 03",
+          "shape": "rect",
+          "coords": "479,549,881,707"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Quadra C",
+      "available": true,
+      "overviewImage": {
+        "id": "C-topdown",
+        "url": "/api/proxy?id=1n3wQyxHXV9M1EDutSGUrWne6pddTASPK&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "C-11",
+          "number": "11",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1qqHj8XnxwJJuFvc2ieJa9IQOvCnpWBbY&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1hAeaweT_9QHqtDtO2Cfdc9yslrFG_ut2&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1LIGqVL3SOn2VtK6ZwWg2jiJ1v1bu8PRr&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=11Prn4LK-kw4mVk1odOOmQc2--Sfyg_81&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "C-11",
+            "title": "C - 11",
+            "shape": "rect",
+            "coords": "971,722,1153,1055"
+          }
+        },
+        {
+          "id": "C-12",
+          "number": "12",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1i1YPuCV--4vTYqYEaAnoKo2effkCH_Cb&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=16GOyoPybOew1uC4BrhDfSMLfqezrMIA6&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1tEZfUwLCYrkuM0aILhxvxseS0UwyZ9uf&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1u-De6NEqdJHe5SRRCYowpUEPkxaV21-r&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "C-12",
+            "title": "C - 12",
+            "shape": "rect",
+            "coords": "788,724,966,1055"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "C-11",
+          "title": "C - 11",
+          "shape": "rect",
+          "coords": "971,722,1153,1055"
+        },
+        {
+          "lotId": "C-12",
+          "title": "C - 12",
+          "shape": "rect",
+          "coords": "788,724,966,1055"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Quadra D",
+      "available": true,
+      "overviewImage": {
+        "id": "D-topdown",
+        "url": "/api/proxy?id=1vGK2BHMlqKYKEx2RzT4hQeQ11xMUdm75&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "D-10",
+          "number": "10",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1B86knjfI4u_sQakzbEb9oXuO6yf9BQy1&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1sS3SUnkUOQHrOVTjWZtUvMbmkwQAxA5J&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1i2GOavpBfRWpKVznAcn7YDUkqF1L1qJu&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1fEKsDxVfbnPlTX9fgBLlKHaPnKKw2RQ-&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "D-10",
+            "title": "D - 10",
+            "shape": "rect",
+            "coords": "927,809,1329,1043"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "D-10",
+          "title": "D - 10",
+          "shape": "rect",
+          "coords": "927,809,1329,1043"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Quadra E",
+      "available": false,
+      "overviewImage": {
+        "id": "E-topdown",
+        "url": "/api/proxy?id=1qQaBleswUU-RbUghmUqnawQ2eL7jHKJS&sz=w1440"
+      },
+      "lots": [],
+      "clickableAreas": []
+    },
+    {
+      "id": "F",
+      "name": "Quadra F",
+      "available": false,
+      "overviewImage": {
+        "id": "F-topdown",
+        "url": "/api/proxy?id=1ElhEVdSYzsVAyTw7Sum1hNmHyjZmq27h&sz=w1440"
+      },
+      "lots": [],
+      "clickableAreas": []
+    },
+    {
+      "id": "G",
+      "name": "Quadra G",
+      "available": false,
+      "overviewImage": {
+        "id": "G-topdown",
+        "url": "/api/proxy?id=1wrj47FNliOnwig0DK4DpYu_JWt69vVTp&sz=w1440"
+      },
+      "lots": [],
+      "clickableAreas": []
+    },
+    {
+      "id": "H",
+      "name": "Quadra H",
+      "available": true,
+      "overviewImage": {
+        "id": "H-topdown",
+        "url": "/api/proxy?id=1dzZ7iVGy3ovkyEAcJ_hWQ_11LGvhvUdl&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "H-07",
+          "number": "07",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1k4MSCSScvURIIBfMlJ9Q5MnqNKL_cGxC&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1BTQW1PrVgNhFYUiUmGZa4pHjQTq26v1D&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1bts9rtg3K0UqSMwxvj-AmPjoMO-YV5ez&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=18OE1seJvM4NPFmLw4dv9K4kWT4_l-tfi&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "H-07",
+            "title": "H - 07",
+            "shape": "rect",
+            "coords": "1188,115,1361,537"
+          }
+        },
+        {
+          "id": "H-12",
+          "number": "12",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1oL-HWXYd_7mQbD_7duMWW24py-OUKpZl&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1mNhFDUrrzL-HlmTN3JTKCdET2tsW-EME&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1t-G4WYrDpUo1ap3tfB-hcxaE3o8boQ5X&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1kyBzXvz6Yp8Up1h3MwOUVN1pFOkhyuU2&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "H-12",
+            "title": "H - 12",
+            "shape": "rect",
+            "coords": "1195,546,1363,970"
+          }
+        },
+        {
+          "id": "H-16",
+          "number": "16",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1XWxTKuNuzCbVjKho0Mzb2exZYbj6lmgn&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1M5TMzCvcfe5DiWHhIWNRnIKipRIn2bBp&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1tSPq5vmBHTS3JSKVYm_Xv-lMAsNLjSLL&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1LqBxW_bB4J95AIV955cFbtC08Q8s-NKV&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "H-16",
+            "title": "H - 16",
+            "shape": "rect",
+            "coords": "503,543,676,971"
+          }
+        },
+        {
+          "id": "H-18",
+          "number": "18",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1DCPfOXrWQYvAYNVlJru76N8pojryzmNz&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1FhsJGmemxVlcnb_3-1_5L7yWhgrWbKLY&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1VObNh0wxS7cjgWDGtJq48wVjNVKjCuXz&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1XBSgG5HNRHHu7GEwN7B8tsuZX5qPmMuR&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "H-18",
+            "title": "H - 18",
+            "shape": "rect",
+            "coords": "103,543,333,971"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "H-07",
+          "title": "H - 07",
+          "shape": "rect",
+          "coords": "1188,115,1361,537"
+        },
+        {
+          "lotId": "H-12",
+          "title": "H - 12",
+          "shape": "rect",
+          "coords": "1195,546,1363,970"
+        },
+        {
+          "lotId": "H-16",
+          "title": "H - 16",
+          "shape": "rect",
+          "coords": "503,543,676,971"
+        },
+        {
+          "lotId": "H-18",
+          "title": "H - 18",
+          "shape": "rect",
+          "coords": "103,543,333,971"
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "name": "Quadra I",
+      "available": true,
+      "overviewImage": {
+        "id": "I-topdown",
+        "url": "/api/proxy?id=11oj5Zvw6mW1-3pYTOeOqdk0T8rUXDKUg&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "I-17",
+          "number": "17",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1EYB5qLeusrTcsm_v-h5Jv5FfulIXAkRA&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1Tqu8XV0zT-qpTuvmIeH3sESuQleJ0cfm&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=10f3yMredz9zGQmRlXFidgqPJFXP0eRPt&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1wWNyDZztx5FOO20rGlgSMKMC5e5aA0Kl&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "I-17",
+            "title": "I - 17",
+            "shape": "poly",
+            "coords": "1549,268,1863,268,1856,56,1755,44,1551,124"
+          }
+        },
+        {
+          "id": "I-19",
+          "number": "19",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=11m4gs-9GcV82hh9IhuCU9eea6GgvXTxN&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1A8v7ACdRPdGIiDQJan3YLnI5F_xllcRK&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=12LnBDQoiO_URaQoSm_j-AD7Ij_vlGdnN&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1dg1mhIvZC9qdDGoxaEdHkQL4An6m867d&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "I-19",
+            "title": "I - 19",
+            "shape": "rect",
+            "coords": "1285,193,1417,604"
+          }
+        },
+        {
+          "id": "I-18",
+          "number": "18",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1FDf0cPpLLUHQc5pN-ObBzgZf5MiYy8uo&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1sC5PR0FNsCfoi2S6weYXbt8GbLp3eNxG&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1jW7qZLllcTTjv__tSP8pATYNCsK_dmMX&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1NnAP6X--KQmtxSm5GBtJRYLUrjBQcM_X&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "I-18",
+            "title": "I - 18",
+            "shape": "rect",
+            "coords": "1415,134,1543,605"
+          }
+        },
+        {
+          "id": "I-20",
+          "number": "20",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1rie5RX-zK6ml0sbhe_Ja8xIbcqv6tD6k&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1DGd9C_coBqD5PKve53YsBGIs5a6wlY6V&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1X1r5-pe0z4LX8LADNLRFZg99UI1YA3Mt&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1_mOY95B1wr3BPqrBE0Up9artPvPH2Hld&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "I-20",
+            "title": "I - 20",
+            "shape": "rect",
+            "coords": "1158,249,1288,658"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "I-17",
+          "title": "I - 17",
+          "shape": "poly",
+          "coords": "1549,268,1863,268,1856,56,1755,44,1551,124"
+        },
+        {
+          "lotId": "I-18",
+          "title": "I - 18",
+          "shape": "rect",
+          "coords": "1415,134,1543,605"
+        },
+        {
+          "lotId": "I-19",
+          "title": "I - 19",
+          "shape": "rect",
+          "coords": "1285,193,1417,604"
+        },
+        {
+          "lotId": "I-20",
+          "title": "I - 20",
+          "shape": "rect",
+          "coords": "1158,249,1288,658"
+        }
+      ]
+    },
+    {
+      "id": "J",
+      "name": "Quadra J",
+      "available": true,
+      "overviewImage": {
+        "id": "J-topdown",
+        "url": "/api/proxy?id=1j5PkIfvKDejRtSN0hHTSjtFuO-un8Wy_&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "J-05",
+          "number": "05",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1C6xasDg1Q9DQoSvV6TXYrG9pfWOA-uiQ&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=12F0NdN7Ucs1dBll_ZfeWGz8J5DROmmSc&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1-3ZOYU3uvP2cvM8fTD3_tGVgXsgGdVmX&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1ipHlnKgME6TwjcHhXl4omgznJKXchN50&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-05",
+            "title": "J - 05",
+            "shape": "poly",
+            "coords": "886,241,885,626,1076,617,1034,237"
+          }
+        },
+        {
+          "id": "J-10",
+          "number": "10",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=122jEvT2giHXLRG17hIkjHS87JnQ3yeg6&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1ZKttdKLqlH_4aBIF9tMIKOQT3tmhiqHr&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1lOVyhbKxyHeA64L6K22lOBRThYo_tS0n&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1VLqsRqnEEiDFhZ-PJ3ovbMFCu4XNOCRg&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-10",
+            "title": "J - 10",
+            "shape": "poly",
+            "coords": "1609,546,1668,929,1865,880,1807,515"
+          }
+        },
+        {
+          "id": "J-11",
+          "number": "11",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1QG9mVyoWoIquWiyL2ffp5KoIsjgsevI6&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1p3Mmx_10U5TuhYPhsPdXxj5J2a_bdfoM&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1Estfb6SlM_-x6-Gpp9Q28yMRpmnLe89-&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1zj5owRqOOtk71aIc6oAuKi2naMfIrYix&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-11",
+            "title": "J - 11",
+            "shape": "poly",
+            "coords": "1432,575,1490,953,1665,919,1607,544"
+          }
+        },
+        {
+          "id": "J-12",
+          "number": "12",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1pj72ohllQQE6iWKMTKxaI9m1PfufOwCR&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=136XtN9vAA745miCQv0UuKKCJM0DPsbNQ&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1T-zeqGdW-mui-vEdWrr1aLonG56_Zxkj&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1PUbt_LAv-K4khr-esL8DE2kMOiz0idMi&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-12",
+            "title": "J - 12",
+            "shape": "poly",
+            "coords": "1256,600,1312,977,1483,949,1424,573"
+          }
+        },
+        {
+          "id": "J-13",
+          "number": "13",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1YilZRGPF3SuFBDMTX3oOLngm4eZiCdE1&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1AXiFpw4Yz9pauy_lsOfHnjq0iym-KHrE&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=11Hw4NXu5Dc67UeyedS6tzmS9ijBn0kPZ&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1JH-SovhhFbLyp8_1zGKkO3fatUXBUFla&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-13",
+            "title": "J - 13",
+            "shape": "poly",
+            "coords": "1075,622,1107,1005,1306,978,1248,595"
+          }
+        },
+        {
+          "id": "J-14",
+          "number": "14",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1kOUtIW-AgBOiDFMMtrOAJ_l_DYe59HTJ&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1gnsPkUvBCoerhBfnmMFaRgrWnhABmLh_&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1LM4KXQ28bPZszjvL4YM_3A-Ziuo_Cf6n&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1VEDSawMOWjl_y_ydH8zLtoIONik-gGZF&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-14",
+            "title": "J - 14",
+            "shape": "poly",
+            "coords": "886,629,879,1014,1103,1004,1073,622"
+          }
+        },
+        {
+          "id": "J-15",
+          "number": "15",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1HavWEJLSVNUvmam9huiufTiTNwDQoEPA&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1SVmDJFN25pWK14fueWks0kZC0hMduk1R&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1j7s131gS6xVc0QyzYeJbqhKnNeHjAh0D&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=16-I8bSUfRz6t8px5B30NpGSIFVk5PK1C&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-15",
+            "title": "J - 15",
+            "shape": "poly",
+            "coords": "696,629,666,999,879,1014,879,634"
+          }
+        },
+        {
+          "id": "J-16",
+          "number": "16",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=10dEYoFpIlHVwkK47nilA1g-NPJOdIz8V&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1GDq2XXmFMBUvs5hb95SdxqzHzTIuls8Y&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1hHXcUEqh1ElwneVRlVtYCvzvrRKBxlM4&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1Rhj24HTCT0qzXNXI_7jnOH47RipU1jrL&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-16",
+            "title": "J - 16",
+            "shape": "poly",
+            "coords": "511,600,457,975,662,1005,696,629"
+          }
+        },
+        {
+          "id": "J-17",
+          "number": "17",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1WfVi4AWfgtzzA2-100qkAVEvZBJuLuiy&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1Opb5Gmh-GadJABBKfybRY9aL3ijnYnez&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1tUB6WIv6K3aXgbbqJt7RJoy1H2FdDH_W&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=16zwz5itXEs9Pb1UfSUu4ostjzsWEu55x&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-17",
+            "title": "J - 17",
+            "shape": "poly",
+            "coords": "340,558,245,929,447,977,510,604"
+          }
+        },
+        {
+          "id": "J-18",
+          "number": "18",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1twE-5jAIhM55QJ3wAzgqk9SmDvrrGnfH&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=18Gt61BhHVRhPedJJzDW4TzD9VZLSCcDk&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1xf84FGNm-aSUDnWow0AEnpMFDCBZzutW&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1uGlwGsnL6Yna6K1YqEW2eXwegP9ZXXcW&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "J-18",
+            "title": "J - 18",
+            "shape": "poly",
+            "coords": "140,509,13,855,237,934,337,565"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "J-05",
+          "title": "J - 05",
+          "shape": "poly",
+          "coords": "886,241,885,626,1076,617,1034,237"
+        },
+        {
+          "lotId": "J-10",
+          "title": "J - 10",
+          "shape": "poly",
+          "coords": "1609,546,1668,929,1865,880,1807,515"
+        },
+        {
+          "lotId": "J-11",
+          "title": "J - 11",
+          "shape": "poly",
+          "coords": "1432,575,1490,953,1665,919,1607,544"
+        },
+        {
+          "lotId": "J-12",
+          "title": "J - 12",
+          "shape": "poly",
+          "coords": "1256,600,1312,977,1483,949,1424,573"
+        },
+        {
+          "lotId": "J-13",
+          "title": "J - 13",
+          "shape": "poly",
+          "coords": "1075,622,1107,1005,1306,978,1248,595"
+        },
+        {
+          "lotId": "J-14",
+          "title": "J - 14",
+          "shape": "poly",
+          "coords": "886,629,879,1014,1103,1004,1073,622"
+        },
+        {
+          "lotId": "J-15",
+          "title": "J - 15",
+          "shape": "poly",
+          "coords": "696,629,666,999,879,1014,879,634"
+        },
+        {
+          "lotId": "J-16",
+          "title": "J - 16",
+          "shape": "poly",
+          "coords": "511,600,457,975,662,1005,696,629"
+        },
+        {
+          "lotId": "J-17",
+          "title": "J - 17",
+          "shape": "poly",
+          "coords": "340,558,245,929,447,977,510,604"
+        },
+        {
+          "lotId": "J-18",
+          "title": "J - 18",
+          "shape": "poly",
+          "coords": "140,509,13,855,237,934,337,565"
+        }
+      ]
+    },
+    {
+      "id": "K",
+      "name": "Quadra K",
+      "available": true,
+      "overviewImage": {
+        "id": "K-topdown",
+        "url": "/api/proxy?id=1ULL2RTgkliyXcMidTKIU63ZeI31aQ9wa&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "K-02",
+          "number": "02",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1g-49Glc7aiVH_MTVrwSk-vaF8qUEIZXd&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1g-49Glc7aiVH_MTVrwSk-vaF8qUEIZXd&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1VkgUfsitmUSl14CiUCTBrOmYre1wRIZI&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1Qraf3T7ve4TzBTPXufy2GZZ8q665lX37&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-02",
+            "title": "K - 02",
+            "shape": "rect",
+            "coords": "281,164,449,527"
+          }
+        },
+        {
+          "id": "K-03",
+          "number": "03",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1tt_HdhXyV2NcIww1qKC8KM4chW8Fukxi&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1AYSyadDAfMrheI1OI4kE8GQggS3oA6Jm&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1LvVf9NPdqq1urNxDZGZtwHP1na-ReuXn&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1VMnu7NLmYWptXVKCAeF40hcrN9TdUx2A&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-03",
+            "title": "K - 03",
+            "shape": "rect",
+            "coords": "454,166,620,531"
+          }
+        },
+        {
+          "id": "K-06",
+          "number": "06",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1xTX7iTsiNCRkzOsLGHAH8StbpBD5nks2&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=19XWTKpmvgWmrbSdg5AEnJ5kFQQz-5c9p&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=159ScEXK5ZDY8uJZnt16rAdZTAhMxaORa&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1fKEX5f8RSQK86kpLGsOI2IEy0gLuYc46&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-06",
+            "title": "K - 06",
+            "shape": "rect",
+            "coords": "969,171,1136,531"
+          }
+        },
+        {
+          "id": "K-07",
+          "number": "07",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1LXXe1Q5XELYLEyNCLePfsYnVfBp_foJ2&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1neA2BIPr0_rAWIW7dWuQRRUJ-QiLvPxI&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1T0XjbXDaFUFowNOtl4dnigMiVDhSkuHd&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=16jwPV3I3bLEq7Mshqs4Vh_HkNpgmlgy1&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-07",
+            "title": "K - 07",
+            "shape": "rect",
+            "coords": "1137,171,1309,532"
+          }
+        },
+        {
+          "id": "K-08",
+          "number": "08",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=15xeZGNsOI7QUUycouLnD1tD9EQJvjovH&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1bWBjo5fIQZagcKM4nD3fgOEjj3ICpMM5&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1VuL9vbMvK5Eki697EFDOO9gSYtMtQQ2x&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1fCu-kmdJGdjRJXXT0iDob5s7esA7LegI&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-08",
+            "title": "K - 08",
+            "shape": "rect",
+            "coords": "1307,168,1475,536"
+          }
+        },
+        {
+          "id": "K-09",
+          "number": "09",
+          "available": true,
+          "images": [
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1bG9rl5But8x33vF7Fz6cPKvqkGEiCOaU&sz=w1440"
+            },
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1F7cNKbTCxkxTPOzN61CzQbcurGYmE4Ke&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1elLFE0rxtn6pmfsFURPzCyaIgTBh1X98&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1M-UcU-knesd9-GKftE0u7BkKhsnmXDOx&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-09",
+            "title": "K - 09",
+            "shape": "rect",
+            "coords": "1478,168,1648,534"
+          }
+        },
+        {
+          "id": "K-10",
+          "number": "10",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1MtXQ5Ur797KN1izrBNvERVDBnQgQYAsB&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1TQrn7N_NZJy9zdKMv4f3zq9Lm2FWFFBk&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=16XodXAzthrV9zvpAsI2hgRHs3UdgeOOA&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1PYPiuT_o4ltXtT5_16D8fMENoe7zHDH9&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-10",
+            "title": "K - 10",
+            "shape": "rect",
+            "coords": "1651,166,1899,419"
+          }
+        },
+        {
+          "id": "K-11",
+          "number": "11",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1s6RSZBeudyAByBL8-1wpMBrax-BWpVzV&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1H3QeXN6fs1RlyZ-DCwTYQNQzo7E_iYQb&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1olDwUEqWT9y8fHo__6kBmvIeUe8fychy&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1DndkhlLAEsQ1XcU6VE6AeeWSTAdiRL3P&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-11",
+            "title": "K - 11",
+            "shape": "rect",
+            "coords": "1649,424,1895,654"
+          }
+        },
+        {
+          "id": "K-12",
+          "number": "12",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1FgW-oodaCcyCDSJNp-9y83ddGEk-QMX8&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1k1YE4j7F3NsVTSsx0aTYZi_mILuNLnkV&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1Nszawj49qMWUiXJtCBNp1PbEYfkQuzlw&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1ZnxWVZa0HaI_oBTZJdJVt8Zni9j4gik7&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-12",
+            "title": "K - 12",
+            "shape": "rect",
+            "coords": "1644,654,1895,905"
+          }
+        },
+        {
+          "id": "K-13",
+          "number": "13",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1F4uVxPurs1gp62gPqCTJOcNGS4tiElWP&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1tnHbf1GyTNKTXBVrbgsdIZmZDr6NqfzD&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1BBMNwbza1_h-ifpiNQIL7OjVQWgwPi-R&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1Bd-VwNO6FZ6JIzVAKv-MRssrcd-AVQlU&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-13",
+            "title": "K - 13",
+            "shape": "rect",
+            "coords": "1475,536,1644,902"
+          }
+        },
+        {
+          "id": "K-14",
+          "number": "14",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1n8WdEPTXyXoJc9cu9TpB5eL-OdGgVghf&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1xDjncDxqECXD34CU5UuRQI8yNFSV9TF1&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1Sd-JQSTBdqZUx7GCndfw_3FVCUqzjIZF&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1UBtsaanfMzMGP-VWTA4xAmA4eQ4VKLfU&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-14",
+            "title": "K - 14",
+            "shape": "rect",
+            "coords": "1305,537,1473,902"
+          }
+        },
+        {
+          "id": "K-15",
+          "number": "15",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1FNRefKxjHY0OHFjV4DqYrpj5fpt6NUQl&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1Gn9yaj6wH_diMNkMhPA_PsCq2yz0EW-x&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1lauNIRqUo2hZ98k0Cz2sSACKS5cJmzzJ&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1O4Av7t39eLkFBOZVTfJe57kGbNksjEJw&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-15",
+            "title": "K - 15",
+            "shape": "rect",
+            "coords": "1137,534,1302,902"
+          }
+        },
+        {
+          "id": "K-16",
+          "number": "16",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1Lq694i19ed3lqD7JZWILixLuwkAi_bu8&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=15qo0kI5IgfT4OoB7h8OHlBiLbW2TAUtX&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1GWJIU6cvTqNRrdodcAL2a8ec-LEYNita&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1lz3brIdOGkuJiZzd37Pi-ZhjyaSgZA-e&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-16",
+            "title": "K - 16",
+            "shape": "rect",
+            "coords": "963,534,1132,902"
+          }
+        },
+        {
+          "id": "K-17",
+          "number": "17",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1B0_qqGbZYauusTXnQrRbyC6QhNUHb_YI&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1EJ-h1HgZsNMcyjkbdVXOlnR_7J-nd2XL&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=14yA7xVkN0JpU9gWU1AE438rrWQI2e8uT&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1kFtdz5ttjNMzZflG1PJEP7XX6pEgFcuP&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-17",
+            "title": "K - 17",
+            "shape": "rect",
+            "coords": "793,534,959,900"
+          }
+        },
+        {
+          "id": "K-18",
+          "number": "18",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1MQExeGs1RUUZDF7l0hu93hgihLwAlxcO&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1NVUDgugwXZJy_zgeKsk37tVQk7AXUTRg&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1TmK-NuKg0LrlJ8l3jTicdyfgBIiMhsYy&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1pBG92XWH50EpgWJTFsykTe0RJw7akLBJ&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-18",
+            "title": "K - 18",
+            "shape": "rect",
+            "coords": "625,532,788,899"
+          }
+        },
+        {
+          "id": "K-19",
+          "number": "19",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1cVl1GjD5q8vGiCPbNSJ2cZVyUZVFgD0Y&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1_B-_NdNAat6Cf_juT1tqidYTF2xLe3-r&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1F_E3M-KHwADF9ggfBVPh5pBDD31TAnT_&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1vugOHTXWP9C9vlSM_9YLiv0bXcxrwMFd&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-19",
+            "title": "K - 19",
+            "shape": "rect",
+            "coords": "450,532,618,899"
+          }
+        },
+        {
+          "id": "K-20",
+          "number": "20",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=18UHOZNpYeQZIaxqCqygIBSGk6FQPenUT&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=15agNZun4SNeIIsK3mlquupiMeSGl1ocg&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1iYj5vJJxtRcbs-tnyQdI6pLb9BAz_pzb&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1d2RVX4ho1GmxFjiiv4D5mjpxD7pHza2N&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-20",
+            "title": "K - 20",
+            "shape": "rect",
+            "coords": "279,534,447,895"
+          }
+        },
+        {
+          "id": "K-21",
+          "number": "21",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=15Z4em4XVTlko9d98wTm-l55N7hA-ILoF&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1thUhQHSLy6RPPD148e2zJlEm2RzRcNKW&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1o8OSlCkiHgmPfhBqOZRLVyByDC7Eh_nB&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1UWfnGHIeGfVWlnC1zGTQ28RMrBDO_TwV&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-21",
+            "title": "K - 21",
+            "shape": "rect",
+            "coords": "30,649,274,895"
+          }
+        },
+        {
+          "id": "K-22",
+          "number": "22",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1li2z9eTJoqntLZbcz4115uE84xaX3CvF&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=18tOSKd0Ko4KWzaeGs14usD8srqTtUwh6&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1DSsfWONbxUXc3MnF0G_iI40huhm8HGN2&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1Wm4Iqq1Kzc0cfjpIDr4Qa7dxN6dU4KtW&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "K-22",
+            "title": "K - 22",
+            "shape": "rect",
+            "coords": "31,414,279,646"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "K-02",
+          "title": "K - 02",
+          "shape": "rect",
+          "coords": "281,164,449,527"
+        },
+        {
+          "lotId": "K-03",
+          "title": "K - 03",
+          "shape": "rect",
+          "coords": "454,166,620,531"
+        },
+        {
+          "lotId": "K-06",
+          "title": "K - 06",
+          "shape": "rect",
+          "coords": "969,171,1136,531"
+        },
+        {
+          "lotId": "K-07",
+          "title": "K - 07",
+          "shape": "rect",
+          "coords": "1137,171,1309,532"
+        },
+        {
+          "lotId": "K-08",
+          "title": "K - 08",
+          "shape": "rect",
+          "coords": "1307,168,1475,536"
+        },
+        {
+          "lotId": "K-09",
+          "title": "K - 09",
+          "shape": "rect",
+          "coords": "1478,168,1648,534"
+        },
+        {
+          "lotId": "K-10",
+          "title": "K - 10",
+          "shape": "rect",
+          "coords": "1651,166,1899,419"
+        },
+        {
+          "lotId": "K-11",
+          "title": "K - 11",
+          "shape": "rect",
+          "coords": "1649,424,1895,654"
+        },
+        {
+          "lotId": "K-12",
+          "title": "K - 12",
+          "shape": "rect",
+          "coords": "1644,654,1895,905"
+        },
+        {
+          "lotId": "K-13",
+          "title": "K - 13",
+          "shape": "rect",
+          "coords": "1475,536,1644,902"
+        },
+        {
+          "lotId": "K-14",
+          "title": "K - 14",
+          "shape": "rect",
+          "coords": "1305,537,1473,902"
+        },
+        {
+          "lotId": "K-15",
+          "title": "K - 15",
+          "shape": "rect",
+          "coords": "1137,534,1302,902"
+        },
+        {
+          "lotId": "K-16",
+          "title": "K - 16",
+          "shape": "rect",
+          "coords": "963,534,1132,902"
+        },
+        {
+          "lotId": "K-17",
+          "title": "K - 17",
+          "shape": "rect",
+          "coords": "793,534,959,900"
+        },
+        {
+          "lotId": "K-18",
+          "title": "K - 18",
+          "shape": "rect",
+          "coords": "625,532,788,899"
+        },
+        {
+          "lotId": "K-19",
+          "title": "K - 19",
+          "shape": "rect",
+          "coords": "450,532,618,899"
+        },
+        {
+          "lotId": "K-20",
+          "title": "K - 20",
+          "shape": "rect",
+          "coords": "279,534,447,895"
+        },
+        {
+          "lotId": "K-21",
+          "title": "K - 21",
+          "shape": "rect",
+          "coords": "30,649,274,895"
+        },
+        {
+          "lotId": "K-22",
+          "title": "K - 22",
+          "shape": "rect",
+          "coords": "31,414,279,646"
+        }
+      ]
+    },
+    {
+      "id": "L",
+      "name": "Quadra L",
+      "available": true,
+      "overviewImage": {
+        "id": "L-topdown",
+        "url": "/api/proxy?id=1WoO9uR1J_KANJrY-n3DtepPSnKs10hQK&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "L-08",
+          "number": "08",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1DVQKEWOlo9LqMH3SDtCzIM8T1Q4-7QUt&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1bID2IyOk8nWJb59V825OkBvYyOUtjRNS&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1TF060Qe3qzYEVLNCYfvmpAWBWoMzSf-k&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1ritBYRdyonhUtci0cquZGWCpvr-FOwiq&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-08",
+            "title": "L - 08",
+            "shape": "rect",
+            "coords": "1339,232,1485,592"
+          }
+        },
+        {
+          "id": "L-09",
+          "number": "09",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1yy0tkk3UbRtp9JewoQjzT1FcfMlXP4a-&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=15_yC_sH8Vf2JCLRz0742CY_Dtou5LAum&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1abLvutzBsJUtH8k2T_pTBlqquUtYUarR&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1EIDBK1Z1SSkGcIlKREiWro4dz91Qz0VU&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-09",
+            "title": "L - 09",
+            "shape": "rect",
+            "coords": "1488,234,1631,597"
+          }
+        },
+        {
+          "id": "L-10",
+          "number": "10",
+          "available": true,
+          "images": [
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1wP-UclTfFkRPm4L1xAeoYPnzNshjNpu-&sz=w1440"
+            },
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=18Qf3WPPex0hojTp5uoWFsqtnw2WSEpaB&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1Mam-_HFuKqDhGzV9KXRHrkAhhD81lgaD&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1yxTwqjLSCo9C7lujhMmG8fHg9j5FtLRn&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-10",
+            "title": "L - 10",
+            "shape": "rect",
+            "coords": "1633,232,1882,483"
+          }
+        },
+        {
+          "id": "L-11",
+          "number": "11",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1uGpSDnnnziOnuChPY1AJUTDHauqkaCAx&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1Xdeeu-RGGaMY7_6aHRH77013O6sPj_Bd&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1rcqY4bxcXpilrBsLNANkFQWfBeOj6aUR&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1aARYB9BigQti62akSblDsU_-b80fG91-&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-11",
+            "title": "L - 11",
+            "shape": "rect",
+            "coords": "1634,482,1882,714"
+          }
+        },
+        {
+          "id": "L-12",
+          "number": "12",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1yMg4T-7IMtzNFRIQZuOrWVvsDLB1brJC&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1cLcO5NqlGB-u4tYIL5v3EdU90bPNI2Bm&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1mrydktt9mab3hyo5uykh0Fpboupg7LOq&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1vP3yuO_gh0xI2TCoH4UINKq7-3HVaztb&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-12",
+            "title": "L - 12",
+            "shape": "rect",
+            "coords": "1633,717,1882,965"
+          }
+        },
+        {
+          "id": "L-13",
+          "number": "13",
+          "available": true,
+          "images": [
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1skeOUw9nVTtBQea6gnbBBuiVrYofHc8y&sz=w1440"
+            },
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1e0h7sHwDWhoutmsJyzbkERQlmy9VEbUY&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1cUj4Go_J8outnuEb7w1te29BKcv47I_n&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=14iLLFAlwylWBycTyWcd-SAnFTsmKiVDC&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-13",
+            "title": "L - 13",
+            "shape": "rect",
+            "coords": "1485,598,1629,966"
+          }
+        },
+        {
+          "id": "L-14",
+          "number": "14",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1km5IZX8WY9i1W0GaIbJXVPOa301rrPwS&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1VoNF5FedS4xcPdXlSYpajjKb3s6GFMTn&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1yayko3J468sddVwK8ardICjDoWDkuw4b&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=14ynua0gdtszWcfOv5BJgusyxa9gdynXl&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-14",
+            "title": "L - 14",
+            "shape": "rect",
+            "coords": "1337,597,1483,963"
+          }
+        },
+        {
+          "id": "L-15",
+          "number": "15",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1RqT88cM8B15ikfjVASATFL44OMY9C5BL&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1Lptd_rfSS0kEL86nVcisdEr59d23y59S&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1yr536f55vIMPRPISpcmWv4pCpE8JhsqA&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1yVxKtyeLs7ct9zZfLYhBSOoyuO6T0Pib&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-15",
+            "title": "L - 15",
+            "shape": "rect",
+            "coords": "1193,598,1337,963"
+          }
+        },
+        {
+          "id": "L-16",
+          "number": "16",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=17u3uJCRSgI4ktIUDGQATxsEKWZQdUBcr&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1AMI3_ssc3LL1djFmQl3pfX0cDh_qbT_T&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1iZdJuwK6bySc9uUMeb9XpnNkELVc2ekn&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1JxtXB-pxwy2yWPfj1XIMxoPkEKfrkKdJ&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-16",
+            "title": "L - 16",
+            "shape": "rect",
+            "coords": "1046,595,1190,960"
+          }
+        },
+        {
+          "id": "L-17",
+          "number": "17",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1pivWWeLxvvc1aoDU-AckUM8VkkokEECB&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1pGE1RdzpzxwL6ByQSlNJkbYz_YqWMfAq&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=18_C28gNU1XkeNULACkXC373WFh4tTU2H&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1k9I-IjzoP9z-LI3JmrLWGjzOc6oSnd_G&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-17",
+            "title": "L - 17",
+            "shape": "rect",
+            "coords": "901,595,1042,960"
+          }
+        },
+        {
+          "id": "L-18",
+          "number": "18",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1TAXjIE--OnaQ-nTXYtapsVWhHgqfp0o4&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1_-8FSpWrDByMAgY5qxaqfJ7WALW-e6ia&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1qsnDuv3dArbCXyo50PJ394aDVd8hBDHa&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1vcpwLvXMuZuXyE4kesAG7zNxbP50lerr&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "L-18",
+            "title": "L - 18",
+            "shape": "rect",
+            "coords": "754,593,895,961"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "L-08",
+          "title": "L - 08",
+          "shape": "rect",
+          "coords": "1339,232,1485,592"
+        },
+        {
+          "lotId": "L-09",
+          "title": "L - 09",
+          "shape": "rect",
+          "coords": "1488,234,1631,597"
+        },
+        {
+          "lotId": "L-10",
+          "title": "L - 10",
+          "shape": "rect",
+          "coords": "1633,232,1882,483"
+        },
+        {
+          "lotId": "L-11",
+          "title": "L - 11",
+          "shape": "rect",
+          "coords": "1634,482,1882,714"
+        },
+        {
+          "lotId": "L-12",
+          "title": "L - 12",
+          "shape": "rect",
+          "coords": "1633,717,1882,965"
+        },
+        {
+          "lotId": "L-13",
+          "title": "L - 13",
+          "shape": "rect",
+          "coords": "1485,598,1629,966"
+        },
+        {
+          "lotId": "L-14",
+          "title": "L - 14",
+          "shape": "rect",
+          "coords": "1337,597,1483,963"
+        },
+        {
+          "lotId": "L-15",
+          "title": "L - 15",
+          "shape": "rect",
+          "coords": "1193,598,1337,963"
+        },
+        {
+          "lotId": "L-16",
+          "title": "L - 16",
+          "shape": "rect",
+          "coords": "1046,595,1190,960"
+        },
+        {
+          "lotId": "L-17",
+          "title": "L - 17",
+          "shape": "rect",
+          "coords": "901,595,1042,960"
+        },
+        {
+          "lotId": "L-18",
+          "title": "L - 18",
+          "shape": "rect",
+          "coords": "754,593,895,961"
+        }
+      ]
+    },
+    {
+      "id": "M",
+      "name": "Quadra M",
+      "available": true,
+      "overviewImage": {
+        "id": "M-topdown",
+        "url": ""
+      },
+      "lots": [
+        {
+          "id": "M-06",
+          "number": "06",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1MGM6Md0q_dJFc69DIhbz-JQ7DWc5yEf0&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=11ntk0P5lnomsRWAOLwAfQwMCdpTADXit&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1BqOU45ORpNfDypwV9RlBL58HgQO26s_B&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1iAdlRD7-tEbbNT8umPLer0t139cD_xT8&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-06",
+            "title": "M - 06",
+            "shape": "rect",
+            "coords": "900,197,1042,558"
+          }
+        },
+        {
+          "id": "M-07",
+          "number": "07",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1_s6Ly1NME0ofUzEFSsR8cQyCGuIU7FJa&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1vGD1JYccPioRV-qyLb10qgsutm0_P12S&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1sdEFylkE_Tv2B0-hBBgLwgot6YNomBiW&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1udutnOPXnyZATUAQyPuV-uBrltSq27KK&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-07",
+            "title": "M - 07",
+            "shape": "rect",
+            "coords": "1044,197,1193,561"
+          }
+        },
+        {
+          "id": "M-08",
+          "number": "08",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1pPUKU5OCopoPqfRpLieKJ99SBnKJ09n7&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=10oZ5OqkVM84FrDui7iwiL5PdnKrA2Ayu&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1B7EHWNExYfdxEE96lgh6Z0fokvLy0xDc&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1v6g68d4Dx3vNsy5tWMw0A2gDdlsKP7Nd&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-08",
+            "title": "M - 08",
+            "shape": "rect",
+            "coords": "1193,197,1337,563"
+          }
+        },
+        {
+          "id": "M-09",
+          "number": "09",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1Bb3rvKNJ-hnLi68hMTFq8YhQ3VJLaeKr&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1_7l76bnQRNVK0IvEQAEsov2WieAkvk--&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1Uv3WhZ67WE99ob6sPBLTHo0YiODQWBpw&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1wNrCsBcXIOd1E7uwN6jqZl1lYpXQMWtW&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-09",
+            "title": "M - 09",
+            "shape": "rect",
+            "coords": "1339,200,1485,570"
+          }
+        },
+        {
+          "id": "M-10",
+          "number": "10",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1mgW5LdUefFWr6fLdNz1mFwh5otfd-9DV&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1UdSFd-txkrnQjGJlr0S1FpF0ZHersKta&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1JEPvD6sEBYW8gN7VguRpTr56ShUBdXXj&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1nQQPhO_uRGJ5pieP5qe56FS99be6RUbx&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-10",
+            "title": "M - 10",
+            "shape": "rect",
+            "coords": "1483,198,1626,566"
+          }
+        },
+        {
+          "id": "M-12",
+          "number": "12",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1tcuG44aCZ0WTxQDOwcYgC6F5RgUmn69-&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1INaea0oxqlyaBT3_EGX0f2fLxKGytxqs&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1wPOYNaSMYmKWT0TMQ3wHU1wSN3fgIpG_&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1BaTt67Ib6jHlXaShiRGW7Xp5XZqzMfVo&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-12",
+            "title": "M - 12",
+            "shape": "rect",
+            "coords": "1634,454,1880,682"
+          }
+        },
+        {
+          "id": "M-13",
+          "number": "13",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1giu2pi8dnJF5vcLksWOBQ8ihZYfsCM_H&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1YQchKNw2Cb9DEtd0TI_X3L-PSLWyq_DH&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1jIxmzumjfJo1lvkdvsxrv6nbi4bJ9O_3&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1TTeiEtbHxK03wFgQd9nQf3ARlG5ilCYf&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-13",
+            "title": "M - 13",
+            "shape": "rect",
+            "coords": "1629,682,1882,932"
+          }
+        },
+        {
+          "id": "M-14",
+          "number": "14",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1U1R900VoBcpK2gEunvWBjkYsK8kpx5t2&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1aoEsEZm2SFUbhWVTdKhdTbhqxxCOyVbM&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1yIt-bZCTo2FydQppV5_VRBC88k7wMkdm&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1gkcDJiNG8ofK6mw0Uf0e9YhNfz7xMVKk&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-14",
+            "title": "M - 14",
+            "shape": "rect",
+            "coords": "1483,565,1627,929"
+          }
+        },
+        {
+          "id": "M-15",
+          "number": "15",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1qgb64BaTP7JsBGrPr148f66emZmKl9VE&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1T1VVt7WVQJuQWIdJUDpcRL-PX0iUtlaq&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1oBxm4J1ahADXpluF5AW1SQgcTEGPWzWw&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1glwmNmOMT9qSoMoFYEebJ8l-xX67UwOy&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-15",
+            "title": "M - 15",
+            "shape": "rect",
+            "coords": "1336,565,1480,931"
+          }
+        },
+        {
+          "id": "M-16",
+          "number": "16",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1qp3h49Qe7RYzgFz2aZ4EwDR1SAEUe1Y5&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1DX9AJxsik-HzBvmzSGdo9IXOUu0DYTU_&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=15NFUp2GqJMVy1VjKY9v-wh0Vc298uFKn&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1E9P1Pl1zms7-7G5gCTb0AZCCo3T8qqXX&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-16",
+            "title": "M - 16",
+            "shape": "rect",
+            "coords": "1193,567,1341,931"
+          }
+        },
+        {
+          "id": "M-17",
+          "number": "17",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1QdXfDdvc0LfwNlid5-nZDBcP_1AWcnII&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1BHdkXUiucoVhNhUL4FdLA8fzz7ysBwgP&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1WMLEjnyu55ZoxJmAl8bvfq2Bd7giHDs3&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1iB48AVU0E9MKQ9W-5K_eATWBg3q7ngEh&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-17",
+            "title": "M - 17",
+            "shape": "rect",
+            "coords": "1041,563,1188,929"
+          }
+        },
+        {
+          "id": "M-21",
+          "number": "21",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1vtmmWc0X_x6hRFfB7mbJfWLOIoxr2lKy&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1Ovju_mjOaIGiJGj90fkh5j15EeG7sBKX&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1d_afM1gm2MP6cDbb-s1OIW3sYDOWPNCQ&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=18zlAg3tfWki6Cwte3PppGcn-fBWVEnb8&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "M-21",
+            "title": "M - 21",
+            "shape": "rect",
+            "coords": "462,561,601,927"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "M-06",
+          "title": "M - 06",
+          "shape": "rect",
+          "coords": "900,197,1042,558"
+        },
+        {
+          "lotId": "M-07",
+          "title": "M - 07",
+          "shape": "rect",
+          "coords": "1044,197,1193,561"
+        },
+        {
+          "lotId": "M-08",
+          "title": "M - 08",
+          "shape": "rect",
+          "coords": "1193,197,1337,563"
+        },
+        {
+          "lotId": "M-09",
+          "title": "M - 09",
+          "shape": "rect",
+          "coords": "1339,200,1485,570"
+        },
+        {
+          "lotId": "M-10",
+          "title": "M - 10",
+          "shape": "rect",
+          "coords": "1483,198,1626,566"
+        },
+        {
+          "lotId": "M-12",
+          "title": "M - 12",
+          "shape": "rect",
+          "coords": "1634,454,1880,682"
+        },
+        {
+          "lotId": "M-13",
+          "title": "M - 13",
+          "shape": "rect",
+          "coords": "1629,682,1882,932"
+        },
+        {
+          "lotId": "M-14",
+          "title": "M - 14",
+          "shape": "rect",
+          "coords": "1483,565,1627,929"
+        },
+        {
+          "lotId": "M-15",
+          "title": "M - 15",
+          "shape": "rect",
+          "coords": "1336,565,1480,931"
+        },
+        {
+          "lotId": "M-16",
+          "title": "M - 16",
+          "shape": "rect",
+          "coords": "1193,567,1341,931"
+        },
+        {
+          "lotId": "M-17",
+          "title": "M - 17",
+          "shape": "rect",
+          "coords": "1041,563,1188,929"
+        },
+        {
+          "lotId": "M-21",
+          "title": "M - 21",
+          "shape": "rect",
+          "coords": "462,561,601,927"
+        }
+      ]
+    },
+    {
+      "id": "N",
+      "name": "Quadra N",
+      "available": true,
+      "overviewImage": {
+        "id": "N-topdown",
+        "url": ""
+      },
+      "lots": [
+        {
+          "id": "N-02",
+          "number": "02",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1w9k_6wuLszplNahtJkbFKKK6dYpM7GcL&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1NufYvssee3EYTBJNVfhdUAVRKhRHj5JN&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=15vmiXb1rR4OhLpzQob9P5Hid8rCVqhYs&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1LpSK7LixRk42j_lb7xUUAHQKCFtijqIQ&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-02",
+            "title": "N - 02",
+            "shape": "rect",
+            "coords": "281,173,447,541"
+          }
+        },
+        {
+          "id": "N-01",
+          "number": "01",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1xzzVswZtb_0wI8UgS-1atJ5b8ccIVK59&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1IJFWkrLgZlklEXcGIIiIZoC0sbVEVRTY&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1MdVZk2L4YxOgi0XkFMV9k-UGh9o0vV57&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1iiULwqp_eGz_NRGAYklIYu7_ihzQr1Nm&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-01",
+            "title": "N - 01",
+            "shape": "rect",
+            "coords": "31,175,279,422"
+          }
+        },
+        {
+          "id": "N-03",
+          "number": "03",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1KoOPBGL1aRTkksHJrxdjo6s6KOQ3Vcrb&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1cc5qz--rPPsU_BqG8zsS5cgdxjedRijr&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1D945E7_kCzZoa846YGqQQBBM0L2FPEKZ&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=12OItsmRYex9s3ar3lgI3vjQf98GNqE9f&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-03",
+            "title": "N - 03",
+            "shape": "rect",
+            "coords": "450,176,620,537"
+          }
+        },
+        {
+          "id": "N-04",
+          "number": "04",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1SSMH646eYA_Rj-FhwzokAixD-Bk-wgOq&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=11wgjfVjR0zsCAqONyyFhdCF-6NBSIsTv&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1X_xXyKngji73QujTYFt1CyZ5C7mKpTpv&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1XBoFpw9aXm-RbFu9Io7IeAaGjrsnCVAE&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-04",
+            "title": "N - 04",
+            "shape": "rect",
+            "coords": "622,168,790,537"
+          }
+        },
+        {
+          "id": "N-05",
+          "number": "05",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1j0F4h82FS43zj5UgX1Zf51XJXIB___tN&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1Vv-fzAje3z3BOMI3WB6Vt7jveGJjbiyi&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1JSLi1pE8jtXoAsz5xJV3nCohLztbeUY4&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1WyTT7dk4jqM-BomrHYKXYHkIExGSdaHg&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-05",
+            "title": "N - 05",
+            "shape": "rect",
+            "coords": "795,173,961,543"
+          }
+        },
+        {
+          "id": "N-06",
+          "number": "06",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1C_83UsS0NqJkKztEhb9EMQvkSFSipzNT&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1Da3szA-XLrz-zROZWzomiVVGG1AE09b6&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1QJRncxvADnZaHggtgzaFJf-0cTzz2zzK&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1P1Fq04WX-mhl9OyWKNijUccVmJfaqLlj&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-06",
+            "title": "N - 06",
+            "shape": "rect",
+            "coords": "963,180,1130,539"
+          }
+        },
+        {
+          "id": "N-07",
+          "number": "07",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=10zOMTx-XmVRr4O4iOMdRNPCUCcnrJAjB&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1VUuOCUPvnlBNTgjqHyLmrgt4pLfCdhos&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1kPlZ9VXdyU169TVn2wpDqCTuDBbCuFNB&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1ny3WE6Ww7Hoh8Lkjmbj1e1w2bxK-nJA2&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-07",
+            "title": "N - 07",
+            "shape": "rect",
+            "coords": "1130,178,1305,543"
+          }
+        },
+        {
+          "id": "N-08",
+          "number": "08",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1rnyfmQeI0m6MVAtfT38etdscvQesoMmx&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1X8xwYjGHPd8CMdpUl_T-1peKxFVbR8nW&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=10P8tRuN9694Rgf6L5syH6lJS38lXdCf1&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=10hACPj41WsrC1gInCR_KMaF4yXmmOmCa&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-08",
+            "title": "N - 08",
+            "shape": "rect",
+            "coords": "1305,178,1471,539"
+          }
+        },
+        {
+          "id": "N-09",
+          "number": "09",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1LGR_XHNZYgCwei4yS_49ufBjWEwbFKRZ&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1liP_wvqxIK87TaS9cbnGzfjdVaY_sQji&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1GpxFwnbAfNouXKq-OA8SiI8IO_FwJGvp&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1rYf5oDeG6lckQT3tPyUCbuZ1yZIBjmRk&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-09",
+            "title": "N - 09",
+            "shape": "rect",
+            "coords": "1476,178,1643,541"
+          }
+        },
+        {
+          "id": "N-10",
+          "number": "10",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1thyNefQHoFCOyh3_J2njKo57kkwLdCy4&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1iEoCgkCQH-6fI91iXI10vNDtOjdoIdFb&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1jDsQcqVHG5qNwk6q_LxxCKIHByc3buxy&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1_sRSoYUYSQ2aZtzDWOuZWJg9e9G-j9YW&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-10",
+            "title": "N - 10",
+            "shape": "rect",
+            "coords": "1648,181,1894,427"
+          }
+        },
+        {
+          "id": "N-11",
+          "number": "11",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1-B3FAc25aXYFQSBM-KL4nE0C3_xvwVRm&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1WeXgzr16gIPvTxwrs983UzD8R5HohiMt&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1xT3R1jV0MeMVnNP0ZuAWd_qi9XfbQYcN&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1IanA_IH4jG249RLGHJLhawW95jj9n8hO&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-11",
+            "title": "N - 11",
+            "shape": "rect",
+            "coords": "1644,432,1894,665"
+          }
+        },
+        {
+          "id": "N-12",
+          "number": "12",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1cdVNg3d3ia-cDSCIdEYllSJsGeicrscy&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1fHVy5FTjb8fznMBRB8ZiD-_LynBF9fAy&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1Zxh_KfIzCon8UT7QuKSSsH4txjXRCJ9w&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1Jqgz9idcn5SYrqHd6ZaJPwi512Y8Ietz&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-12",
+            "title": "N - 12",
+            "shape": "rect",
+            "coords": "1639,660,1895,910"
+          }
+        },
+        {
+          "id": "N-13",
+          "number": "13",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1mKX1hnrKtF1M3zZ3yZ9X2mA6_BzEKmrN&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1lR5JTnv6HXKj2Scp4I14nB3rRTcJ-AJB&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1PYrJ_UFnBdPEXLN51Jr-9Gp8N9jfHI_b&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1TnPNB5EvQv3TD71zvpNgioRC9HW4PYeA&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-13",
+            "title": "N - 13",
+            "shape": "rect",
+            "coords": "1471,546,1643,909"
+          }
+        },
+        {
+          "id": "N-14",
+          "number": "14",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1BDzsboHDWy9V2GEC9er3jS2XrTPL_Wmt&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1mw4xLFN0uoQ-h0Mg6B_M91322aQTVx9F&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1pescRDpGQhyZV3UEPOOCN_NUunYt-aiz&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1BNzJmY-dNiFaoerMnlfohh965RvoL6xD&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-14",
+            "title": "N - 14",
+            "shape": "rect",
+            "coords": "1300,543,1471,910"
+          }
+        },
+        {
+          "id": "N-15",
+          "number": "15",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1rreDmrQ6vgX8-CtHS5TlLYhdgyk8v4H0&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=17BejxdQn1cHn6q2rwQkolb6D0RjS9vfG&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=18D6I8kw3LHub23jmgXccWUWMxIm9qnch&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1XJtnTYmt14-kdVOa6oFn6-j206EZgzZy&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-15",
+            "title": "N - 15",
+            "shape": "rect",
+            "coords": "1130,539,1302,912"
+          }
+        },
+        {
+          "id": "N-16",
+          "number": "16",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1b5FummceW5BB1owCqPvMdOHy3fiH3iy2&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1UqYn3AIJaJWbvVw2wx1Ib3la6O65e29h&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1g-WsiWWPiLAiDyqyQmUToEa03zQTth6_&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1FCy8g28fx4dG-MhSIDk6p5C5IEA6W0xF&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-16",
+            "title": "N - 16",
+            "shape": "rect",
+            "coords": "959,541,1129,905"
+          }
+        },
+        {
+          "id": "N-20",
+          "number": "20",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=19RJK2pcRQFJkdXd1S8f--awZ_xRQ8pRY&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1-n-VC8z7rnp9fV51dZl_AFtFTm4iK2Kg&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=10t-WckUw-j32kEHkbwHczS7pxksHbgcF&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1U5VH3iieqvyJ8DZaZCAkdZaP0LxxYSxy&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "N-20",
+            "title": "N - 20",
+            "shape": "rect",
+            "coords": "279,537,449,904"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "N-01",
+          "title": "N - 01",
+          "shape": "rect",
+          "coords": "31,175,279,422"
+        },
+        {
+          "lotId": "N-02",
+          "title": "N - 02",
+          "shape": "rect",
+          "coords": "281,173,447,541"
+        },
+        {
+          "lotId": "N-03",
+          "title": "N - 03",
+          "shape": "rect",
+          "coords": "450,176,620,537"
+        },
+        {
+          "lotId": "N-04",
+          "title": "N - 04",
+          "shape": "rect",
+          "coords": "622,168,790,537"
+        },
+        {
+          "lotId": "N-05",
+          "title": "N - 05",
+          "shape": "rect",
+          "coords": "795,173,961,543"
+        },
+        {
+          "lotId": "N-06",
+          "title": "N - 06",
+          "shape": "rect",
+          "coords": "963,180,1130,539"
+        },
+        {
+          "lotId": "N-07",
+          "title": "N - 07",
+          "shape": "rect",
+          "coords": "1130,178,1305,543"
+        },
+        {
+          "lotId": "N-08",
+          "title": "N - 08",
+          "shape": "rect",
+          "coords": "1305,178,1471,539"
+        },
+        {
+          "lotId": "N-09",
+          "title": "N - 09",
+          "shape": "rect",
+          "coords": "1476,178,1643,541"
+        },
+        {
+          "lotId": "N-10",
+          "title": "N - 10",
+          "shape": "rect",
+          "coords": "1648,181,1894,427"
+        },
+        {
+          "lotId": "N-11",
+          "title": "N - 11",
+          "shape": "rect",
+          "coords": "1644,432,1894,665"
+        },
+        {
+          "lotId": "N-12",
+          "title": "N - 12",
+          "shape": "rect",
+          "coords": "1639,660,1895,910"
+        },
+        {
+          "lotId": "N-13",
+          "title": "N - 13",
+          "shape": "rect",
+          "coords": "1471,546,1643,909"
+        },
+        {
+          "lotId": "N-14",
+          "title": "N - 14",
+          "shape": "rect",
+          "coords": "1300,543,1471,910"
+        },
+        {
+          "lotId": "N-15",
+          "title": "N - 15",
+          "shape": "rect",
+          "coords": "1130,539,1302,912"
+        },
+        {
+          "lotId": "N-16",
+          "title": "N - 16",
+          "shape": "rect",
+          "coords": "959,541,1129,905"
+        },
+        {
+          "lotId": "N-20",
+          "title": "N - 20",
+          "shape": "rect",
+          "coords": "279,537,449,904"
+        }
+      ]
+    },
+    {
+      "id": "O",
+      "name": "Quadra O",
+      "available": true,
+      "overviewImage": {
+        "id": "O-topdown",
+        "url": "/api/proxy?id=1JTvQoJV0Tkv-pI2ET14y-9cBvbA2iU1W&sz=w1440"
+      },
+      "lots": [
+        {
+          "id": "O-01",
+          "number": "01",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1ALqgbsSfkEEh3NkJ1dJVBU1Vh-TJY4nY&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1j725PibBXb4IC1vVD5R7mlGDKF7ZT6MI&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=12f9ar0n22IuWRKUtmWhdf2tzFD6XQ7VS&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=122KIulvZ48f2y0bXU8lvQWQi5WPNyNV_&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-01",
+            "title": "O - 01",
+            "shape": "rect",
+            "coords": "83,1041,274,702"
+          }
+        },
+        {
+          "id": "O-02",
+          "number": "02",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1VRTYciS3401WEC8tIKLAMvE1tkVjcwId&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1mPnHyJT5-l6qpST5mkXZJn9JM-ZI5gqA&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1RXclYUnW2VJNx2Y3gMOz8k53dZlpt9_B&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=14g1CZG3m23tnXJ3Lds_fGbmxA-KUynbD&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-02",
+            "title": "O - 02",
+            "shape": "rect",
+            "coords": "279,697,413,1041"
+          }
+        },
+        {
+          "id": "O-03",
+          "number": "03",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1ne2CttPV1jgd79UfhipgLNqqosqJ1Bt-&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1vYYM9eTZjIi9s4PuEjtOd1Y_bnBhCsHN&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1SSfcAhmoQuftOXxSE6OpG1N7XaSPsslD&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1vFwYIyEiAmbBkNFtTRKQLDJ7HFeCS1Th&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-03",
+            "title": "O - 03",
+            "shape": "rect",
+            "coords": "416,700,549,1039"
+          }
+        },
+        {
+          "id": "O-04",
+          "number": "04",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1k-uQ1KRh6AMu-DWzcfBTYkElIHdZmCi8&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=10lVdU8PaBuGXUbTONVmpjv4XaLmemG2p&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1CHlntZsRLAxfK4mS6Mvrr9_HleWETb9e&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1QMvab4fnj-qZNxFjrVKcmvzmIdrud6YI&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-04",
+            "title": "O - 04",
+            "shape": "rect",
+            "coords": "552,697,689,1041"
+          }
+        },
+        {
+          "id": "O-08",
+          "number": "08",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1hndRZO-6WJhjdkzTqMjDbi2aqR0kDtJT&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1JnNsKCot9mQlhVcdmQk3YYDKE0iEwiZY&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=15FPsJI5VQMRli7xAa3MVt3nyxd8GixD_&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1F-cQ_03i4f4UywMEsF0wROeBI7CR8udM&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-08",
+            "title": "O - 08",
+            "shape": "rect",
+            "coords": "1102,699,1234,1039"
+          }
+        },
+        {
+          "id": "O-09",
+          "number": "09",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1u6WZZLa1pFtqKHD3odNgwD3_uKgjdqhC&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1dg9xFzgH-gEQwcdSeGxeB2Rvv9TuDZzY&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=18g9crFGoQRYKun5GXgZGIMaeqIO-HXzG&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1Ca3V9dDdiqQRnuqSbwmsdimM1QYeEwVE&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-09",
+            "title": "O - 09",
+            "shape": "rect",
+            "coords": "1241,639,1373,1039"
+          }
+        },
+        {
+          "id": "O-10",
+          "number": "10",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1Xkg8e81T3x5RoeijRcnrq2hwx_OpoWwD&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=10RdiSm9qOJsFi7E5vTJ0IBcaoM461bZW&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1m_n54AJ-zh8IJeA9XHy0S1Qo3lXxOtCP&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1x_SnR30jEGDSdG9-PQ8Xu4BI3sdbFkU8&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-10",
+            "title": "O - 10",
+            "shape": "rect",
+            "coords": "1378,639,1512,1039"
+          }
+        },
+        {
+          "id": "O-11",
+          "number": "11",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=14oelszg8-Yc1ThcWE3cYiyKlbe5frXbn&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=19y3THQBhYF0QosMVajPw1Voga6dpj63O&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=11GiIym8F5VqdkBG09RCfZl2XHxbvLNgi&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1zXnQQuKFt5RooQ4_0FAhpW1LnsX9fK5M&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-11",
+            "title": "O - 11",
+            "shape": "rect",
+            "coords": "1515,866,1833,1038"
+          }
+        },
+        {
+          "id": "O-12",
+          "number": "12",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1Kd0pgjiurVdvs5b6Zr7bf7tBLQDQk5Ye&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1J9IVBl2CkkNhoWng1tlcEwFDll7fXSmY&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1CCSazG_p2LF4hF8uGsS3eBofnb4TctRE&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1gdwhzP2ZrPJrsjsVzoqjv_C1w3AfDups&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-12",
+            "title": "O - 12",
+            "shape": "rect",
+            "coords": "1514,707,1834,861"
+          }
+        },
+        {
+          "id": "O-14",
+          "number": "14",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1VXtV7kLQ10iGrPQHKmjAvzU19RoS9oVu&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=10EFyO2hZjid0UAfcM456MWo-GFycTUij&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=18T6DfFk3ljBMfE1xuR9nzBCvU0NPCm4v&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=10Jy5uYLfq7SsXPretblN1jmk5t3vFkY9&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-14",
+            "title": "O - 14",
+            "shape": "rect",
+            "coords": "1515,383,1833,544"
+          }
+        },
+        {
+          "id": "O-15",
+          "number": "15",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1ldeAI6e9vX_EokTscYdsQgUAGcsmn_-t&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1rQJxZq2wJ60m3lIjgzRyIBFQYl94G-x4&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1Uu0j7mWs23y5PeDFWs0mttd0wOJlLDYz&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1Paek49objy0-YOVeTGUbxL_aVM86PxVv&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-15",
+            "title": "O - 15",
+            "shape": "rect",
+            "coords": "1514,224,1831,380"
+          }
+        },
+        {
+          "id": "O-16",
+          "number": "16",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1J7kv9yp3Qrihbx4eolonbA1VXV3k6VIS&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1pRuJGSxICzoNItKs2PaUirBeCx6_oPZV&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=152UGK24vHXB7b0R7mmhcExwJOMYwhi_W&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1jitDGTFxY5wKmVwct8zLBUFrvHnPO_tI&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-16",
+            "title": "O - 16",
+            "shape": "poly",
+            "coords": "1514,219,1833,219,1828,78,1758,36,1704,37,1512,119"
+          }
+        },
+        {
+          "id": "O-17",
+          "number": "17",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1qV_kcw9B5PNoNjaGdco79eR-HSVUte_u&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1g5R8vWPeaKUx3ipVblq_Ev3bItiAksAA&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1f8HupQ2y3MM9dHYyGDZD4WFjYZllBLd8&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1uDuSvYc9jKGgRnrCU5FNAS2OB3bP9TXP&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-17",
+            "title": "O - 17",
+            "shape": "rect",
+            "coords": "1510,115,1378,632"
+          }
+        },
+        {
+          "id": "O-18",
+          "number": "18",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1sIpbPYusfStfjX3_HvZRa_UmphIWGGVC&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1UBJgBB12BZVCmzMbLBHqfyl1Dth7B4TG&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1lCTPINdcdDW9twewlE-35CwXA2xn4QIw&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1qcItP1xKBar1chScwNSyYNxqU_tPxX2S&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-18",
+            "title": "O - 18",
+            "shape": "rect",
+            "coords": "1234,176,1371,634"
+          }
+        },
+        {
+          "id": "O-19",
+          "number": "19",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1PAYOpbwgCW-qzqKEiyfl7kaKQq_7_5Yl&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=11slQhaIuPuiXwnrvIw19u-uQy-L2kpy-&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1HcjSdgw3aM905Bx-MqWx1fjLHH8PHRHH&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1C3ex488MN0BR6fbinbgwhCBbZKLEkuC4&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-19",
+            "title": "O - 19",
+            "shape": "rect",
+            "coords": "1103,248,1237,697"
+          }
+        },
+        {
+          "id": "O-20",
+          "number": "20",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1BMkagVSjFuanYIH6-7IlnmRKY_C5uAFO&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=1BmSB-llYPy_GHc1EoQNGVktpbWraOECl&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1C_56HFSPSIefYRvxcNybnu9Igpgrl59k&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=11svffWomNBaRAvdejZFeTm2GVCUGN2m7&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-20",
+            "title": "O - 20",
+            "shape": "rect",
+            "coords": "964,288,1095,693"
+          }
+        },
+        {
+          "id": "O-21",
+          "number": "21",
+          "available": true,
+          "images": [
+            {
+              "id": "tarde",
+              "url": "/api/proxy?id=1QoNwgiB4pxOB0G-Om8jj1bsof63yBoSs&sz=w1440"
+            },
+            {
+              "id": "tarde_padrao",
+              "url": "/api/proxy?id=186-kkK5oqrjbTY-DQYRVJkyZqp86WSc7&sz=w1440"
+            },
+            {
+              "id": "manha",
+              "url": "/api/proxy?id=1_Cg1Yb91vH_gSgYA_aa9n7tclEN4N37_&sz=w1440"
+            },
+            {
+              "id": "manha_padrao",
+              "url": "/api/proxy?id=1BlL_OLcdE-nW1KoZ0MWhKrTfYS1SZIIb&sz=w1440"
+            }
+          ],
+          "isClickable": true,
+          "coordinates": {
+            "type": "lot",
+            "id": "O-21",
+            "title": "O - 21",
+            "shape": "rect",
+            "coords": "793,370,959,690"
+          }
+        }
+      ],
+      "clickableAreas": [
+        {
+          "lotId": "O-01",
+          "title": "O - 01",
+          "shape": "rect",
+          "coords": "83,1041,274,702"
+        },
+        {
+          "lotId": "O-02",
+          "title": "O - 02",
+          "shape": "rect",
+          "coords": "279,697,413,1041"
+        },
+        {
+          "lotId": "O-03",
+          "title": "O - 03",
+          "shape": "rect",
+          "coords": "416,700,549,1039"
+        },
+        {
+          "lotId": "O-04",
+          "title": "O - 04",
+          "shape": "rect",
+          "coords": "552,697,689,1041"
+        },
+        {
+          "lotId": "O-08",
+          "title": "O - 08",
+          "shape": "rect",
+          "coords": "1102,699,1234,1039"
+        },
+        {
+          "lotId": "O-09",
+          "title": "O - 09",
+          "shape": "rect",
+          "coords": "1241,639,1373,1039"
+        },
+        {
+          "lotId": "O-10",
+          "title": "O - 10",
+          "shape": "rect",
+          "coords": "1378,639,1512,1039"
+        },
+        {
+          "lotId": "O-11",
+          "title": "O - 11",
+          "shape": "rect",
+          "coords": "1515,866,1833,1038"
+        },
+        {
+          "lotId": "O-12",
+          "title": "O - 12",
+          "shape": "rect",
+          "coords": "1514,707,1834,861"
+        },
+        {
+          "lotId": "O-14",
+          "title": "O - 14",
+          "shape": "rect",
+          "coords": "1515,383,1833,544"
+        },
+        {
+          "lotId": "O-15",
+          "title": "O - 15",
+          "shape": "rect",
+          "coords": "1514,224,1831,380"
+        },
+        {
+          "lotId": "O-16",
+          "title": "O - 16",
+          "shape": "poly",
+          "coords": "1514,219,1833,219,1828,78,1758,36,1704,37,1512,119"
+        },
+        {
+          "lotId": "O-17",
+          "title": "O - 17",
+          "shape": "rect",
+          "coords": "1510,115,1378,632"
+        },
+        {
+          "lotId": "O-18",
+          "title": "O - 18",
+          "shape": "rect",
+          "coords": "1234,176,1371,634"
+        },
+        {
+          "lotId": "O-19",
+          "title": "O - 19",
+          "shape": "rect",
+          "coords": "1103,248,1237,697"
+        },
+        {
+          "lotId": "O-20",
+          "title": "O - 20",
+          "shape": "rect",
+          "coords": "964,288,1095,693"
+        },
+        {
+          "lotId": "O-21",
+          "title": "O - 21",
+          "shape": "rect",
+          "coords": "793,370,959,690"
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,7 @@ export const ContactInfo: React.FC = () => {
     >
       <div className="text-center">
         <p className="text-sm font-bold text-renascence mb-2">Contato</p>
-        <p className=" text-renascence"> Vinicios de Oliveira</p>
+        <p className=" text-renascence"> Vinicius de Oliveira</p>
         <p className=" text-renascence">(18) 99705-1428</p>
         <p className=" text-renascence">vinicius@duaco.com.br</p>
       </div>

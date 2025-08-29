@@ -2,17 +2,26 @@ export interface Block {
   id: string;
   name: string;
   available: boolean;
-  position: { x: number; y: number };
   overviewImage?: { id: string; url: string };
   lots: Lot[];
+  clickableAreas: ClickableLot[];
 }
 
 export interface Lot {
   id: string;
   number: string;
   available: boolean;
-  position: { x: number; y: number };
   images: ImageData[];
+  isClickable: boolean;
+  coordinates: Coordinates;
+}
+
+export interface Coordinates {
+  type: string;
+  id: string;
+  title: string;
+  shape: string;
+  coords: string;
 }
 
 export interface ImageData {
@@ -31,6 +40,31 @@ export interface SiteData {
     url: string;
   };
   blocks: Block[];
+}
+
+export interface SiteDataNew {
+  overview: {
+    id: string;
+    title: string;
+    description: string;
+    url: string;
+    clickableAreas: ClickableBlock[];
+  };
+  blocks: Block[];
+}
+
+export interface ClickableBlock {
+  blockId: string;
+  title: string;
+  shape: string;
+  coords: string;
+}
+
+export interface ClickableLot {
+  lotId: string;
+  title: string;
+  shape: string;
+  coords: string;
 }
 
 export type NavigationLayer = 'overview' | 'blocks' | 'lots' | 'details';

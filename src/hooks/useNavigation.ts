@@ -1,7 +1,7 @@
 // src/hooks/useNavigation.ts
 import { useState } from 'react';
 import { Block, Lot, NavigationLayer, SiteData } from '@/types/types';
-import { siteData } from '@/data/siteData';
+import { siteDataNew as siteData } from '@/data/siteData';
 
 export const useNavigation = () => {
   const data: SiteData = siteData;
