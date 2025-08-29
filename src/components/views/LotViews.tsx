@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { pageVariants } from '@/utils/animation';
 import { Block, Lot } from '@/types/types';
 import { BackButton } from '@/components/Buttons/BackButton';
-import ImageMapper, { MapArea } from 'react-img-mapper';
+import ImageMapperOriginal, { MapArea, ImageMapperProps } from 'react-img-mapper';
 import LoadingFallback from '@/components/spinner/LoadingFallback';
 
 interface LotsViewProps {
@@ -27,6 +27,7 @@ export const LotsView: React.FC<LotsViewProps> = ({ lots, selectedBlock, onLotSe
   const [hoveredId, setHoveredId] = useState<string | null>(null);
 
   const imageUrl = selectedBlock?.overviewImage?.url || '';
+  const ImageMapperTyped = ImageMapperOriginal as unknown as React.ComponentType<ImageMapperProps>;
 
   useEffect(() => {
     const updateWidth = () => {
@@ -114,7 +115,7 @@ export const LotsView: React.FC<LotsViewProps> = ({ lots, selectedBlock, onLotSe
 
         {imageUrl ? (
           isLoaded && (
-            <ImageMapper
+            <ImageMapperTyped
               src={imageUrl}
               name={`lots-map-${selectedBlock?.id}`}
               areas={areas}

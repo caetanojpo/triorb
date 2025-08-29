@@ -4,7 +4,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Block } from '@/types/types';
 import { pageVariants } from '@/utils/animation';
-import ImageMapper, { MapArea } from 'react-img-mapper';
+import ImageMapperOriginal, { MapArea, ImageMapperProps } from 'react-img-mapper';
 import LoadingFallback from '@/components/spinner/LoadingFallback';
 import { siteDataNew } from '@/data/siteData';
 
@@ -28,6 +28,8 @@ export const BlocksView: React.FC<BlocksViewProps> = ({
   const containerRef = useRef<HTMLDivElement>(null);
   const [parentWidth, setParentWidth] = useState(0);
   const [hoveredId, setHoveredId] = useState<string | null>(null);
+
+  const ImageMapperTyped = ImageMapperOriginal as unknown as React.ComponentType<ImageMapperProps>;
 
   useEffect(() => {
     const updateWidth = () => {
@@ -118,7 +120,7 @@ export const BlocksView: React.FC<BlocksViewProps> = ({
 
         {blocksImage ? (
           isLoaded && (
-            <ImageMapper
+            <ImageMapperTyped
               src={blocksImage}
               name="blocks-map"
               areas={areas}
