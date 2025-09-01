@@ -13,7 +13,7 @@ export const mainAreas: Areas[] = [
   },
   {
     title: 'Área de Lazer',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/academia.jpg',
     description:
       'A área de lazer do Residencial Renascence II é projetada para oferecer conforto, diversão e bem-estar, será\n' +
       'dividida em três setores principais - lazer e convivência, esportes e movimento e bosque e diversão.',
@@ -28,11 +28,11 @@ export const mainAreas: Areas[] = [
 export const esporteAreas: Areas[] = [
   {
     title: 'Academia Moderna',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/academia.jpg',
   },
   {
     title: 'Campo de Futebol',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/futebol.jpg',
   },
   {
     title: 'Quadra de Tênis',
@@ -48,37 +48,37 @@ export const esporteAreas: Areas[] = [
   },
   {
     title: 'Banheiro e Vestiário',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/vestiario.jpg',
   },
 ];
 export const lazerArea: Areas[] = [
   {
     title: 'Piscina',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/piscina.jpg',
   },
   {
     title: 'Sauna',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/sauna.jpg',
   },
   {
     title: 'Beauty Care',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/beauty.jpg',
   },
   {
     title: 'Sala de Jogos',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/jogos.jpg',
   },
   {
     title: 'Salão de Festa',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/festa.jpg',
   },
   {
     title: 'Lounge Externo',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/lounge.jpg',
   },
   {
     title: 'Churrasqueira',
-    image: '/api/proxy?id=1wFlBOggwNSahyI3w83Rz3L6JGCU9F2gG',
+    image: '/renascence/ambientes/churrasqueira.jpg',
   },
 ];
 
