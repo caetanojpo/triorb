@@ -144,6 +144,7 @@
           "id": "A-08",
           "number": "08",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -194,6 +195,7 @@
           "id": "B-02",
           "number": "02",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -250,6 +252,7 @@
           "id": "C-11",
           "number": "11",
           "available": true,
+          "area": 412.5,
           "images": [
             {
               "id": "tarde",
@@ -281,6 +284,7 @@
           "id": "C-12",
           "number": "12",
           "available": true,
+          "area": 412.5,
           "images": [
             {
               "id": "tarde",
@@ -337,6 +341,7 @@
           "id": "D-10",
           "number": "10",
           "available": true,
+          "area": 507.5,
           "images": [
             {
               "id": "tarde",
@@ -420,6 +425,7 @@
           "id": "H-07",
           "number": "07",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -451,6 +457,7 @@
           "id": "H-12",
           "number": "12",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -482,6 +489,7 @@
           "id": "H-16",
           "number": "16",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -513,6 +521,7 @@
           "id": "H-18",
           "number": "18",
           "available": true,
+          "area": 462.6,
           "images": [
             {
               "id": "tarde",
@@ -581,6 +590,7 @@
           "id": "I-17",
           "number": "17",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -612,6 +622,7 @@
           "id": "I-19",
           "number": "19",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -643,6 +654,7 @@
           "id": "I-18",
           "number": "18",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -674,6 +686,7 @@
           "id": "I-20",
           "number": "20",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -742,6 +755,7 @@
           "id": "J-05",
           "number": "05",
           "available": true,
+          "area": 398.5,
           "images": [
             {
               "id": "tarde",
@@ -773,6 +787,7 @@
           "id": "J-10",
           "number": "10",
           "available": true,
+          "area": 454.67,
           "images": [
             {
               "id": "tarde",
@@ -804,6 +819,7 @@
           "id": "J-11",
           "number": "11",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -835,6 +851,7 @@
           "id": "J-12",
           "number": "12",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -866,6 +883,7 @@
           "id": "J-13",
           "number": "13",
           "available": true,
+          "area": 463.1,
           "images": [
             {
               "id": "tarde",
@@ -897,6 +915,7 @@
           "id": "J-14",
           "number": "14",
           "available": true,
+          "area": 474.6,
           "images": [
             {
               "id": "tarde",
@@ -928,6 +947,7 @@
           "id": "J-15",
           "number": "15",
           "available": true,
+          "area": 474.6,
           "images": [
             {
               "id": "tarde",
@@ -959,6 +979,7 @@
           "id": "J-16",
           "number": "16",
           "available": true,
+          "area": 47.6,
           "images": [
             {
               "id": "tarde",
@@ -990,6 +1011,7 @@
           "id": "J-17",
           "number": "17",
           "available": true,
+          "area": 474.6,
           "images": [
             {
               "id": "tarde",
@@ -1021,6 +1043,7 @@
           "id": "J-18",
           "number": "18",
           "available": true,
+          "area": 487.2,
           "images": [
             {
               "id": "tarde",
@@ -1125,6 +1148,7 @@
           "id": "K-02",
           "number": "02",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde_padrao",
@@ -1156,6 +1180,7 @@
           "id": "K-03",
           "number": "03",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1187,6 +1212,7 @@
           "id": "K-06",
           "number": "06",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1218,6 +1244,7 @@
           "id": "K-07",
           "number": "07",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1249,6 +1276,7 @@
           "id": "K-08",
           "number": "08",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1280,6 +1308,7 @@
           "id": "K-09",
           "number": "09",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "manha",
@@ -1311,6 +1340,7 @@
           "id": "K-10",
           "number": "10",
           "available": true,
+          "area": 402.8,
           "images": [
             {
               "id": "tarde",
@@ -1342,6 +1372,7 @@
           "id": "K-11",
           "number": "11",
           "available": true,
+          "area": 402.8,
           "images": [
             {
               "id": "tarde",
@@ -1373,6 +1404,7 @@
           "id": "K-12",
           "number": "12",
           "available": true,
+          "area": 402.8,
           "images": [
             {
               "id": "tarde",
@@ -1404,6 +1436,7 @@
           "id": "K-13",
           "number": "13",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1435,6 +1468,7 @@
           "id": "K-14",
           "number": "14",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1466,6 +1500,7 @@
           "id": "K-15",
           "number": "15",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1497,6 +1532,7 @@
           "id": "K-16",
           "number": "16",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1528,6 +1564,7 @@
           "id": "K-17",
           "number": "17",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1559,6 +1596,7 @@
           "id": "K-18",
           "number": "18",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1590,6 +1628,7 @@
           "id": "K-19",
           "number": "19",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1621,6 +1660,7 @@
           "id": "K-20",
           "number": "20",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -1652,6 +1692,7 @@
           "id": "K-21",
           "number": "21",
           "available": true,
+          "area": 402.8,
           "images": [
             {
               "id": "tarde",
@@ -1683,6 +1724,7 @@
           "id": "K-22",
           "number": "22",
           "available": true,
+          "area": 402.8,
           "images": [
             {
               "id": "tarde",
@@ -1841,6 +1883,7 @@
           "id": "L-08",
           "number": "08",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -1872,6 +1915,7 @@
           "id": "L-09",
           "number": "09",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -1903,6 +1947,7 @@
           "id": "L-10",
           "number": "10",
           "available": true,
+          "area": 433.6,
           "images": [
             {
               "id": "manha",
@@ -1934,6 +1979,7 @@
           "id": "L-11",
           "number": "11",
           "available": true,
+          "area": 433.6,
           "images": [
             {
               "id": "tarde",
@@ -1965,6 +2011,7 @@
           "id": "L-12",
           "number": "12",
           "available": true,
+          "area": 433.6,
           "images": [
             {
               "id": "tarde",
@@ -1996,6 +2043,7 @@
           "id": "L-13",
           "number": "13",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "manha",
@@ -2027,6 +2075,7 @@
           "id": "L-14",
           "number": "14",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2058,6 +2107,7 @@
           "id": "L-15",
           "number": "15",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2089,6 +2139,7 @@
           "id": "L-16",
           "number": "16",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2120,6 +2171,7 @@
           "id": "L-17",
           "number": "17",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2151,6 +2203,7 @@
           "id": "L-18",
           "number": "18",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2261,6 +2314,7 @@
           "id": "M-06",
           "number": "06",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2292,6 +2346,7 @@
           "id": "M-07",
           "number": "07",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2323,6 +2378,7 @@
           "id": "M-08",
           "number": "08",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2354,6 +2410,7 @@
           "id": "M-09",
           "number": "09",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2385,6 +2442,7 @@
           "id": "M-10",
           "number": "10",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2416,6 +2474,7 @@
           "id": "M-12",
           "number": "12",
           "available": true,
+          "area": 418,
           "images": [
             {
               "id": "tarde",
@@ -2447,6 +2506,7 @@
           "id": "M-13",
           "number": "13",
           "available": true,
+          "area": 433.6,
           "images": [
             {
               "id": "tarde",
@@ -2478,6 +2538,7 @@
           "id": "M-14",
           "number": "14",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2509,6 +2570,7 @@
           "id": "M-15",
           "number": "15",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2540,6 +2602,7 @@
           "id": "M-16",
           "number": "16",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2571,6 +2634,7 @@
           "id": "M-17",
           "number": "17",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2602,6 +2666,7 @@
           "id": "M-21",
           "number": "21",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -2718,6 +2783,7 @@
           "id": "N-02",
           "number": "02",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -2749,6 +2815,7 @@
           "id": "N-01",
           "number": "01",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -2780,6 +2847,7 @@
           "id": "N-03",
           "number": "03",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -2811,6 +2879,7 @@
           "id": "N-04",
           "number": "04",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -2842,6 +2911,7 @@
           "id": "N-05",
           "number": "05",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -2873,6 +2943,7 @@
           "id": "N-06",
           "number": "06",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -2904,6 +2975,7 @@
           "id": "N-07",
           "number": "07",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -2935,6 +3007,7 @@
           "id": "N-08",
           "number": "08",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -2966,6 +3039,7 @@
           "id": "N-09",
           "number": "09",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -2997,6 +3071,7 @@
           "id": "N-10",
           "number": "10",
           "available": true,
+          "area": 402.8,
           "images": [
             {
               "id": "tarde",
@@ -3028,6 +3103,7 @@
           "id": "N-11",
           "number": "11",
           "available": true,
+          "area": 389.5,
           "images": [
             {
               "id": "tarde",
@@ -3059,6 +3135,7 @@
           "id": "N-12",
           "number": "12",
           "available": true,
+          "area": 402.8,
           "images": [
             {
               "id": "tarde",
@@ -3090,6 +3167,7 @@
           "id": "N-13",
           "number": "13",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -3121,6 +3199,7 @@
           "id": "N-14",
           "number": "14",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -3152,6 +3231,7 @@
           "id": "N-15",
           "number": "15",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -3183,6 +3263,7 @@
           "id": "N-16",
           "number": "16",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -3214,6 +3295,7 @@
           "id": "N-20",
           "number": "20",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -3360,6 +3442,7 @@
           "id": "O-01",
           "number": "01",
           "available": true,
+          "area": 453.2,
           "images": [
             {
               "id": "tarde",
@@ -3391,6 +3474,7 @@
           "id": "O-02",
           "number": "02",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -3422,6 +3506,7 @@
           "id": "O-03",
           "number": "03",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -3453,6 +3538,7 @@
           "id": "O-04",
           "number": "04",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -3484,6 +3570,7 @@
           "id": "O-08",
           "number": "08",
           "available": true,
+          "area": 360,
           "images": [
             {
               "id": "tarde",
@@ -3515,6 +3602,7 @@
           "id": "O-09",
           "number": "09",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -3546,6 +3634,7 @@
           "id": "O-10",
           "number": "10",
           "available": true,
+          "area": 420,
           "images": [
             {
               "id": "tarde",
@@ -3577,6 +3666,7 @@
           "id": "O-11",
           "number": "11",
           "available": true,
+          "area": 402.6,
           "images": [
             {
               "id": "tarde",
@@ -3608,6 +3698,7 @@
           "id": "O-12",
           "number": "12",
           "available": true,
+          "area": 392,
           "images": [
             {
               "id": "tarde",
@@ -3639,6 +3730,7 @@
           "id": "O-14",
           "number": "14",
           "available": true,
+          "area": 392,
           "images": [
             {
               "id": "tarde",
@@ -3670,6 +3762,7 @@
           "id": "O-15",
           "number": "15",
           "available": true,
+          "area": 392,
           "images": [
             {
               "id": "tarde",
@@ -3701,6 +3794,7 @@
           "id": "O-16",
           "number": "16",
           "available": true,
+          "area": 389.2,
           "images": [
             {
               "id": "tarde",
@@ -3732,6 +3826,7 @@
           "id": "O-17",
           "number": "17",
           "available": true,
+          "area": 510.8,
           "images": [
             {
               "id": "tarde",
@@ -3763,6 +3858,7 @@
           "id": "O-18",
           "number": "18",
           "available": true,
+          "area": 446.66,
           "images": [
             {
               "id": "tarde",
@@ -3794,6 +3890,7 @@
           "id": "O-19",
           "number": "19",
           "available": true,
+          "area": 442.4,
           "images": [
             {
               "id": "tarde",
@@ -3825,6 +3922,7 @@
           "id": "O-20",
           "number": "20",
           "available": true,
+          "area": 378.3,
           "images": [
             {
               "id": "tarde",
@@ -3856,6 +3954,7 @@
           "id": "O-21",
           "number": "21",
           "available": true,
+          "area": 382.6,
           "images": [
             {
               "id": "tarde",

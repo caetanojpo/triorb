@@ -95,7 +95,7 @@ export const DetailsMenu: React.FC<DetailsMenuProps> = ({
           <div>Quadra: {selectedBlock.id}</div>
           <div>Lote: {selectedLot.number}</div>
           <div>Status: Disponível</div>
-          {/*<div>Área: 300m²</div>*/}
+          <div>Área: {selectedLot.area}m²</div>
         </div>
       </motion.div>
     </motion.div>

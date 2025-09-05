@@ -11,6 +11,7 @@ export interface Lot {
   id: string;
   number: string;
   available: boolean;
+  area: number;
   images: ImageData[];
   isClickable: boolean;
   coordinates: Coordinates;
