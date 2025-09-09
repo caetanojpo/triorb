@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Areas, esporteAreas, lazerArea, mainAreas } from '@/app/renascence/utils';
+import { Areas, esporteAreas, lazerArea, mainAreas, SubAreaEnum } from '@/app/renascence/utils';
 
 export const useAreasState = () => {
   const [areaContent, setAreaContent] = useState<Areas>({
@@ -7,7 +7,7 @@ export const useAreasState = () => {
     image: mainAreas[0].image,
     description: mainAreas[0].description,
   });
-  const [subArea, setSubArea] = useState<string>('ESPORTE E MOVIMENTO');
+  const [subArea, setSubArea] = useState<string>(SubAreaEnum.ESPORTE);
   const [progress] = useState(5);
 
   const changeAreaContent = (area: Areas) => {
@@ -19,6 +19,17 @@ export const useAreasState = () => {
 
   const toggleSubArea = (areaName: string) => {
     setSubArea(areaName);
+    if (areaName === SubAreaEnum.ESPORTE) {
+      setAreaContent({
+        title: mainAreas[0].title,
+        image: mainAreas[0].image,
+      });
+    } else {
+      setAreaContent({
+        title: esporteAreas[esporteAreas.length - 1].title,
+        image: esporteAreas[esporteAreas.length - 1].image,
+      });
+    }
   };
 
   return {

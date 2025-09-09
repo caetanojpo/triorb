@@ -50,7 +50,12 @@ export const RenascenceComplementaryAreas: React.FC<ComplementaryAreasProps> = (
       </div>
       <div className="w-full xl:w-[65%] h-[70dvh] flex relative">
         {areaContent.image.includes('jpg') ? (
-          <Image src={areaContent.image} alt={''} fill />
+          <Image
+            src={areaContent.image}
+            alt={''}
+            fill
+            className="w-full h-full xl:rounded-[40px] object-cover"
+          />
         ) : (
           <PanoramaViewer
             className="w-full h-full xl:rounded-[40px] object-cover"
